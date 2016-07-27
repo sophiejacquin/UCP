@@ -1,0 +1,78 @@
+#ifndef _eoUCPIndividu_h
+#define _eoUCPIndividu_h
+
+#include <vector>
+#include <string>
+#include <iostream>
+#include <fstream>
+
+
+template< class FitT>
+class eoUCPIndividu : public EO<FitT>{
+  public:
+
+ eoUCPIndividu(unsigned int _nbUnites, unsigned int _nbHeures):nbUnites(_nbUnites),nbHeures(_nbHeures){
+    mSize = nbUnites * nbHeures; 
+    mbits.resize(mSize);
+  }
+
+  virtual ~eoUCPIndividu(){
+
+  }
+
+  virtual string className() const{
+    return "eoUCP";
+  }
+
+  void printOn(ostream& os)const{
+    EO<FitT>::printOn(os);
+    os << ' ';
+
+
+    std::stringstream ss;
+
+    for(unsigned i=0;i<mSize;i++){
+    	ss << mbits[i];
+	if((i+1)%nbHeures==0 && i<mSize-1)
+		ss<< "|";
+    }
+
+    ss << std::endl;
+
+    os << ss.str();
+    
+  }
+
+  void readFrom(istream& is){
+    EO<FitT>::readFrom(is);
+    //@ Continuer à lire 
+  } 
+  unsigned int get_mSize(){
+    return mSize;
+  }
+
+  bool  operator[](unsigned int index)const{
+    return mbits[index]; 
+  }
+
+  void setBit(unsigned int index,bool bool_value){
+    mbits[index]=bool_value;
+  }
+
+  unsigned int get_nbUnites()const{
+    return nbUnites;
+  }
+
+  unsigned int get_nbHeures()const{
+    return nbHeures;
+  }
+
+ private:
+  std::vector<bool> mbits;
+  unsigned int mSize;
+  unsigned int nbUnites;
+  unsigned int nbHeures;
+};
+
+
+#endif

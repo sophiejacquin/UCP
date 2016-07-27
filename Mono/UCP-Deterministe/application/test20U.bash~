@@ -1,0 +1,13 @@
+#!/bin/bash
+i=1
+s=5555555
+while [ $i -le 20 ]; do 
+var=testE${i}
+./UCP @/home/jacquin/Bureau/UCP/param/UCP20.param --inputFile="/home/jacquin/Bureau/UCP/input/probleme20.tsp"  --pCross1=0.1741 --pWCross=0.7849 --pMut=0.768 --pMut1=0.1149 --pWMut=0.7851 --pCross=0.9023 --popSize=26   -G300000 --seed=$s >>Test20/$var
+STDOUT="Test20/$var"
+COST=$(tail -1 ${STDOUT} | cut -d ':' -f 2)
+echo "$COST" >>Test20/result
+echo "$COST" $var fait
+let $[ s+=100 ]
+let $[ i+=1 ] # incremente i de 1 a chaque boucle 
+done

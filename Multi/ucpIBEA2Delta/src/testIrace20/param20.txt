@@ -1,0 +1,278 @@
+irace	version: 1.06.997
+********************************************************************************
+* irace: An implementation in R of Iterated Race                               *
+* Copyright (C) 2010-2014                                                      *
+* Manuel Lopez-Ibanez     <manuel.lopez-ibanez@ulb.ac.be>                      *
+* Jeremie Dubois-Lacoste  <jeremie.dubois-lacoste@ulb.ac.be>                   *
+*                                                                              *
+* This is free software, and you are welcome to redistribute it under certain  *
+* conditions.  See the GNU General Public License for details. There is NO     *
+* warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  *
+*                                                                              *
+* irace builds upon previous code from the race package                        *
+* Copyright (C) 2003 Mauro Birattari                                           *
+********************************************************************************
+Warning: A default configuration file './tune-conf' has been found and will be read
+# 2015-03-25 09:43:18 CET: Initialization
+# nbIterations: 5
+# minNbSurvival: 5
+# nbParameters: 15
+# seed: 908364324.65402
+# confidence level: 0.95
+# remainingBudget: 420
+# mu: 5
+
+# 2015-03-25 09:43:18 CET: Iteration 1 of 5
+# experimentsUsedSoFar: 0
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 420
+# currentBudget: 84
+# nbCandidates: 14
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         14|          1| -7.925e+11|         14|
+|-|          2|          4|          1| -7.915e+11|         28|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:           1	mean value: -7.915e+11
+
+Description of the selected candidate:
+  pCross  pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4 pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1 0.2824 0.753 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.553         4  0.5515   0.8093    0.0897    0.3847     5
+
+
+# Elite candidates:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1  0.2824 0.7530 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.5530         4  0.5515   0.8093    0.0897    0.3847     5
+6  0.3789 0.9535 0.2477 0.6513 0.9619   7 0.9807 0.1152 0.4904        12  0.3405   0.7248    0.5743    0.3344     5
+3  0.5905 0.3086 0.2988 0.7318 0.6194   7 0.3813 0.4858 0.9795        12  0.7954   0.1619    0.1138    0.7125     5
+14 0.2793 0.9653 0.0760 0.4677 0.6055   9 0.2158 0.8352 0.1350         3  0.4895   0.0351    0.4154    0.6407     2
+# 2015-03-25 11:38:00 CET: Iteration 2 of 5
+# experimentsUsedSoFar: 28
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 392
+# currentBudget: 98
+# nbCandidates: 14
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         14|          1| -7.916e+11|         14|
+|-|          2|          3|          1| -7.915e+11|         28|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:           1	mean value: -7.915e+11
+
+Description of the selected candidate:
+  pCross  pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4 pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1 0.2824 0.753 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.553         4  0.5515   0.8093    0.0897    0.3847     5
+
+
+# Elite candidates:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1  0.2824 0.7530 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.5530         4  0.5515   0.8093    0.0897    0.3847     5
+15 0.5750 0.6842 0.7227 0.6001 0.3711   7 0.5656 0.9015 0.5819         3  0.5333   0.2284    0.4474    0.5794     2
+19 0.1341 0.4756 0.4473 0.1632 0.9710   6 0.3926 0.6033 0.3681         5  0.6939   0.6067    0.2511    0.2835     3
+# 2015-03-25 13:31:11 CET: Iteration 3 of 5
+# experimentsUsedSoFar: 56
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 364
+# currentBudget: 121
+# nbCandidates: 15
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         15|         10| -7.915e+11|         15|
+|-|          2|          5|          1| -7.903e+11|         30|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:           1	mean value: -7.903e+11
+
+Description of the selected candidate:
+  pCross  pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4 pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1 0.2824 0.753 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.553         4  0.5515   0.8093    0.0897    0.3847     5
+
+
+# Elite candidates:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1  0.2824 0.7530 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.5530         4  0.5515   0.8093    0.0897    0.3847     5
+15 0.5750 0.6842 0.7227 0.6001 0.3711   7 0.5656 0.9015 0.5819         3  0.5333   0.2284    0.4474    0.5794     2
+27 0.2157 0.9227 0.3143 0.1064 0.0683   5 0.4601 0.9415 0.5274         4  0.9358   0.8020    0.7663    0.3260     4
+31 0.4276 0.8307 0.7766 0.9220 0.5248   5 0.9320 0.2899 0.5919         4  0.5897   0.8369    0.3340    0.4498     4
+19 0.1341 0.4756 0.4473 0.1632 0.9710   6 0.3926 0.6033 0.3681         5  0.6939   0.6067    0.2511    0.2835     3
+# 2015-03-25 15:33:57 CET: Iteration 4 of 5
+# experimentsUsedSoFar: 86
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 334
+# currentBudget: 167
+# nbCandidates: 18
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         18|         18| -7.931e+11|         18|
+|=|          2|         18|          3| -7.926e+11|         36|
+|-|          3|         10|          3| -7.922e+11|         54|
+|=|          4|         10|          3| -7.918e+11|         64|
+|=|          5|         10|          3| -7.917e+11|         74|
+|=|          6|         10|          1| -7.914e+11|         84|
+|-|          7|          4|          1| -7.916e+11|         94|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:           1	mean value: -7.916e+11
+
+Description of the selected candidate:
+  pCross  pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4 pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1 0.2824 0.753 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.553         4  0.5515   0.8093    0.0897    0.3847     5
+
+
+# Elite candidates:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+1  0.2824 0.7530 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.5530         4  0.5515   0.8093    0.0897    0.3847     5
+27 0.2157 0.9227 0.3143 0.1064 0.0683   5 0.4601 0.9415 0.5274         4  0.9358   0.8020    0.7663    0.3260     4
+38 0.2625 0.9344 0.6431 0.4487 0.6941   7 0.8199 0.8405 0.7355         3  0.4569   0.8902    0.0385    0.2555     5
+31 0.4276 0.8307 0.7766 0.9220 0.5248   5 0.9320 0.2899 0.5919         4  0.5897   0.8369    0.3340    0.4498     4
+# 2015-03-25 21:50:23 CET: Iteration 5 of 5
+# experimentsUsedSoFar: 180
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 240
+# currentBudget: 240
+# nbCandidates: 24
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|         24|         24| -7.919e+11|         24|
+|-|          2|          9|         24| -7.909e+11|         48|
+|=|          3|          9|          2| -7.913e+11|         57|
+|=|          4|          9|          4| -7.917e+11|         66|
+|=|          5|          9|         11| -7.912e+11|         75|
+|=|          6|          9|         11| -7.913e+11|         84|
+|-|          7|          6|         11| -7.915e+11|         93|
+|=|          8|          6|         11| -7.918e+11|         99|
+|=|          9|          6|         11| -7.918e+11|        105|
+|=|         10|          6|         11| -7.918e+11|        111|
+|=|         11|          6|         11| -7.918e+11|        117|
+|=|         12|          6|         11| -7.919e+11|        123|
+|=|         13|          6|         11| -7.919e+11|        129|
+|=|         14|          6|         11| -7.919e+11|        135|
+|=|         15|          6|         11| -7.917e+11|        141|
+|=|         16|          6|         11| -7.918e+11|        147|
+|=|         17|          6|         11| -7.916e+11|        153|
+|=|         18|          6|         11| -7.916e+11|        159|
+|=|         19|          6|         11| -7.916e+11|        165|
+|=|         20|          6|         11| -7.917e+11|        171|
+|-|         21|          2|         11| -7.917e+11|        177|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:          11	mean value: -7.917e+11
+
+Description of the selected candidate:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+56 0.1308 0.5528 0.4312 0.1035 0.1073   6 0.3224 0.9381 0.3342         4  0.4726   0.6228    0.6828    0.3283     3
+
+
+# Elite candidates:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+56 0.1308 0.5528 0.4312 0.1035 0.1073   6 0.3224 0.9381 0.3342         4  0.4726   0.6228    0.6828    0.3283     3
+1  0.2824 0.7530 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.5530         4  0.5515   0.8093    0.0897    0.3847     5
+# 2015-03-26 09:42:14 CET: Iteration 6 of 6
+# experimentsUsedSoFar: 357
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 63
+# currentBudget: 63
+# nbCandidates: 6
+                            Markers:                           
+                               x No test is performed.         
+                               - The test is performed and     
+                                 some candidates are discarded.
+                               = The test is performed but     
+                                 no candidate is discarded.    
+                                                               
+                                                               
++-+-----------+-----------+-----------+-----------+-----------+
+| |       Task|      Alive|       Best|  Mean best| Exp so far|
++-+-----------+-----------+-----------+-----------+-----------+
+|x|          1|          6|          1| -7.937e+11|          6|
+|=|          2|          6|          1| -7.924e+11|         12|
+|-|          3|          3|          1| -7.906e+11|         18|
++-+-----------+-----------+-----------+-----------+-----------+
+
+Selected candidate:           1	mean value: -7.906e+11
+
+Description of the selected candidate:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+56 0.1308 0.5528 0.4312 0.1035 0.1073   6 0.3224 0.9381 0.3342         4  0.4726   0.6228    0.6828    0.3283     3
+
+
+# Elite candidates:
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+56 0.1308 0.5528 0.4312 0.1035 0.1073   6 0.3224 0.9381 0.3342         4  0.4726   0.6228    0.6828    0.3283     3
+1  0.2824 0.7530 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.5530         4  0.5515   0.8093    0.0897    0.3847     5
+71 0.5303 0.6449 0.4078 0.2567 0.3045   8 0.2517 0.8115 0.3328         4  0.6845   0.4730    0.4137    0.2696     3
+# 2015-03-26 10:54:18 CET: Stopped because there is no enough budget left to race more than the minimum (5)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 7
+# nbIterations: 7
+# experimentsUsedSoFar: 375
+# timeUsedSoFar: 0
+# timeEstimate: 0
+# remainingBudget: 45
+# currentBudget: 45
+# number of elites: 3
+# nbCandidates: 4
+# mu: 5
+# Best candidates
+   pCross   pMut  pMut1  pMut2 pHMut2 nbU  pMut3  pMut4  pMut5 nbLamnbda pMut5MO pVectMut mutHDRate mutMORate repet
+56 0.1308 0.5528 0.4312 0.1035 0.1073   6 0.3224 0.9381 0.3342         4  0.4726   0.6228    0.6828    0.3283     3
+1  0.2824 0.7530 0.9968 0.2216 0.4783   6 0.7357 0.8814 0.5530         4  0.5515   0.8093    0.0897    0.3847     5
+71 0.5303 0.6449 0.4078 0.2567 0.3045   8 0.2517 0.8115 0.3328         4  0.6845   0.4730    0.4137    0.2696     3
+# Best candidates (as commandlines)
+1  --pCross 0.1308 --pMut 0.5528 --pMut1 0.4312 --pMut2 0.1035 --pHMut2 0.1073 --nbU 6 --pMut3 0.3224 --pMut4 0.9381 --pMut5 0.3342 --nbLambda 4 --pMut5MO 0.4726 --pVectMut 0.6228 --mutHDRate 0.6828 --mutMORate 0.3283 --repet 3
+2  --pCross 0.2824 --pMut 0.753 --pMut1 0.9968 --pMut2 0.2216 --pHMut2 0.4783 --nbU 6 --pMut3 0.7357 --pMut4 0.8814 --pMut5 0.553 --nbLambda 4 --pMut5MO 0.5515 --pVectMut 0.8093 --mutHDRate 0.0897 --mutMORate 0.3847 --repet 5
+3  --pCross 0.5303 --pMut 0.6449 --pMut1 0.4078 --pMut2 0.2567 --pHMut2 0.3045 --nbU 8 --pMut3 0.2517 --pMut4 0.8115 --pMut5 0.3328 --nbLambda 4 --pMut5MO 0.6845 --pVectMut 0.473 --mutHDRate 0.4137 --mutMORate 0.2696 --repet 3
+[1] "/home/jacquin/Bureau/ucpIBEA2Delta/src/testIrace20"

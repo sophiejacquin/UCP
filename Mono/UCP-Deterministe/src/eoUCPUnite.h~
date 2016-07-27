@@ -1,0 +1,181 @@
+#ifndef _eoUCPUnite_h
+#define _eoUCPUnite_h
+
+#include <string>
+#include <iostream>
+#include <fstream>
+
+/*!
+ * \file eoUCPEvalFunc.h
+ * \brief Evaluation of a UCP solution
+ * \author Yanis NAIT ABDELAZIZ
+ */
+
+/**
+ ** Objet representant une unite de production avec ses caracteristiques
+ */
+class eoUCPUnit{
+
+ public:
+
+  /** 
+   * Default constructor
+   */
+  eoUCPUnit()
+    {
+
+    }
+  /**
+   * Constructor with all fileds
+   */
+ eoUCPUnite(int _numMachine,unsigned int _Pmin,unsigned int _Pmax,double _a0,double _a1,double _a2,unsigned int _tUp, unsigned int _tDown,double _sHot, double _sCold,int _tColdStart,int _initialState):numMachine(_numMachine),Pmin(_Pmin),Pmax(_Pmax),a0(_a0),a1(_a1),a2(_a2),tUp(_tUp),tDown(_tDown),sHot(_sHot),sCold(_sCold),tColdStart(_tColdStart),initialState(_initialState)
+  {
+  
+  }
+
+  /**
+   * Get the Pmin value
+   */
+  inline unsigned int get_Pmin()const
+  {
+    return Pmin;
+  }
+
+  /**
+   * Get the Pmax value
+   */
+  inline unsigned int get_Pmax()const
+  {
+    return Pmax;
+  }
+
+  /**
+   * Get the a0 value
+   */
+  inline double get_a0()const
+  {
+    return a0;
+  }
+
+  /**
+   * Get the a1 value
+   */
+  inline double get_a1()const
+  {
+    return a1;
+  }
+
+  /**
+   * Get the a2 value
+   */
+  inline double get_a2()const
+  {
+    return a2;
+  }
+  
+  /**
+   * Get the tUp value
+   */
+  inline unsigned int get_tUp()const
+  {
+    return tUp;
+  }
+
+  /**
+   * Get the tDown value
+   */
+  inline unsigned int get_tDown()const
+  {
+    return tDown;
+  }
+
+  /**
+   * Get the sHot value
+   */
+  inline double get_sHot()const
+  {
+    return sHot;
+  }
+
+  /**
+   * Get the sCold value
+   */
+  inline double get_sCold()const
+  {
+    return sCold;
+  }
+
+  /**
+   * Get the tColdStart value
+   */
+  inline int get_tColdStart()const
+  {
+    return tColdStart;
+  }
+
+  /**
+   * Get the initial state value
+   */
+  inline int get_initialState()const
+  {
+    return initialState;
+  }
+
+  /**
+   * Return the class name
+   */
+  virtual string className() const
+  {
+    return "eoUCPUnite";
+  }
+
+
+  
+ private:
+  int numMachine;
+
+  /**
+   * Minimum amount of power that produces the unit
+   */
+  unsigned int Pmin;
+   /**
+   * Maximum  amount of power that produces the unit
+   */
+  unsigned int Pmax;
+
+  /**
+   * Constants associated to the fuelCost
+   */
+  double a0;
+  double a1;
+  double a2;
+
+  /**
+   * Minimum up time for the unit
+   */
+  unsigned int tUp;
+  /**
+   * Minimum down time for the unit
+   */
+  unsigned int tDown;
+
+  /**
+   * Hot start-up cost
+   */
+  double sHot;
+  /**
+   * Cold start-up cost
+   */
+  double sCold;
+  /**
+   * Determine if hot start-up or cold start-up cost on a hour 
+   */
+  int tColdStart;
+  /**
+   * Initial state of the unit, if initialState<0 the unit has been OFF since |initialState| hours, if initialState>0 the unit has been ON since |initialState| hours 
+   */
+  int initialState;
+
+     
+};
+#endif

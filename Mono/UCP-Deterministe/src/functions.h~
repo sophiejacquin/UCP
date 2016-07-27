@@ -1,0 +1,53 @@
+#ifndef _functions_h
+#define _functions_h
+
+#include <stdexcept>
+#include <fstream>
+#include <limits>
+#include <math.h>
+
+#include "eoUCPUnite.h"
+
+
+extern std::vector<eoUCPUnite> unites;
+
+ /**
+   ** Depuis combien de temps l'unité de production est allumée à la date t
+   */
+  int xitOn(unsigned int i,unsigned int t,const EOT & _eo,std::vector<eoUCPUnite> & unites){
+    int res=0;
+    if(t==0)
+      {
+	if(unites[i].get_initialState()>0)
+	  return  unites[i].get_initialState();
+      }
+    else
+      {
+	int indice = (i * _eo.get_nbHeures())+t;
+	if(_eo[indice-1])
+	  res += 1 + xitOn(i,t-1,_eo);
+      }
+    return res;
+  }
+
+
+  
+  /**
+   ** Depuis combien de temps l'unité de production est eteinte à la date t
+   */
+  int xitOff(unsigned int i,unsigned int t, const EOT & _eo, std::vector<eoUCPUnite> & unites){
+    int res=0;
+    if(t==0)
+      {
+	if(unites[i].get_initialState()<0)
+	  return  -unites[i].get_initialState();
+      }
+    else{
+      int indice = (i * _eo.get_nbHeures())+t;
+      if(!_eo[indice-1])
+	res += 1 + xitOff(i,t-1,_eo);
+    }
+    return res;
+  }
+
+#endif

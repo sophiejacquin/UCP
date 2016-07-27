@@ -1,0 +1,177 @@
+#ifndef _eoUCPData_h
+#define _eoUCPData_h
+
+#include <stdexcept>
+#include <fstream>
+#include "eoUCPUnit.h"
+
+/*!
+ * \file eoUCPData.h
+ * \brief Input data of the problem
+ * \author Yanis NAIT ABDELAZIZ
+ */
+
+
+/*!
+ * \class eoUCPData
+ * \brief Class that represents input data of the problem
+ */
+class eoUCPData 
+{
+ public:
+
+
+   /*!
+   * \brief Constructor
+   *
+   * eoUCPData class consctructor 
+   */
+  eoUCPData()
+    {
+    }
+
+  /*!
+   * \brief Set the set of units
+   *
+   * \param _Units : vector that contains the units
+   */	
+  void setUnits( const std::vector<eoUCPUnit> & _units)
+  {
+    units = _units;
+  }
+
+
+   /*!
+   * \brief Set the demand of power
+   *
+   * \param _load : vector that contains the hourly demand
+   */
+  void setLoad(const std::vector<double> _load)
+  {
+    load = _load;
+  }
+
+ 
+
+  /*!
+   * \brief Push a unit into the set of units
+   *
+   * \param unit : unit to be pushed
+   */
+  void push_unite(const eoUCPUnit & unit)
+  {
+    units.push_back(unit);
+  }
+  /*!
+   * \brief Push a load value
+   *
+   * \param loadValue : load value to be pushed
+   */
+  void push_load(double  _loadValue)
+  {
+    load.push_back(_loadValue);
+  }
+
+  /*!
+   * \brief Push a reserve value
+   *
+   * \param reserve value to be pushed 
+   */
+  void push_reserve(double _reserveValue)
+  {
+    reserve.push_back(_reserveValue);
+  }
+
+  
+  /*!
+   * \brief Get the number of units
+   *
+   * \return the size of the vector contains units
+   */
+  inline unsigned int units_size()
+  {
+    return units.size();
+  }
+
+  /*!
+   * \brief Clear all data 
+   */
+  void clear()
+  {
+    units.clear();
+    load.clear();
+    reserve.clear();
+  }
+
+ 
+
+  /*!
+   * \brief Get the unit i
+   *
+   * \param i : number of the unit
+   * \return a reference to the i-th unit
+   */
+  eoUCPUnit & get_unite(unsigned i)
+  {
+    return units[i];
+  }
+
+  /*!
+   * \brief Get the load value at hour h
+   *
+   * \param h : hour
+   * \return a reference to the load value 
+   */
+  const double & get_load(unsigned int h)const
+  {
+    return load[h];
+  }
+
+  /*!
+   * \brief Get the reserve value at hour h
+   * \param h : hour
+   * \return a reference to the reserve value
+   */
+  const double & get_reserve(unsigned int h)const
+  {
+    return reserve[h];
+  }
+
+  /*!
+   * \brief Get the set of units 
+   *
+   * \return std::vector<eoUCPUnit> *
+   */
+  std::vector<eoUCPUnit>  * get_units() 
+  {
+    return &units;
+  }
+
+  /*!
+   * \brief Get the hourly demand 
+   *
+   * \return std::vector<double> *
+   */
+  std::vector<double>  * get_load()  
+  {
+    return &load;
+  }
+
+  std::vector<double>  * get_reserve() 
+  {
+    return &reserve;
+  }
+
+ private:
+ 
+  std::vector<eoUCPUnit>  units; /*!< vector that contains the operating units*/
+  
+  std::vector<double> load; /*!< vector that contains the hourly demand*/
+ 
+  std::vector<double> reserve; /*!< vector that contains the hourly reserve*/ 
+
+  
+};
+
+
+#endif

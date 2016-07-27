@@ -1,0 +1,225 @@
+#include <iostream>
+using namespace std;
+
+#include "eo"
+#include "eoUCP.h"
+#include "eoUCPData.h"
+#include "eoUCPInit.h"
+#include "eoUCPEvalFunc.h"
+#include "eoUCPCrossover.h"
+#include "eoUCPMutation.h"
+#include "eoUCPParser.h"
+#include "eoUCPWindowMutation.h"
+#include "eoUCPWindowCrossover.h"
+
+typedef eoMinimizingFitness MyFitT ;
+
+typedef eoUCP<MyFitT> Indi; 
+
+#include <make_pop.h>
+eoPop<Indi >&  make_pop(eoParser& _parser, eoState& _state, eoInit<Indi> & _init)
+{
+  return do_make_pop(_parser, _state, _init);
+}
+
+// the stopping criterion
+#include <make_continue.h>
+eoContinue<Indi>& make_continue(eoParser& _parser, eoState& _state, eoEvalFuncCounter<Indi> & _eval)
+{
+  return do_make_continue(_parser, _state, _eval);
+}
+
+// outputs (stats, population dumps, ...)
+#include <make_checkpoint.h>
+eoCheckPoint<Indi>& make_checkpoint(eoParser& _parser, eoState& _state, eoEvalFuncCounter<Indi>& _eval, eoContinue<Indi>& _continue)
+{
+  return do_make_checkpoint(_parser, _state, _eval, _continue);
+}
+
+// evolution engine (selection and replacement)
+#include <make_algo_scalar.h>
+eoAlgo<Indi>&  make_algo_scalar(eoParser& _parser, eoState& _state, eoEvalFunc<Indi>& _eval, eoContinue<Indi>& _continue, eoGenOp<Indi>& _op, eoDistance<Indi> *_dist = NULL)
+{
+  return do_make_algo_scalar(_parser, _state, _eval, _continue, _op, _dist);
+}
+
+// simple call to the algo. stays there for consistency reasons
+// no template for that one
+#include <make_run.h>
+#include <eoScalarFitness.h>
+void run_ea(eoAlgo<Indi>& _ga, eoPop<Indi>& _pop)
+{
+  do_run(_ga, _pop);
+}
+
+// checks for help demand, and writes the status file
+// and make_help; in libutils
+void make_help(eoParser & _parser);
+
+int main(int argc, char** argv){
+ 
+  try{
+
+    eoParser parser(argc, argv);  // for user-parameter reading
+
+    /** Lecture des informations d entree a partir du fichier mentionné dans le fichier "fichier.param" **/
+
+    std::string inputFile = parser.getORcreateParam(std::string(" "), "inputFile", "File which describes input information", 'I', "Input " ).value();
+
+    eoUCPParser p(inputFile);
+
+    eoState state;    // keeps all things allocated
+
+    // The fitness
+    //////////////
+    eoUCPEvalFunc<Indi> plainEval;
+
+    // turn that object into an evaluation counter
+    eoEvalFuncCounter<Indi> eval(plainEval);
+
+    eoUCPInit<Indi> init;
+
+    eoUCPData data;
+   	  
+    p(init,data);
+    plainEval.setData(&data);
+
+
+    // A (first) crossover (possibly use the parser in its Ctor)
+    eoUCPCrossover<Indi> cross1;
+    eoUCPMutation<Indi> mut1;
+    eoUCPWindowMutation<Indi> w_mut;
+    eoUCPWindowCrossover<Indi> w_cross;
+	  
+    double pCross = parser.getORcreateParam(0.6, "pCross", "Probability of Crossover", 'C', "Variation Operators" ).value();
+double pCross1 = parser.getORcreateParam(0.6, "pCross1", "Probability of Crossover", 'x', "Variation Operators" ).value();
+
+    double pWCross = parser.getORcreateParam(0.7, "pWCross", "Probability of Window-Crossover", 'W', "Variation Operators" ).value();
+    // minimum check
+    if ( (pCross < 0) || (pCross > 1) )
+      throw runtime_error("Invalid pCross");
+
+    double pMut1 = parser.getORcreateParam(0.1, "pMut1", "Probability of Mutation", '1', "Variation Operators" ).value();
+
+    double pWMut = parser.getORcreateParam(0.3, "pWMut", "Probability of Window-Mutation", 'w', "Variation Operators" ).value();
+    // minimum check
+    if ( (pMut1 < 0) || (pMut1 > 1) )
+      throw runtime_error("Invalid pMut");
+
+    eoPropCombinedQuadOp<Indi> cross(cross1,pCross1);
+    cross.add(w_cross,pWCross);
+
+    eoPropCombinedMonOp<Indi> mut(mut1, pMut1);
+    mut.add(w_mut,pWMut);
+
+	  double pMut = parser.getORcreateParam(0.1, "pMut", "Probability of Mutation", 'M', "Variation Operators" ).value();
+
+    eoSGAGenOp<Indi> op(cross, pCross, mut, pMut);
+
+    // // initialize the population
+     eoPop<Indi>& pop   = make_pop(parser, state, init);
+
+     // stopping criteria
+     eoContinue<Indi> & term = make_continue(parser, state, eval);
+	int tempsMax = parser.getORcreateParam(50, "tempsMax", "temps maximal", 't', "Stopping Criterion" ).value();
+eoTimeContinue<Indi> tempsStop(tempsMax);
+     // output
+    eoCheckPoint<Indi> & checkpoint = make_checkpoint(parser, state, eval, term);
+	checkpoint.add(tempsStop);
+    eoIncrementorParam<unsigned> generationCounter("Gen.");
+
+    plainEval.setGen(& generationCounter);
+
+    checkpoint.add(generationCounter);
+    // need to get the name of the redDir param (if any)
+    std::string dirName =  parser.getORcreateParam(std::string("Res"), "resDir", "Directory to store DISK outputs", '\0', "Output - Disk").value() + "/";
+
+    // those need to be pointers because of the if's
+    eoStdoutMonitor *myStdOutMonitor;
+    eoFileMonitor   *myFileMonitor;
+#ifdef HAVE_GNUPLOT
+    eoGnuplot1DMonitor *myGnuMonitor;
+#endif
+
+    // now check how you want to output the stat:
+    bool printUCPStat =false;//parser.createParam(false, "coutUCPStat", "Prints my stat to screen, one line per generation", '\0', "My application").value();
+    bool fileUCPStat = parser.createParam(false, "fileUCPStat", "Saves my stat to file (in resDir", '\0', "My application").value();
+    bool plotUCPStat = parser.createParam(false, "plotUCPStat", "On-line plots my stat using gnuplot", '\0', "My application").value();
+
+    // should we write it on StdOut ?
+   if (printUCPStat)
+      {
+	myStdOutMonitor = new eoStdoutMonitor(" ");
+	// don't forget to store the memory in the state
+	state.storeFunctor(myStdOutMonitor);
+	// and of course to add the monitor to the checkpoint
+	checkpoint.add(*myStdOutMonitor);
+	// and the different fields to the monitor
+	myStdOutMonitor->add(generationCounter);
+	myStdOutMonitor->add(eval);
+	//myStdOutMonitor->add(myStat);
+      }
+
+    // first check the directory (and creates it if not exists already):
+    if (fileUCPStat || plotUCPStat)
+      if (! testDirRes(dirName, true) )
+	throw runtime_error("Problem with resDir");
+
+    // should we write it to a file ?
+    if (fileUCPStat)
+      {
+	// the file name is hard-coded - of course you can read
+	// a string parameter in the parser if you prefer
+	myFileMonitor = new eoFileMonitor(dirName + "myStat.xg");
+	// don't forget to store the memory in the state
+	state.storeFunctor(myFileMonitor);
+	// and of course to add the monitor to the checkpoint
+	checkpoint.add(*myFileMonitor);
+	// and the different fields to the monitor
+	myFileMonitor->add(generationCounter);
+	myFileMonitor->add(eval);
+	//myFileMonitor->add(myStat);
+      }
+
+#ifdef HAVE_GNUPLOT
+    // should we PLOT it on StdOut ? (one dot per generation, incremental plot)
+    if (plotUCPStat)
+      {
+	myGnuMonitor = new eoGnuplot1DMonitor(dirName+"plot_myStat.xg",minimizing_fitness<Indi>());
+	// NOTE: you cand send commands to gnuplot at any time with the method
+	// myGnuMonitor->gnuplotCommand(string)
+	// par exemple, gnuplotCommand("set logscale y")
+	// don't forget to store the memory in the state
+	state.storeFunctor(myGnuMonitor);
+	// and of course to add the monitor to the checkpoint
+	checkpoint.add(*myGnuMonitor);
+	// and the different fields to the monitor (X = eval, Y = myStat)
+	myGnuMonitor->add(eval);
+	myGnuMonitor->add(myStat);
+      }
+#endif
+
+    eoAlgo<Indi>& ga = make_algo_scalar(parser, state, eval, checkpoint, op);
+ 
+    make_help(parser);
+
+    apply<Indi>(eval, pop);
+
+    //pop.sortedPrintOn(cout);
+    run_ea(ga,pop); // run the ga
+    
+    //pop.sortedPrintOn(cout);
+	Indi best=pop.best_element();
+	//best.invalidate();
+	//plainEval(best);
+    cout << "Meilleur:" <<(double)pop.best_element().fitness();
+	//cout<<" "<<best.get_penaltyCost()<<" " <<best.get_startUpCost()<<" "<<best.get_fuelCost()<<endl; 
+    cout << endl;
+  }
+  catch(exception& e)
+    {
+      cout << e.what() << endl;
+    }
+       
+  return 0;
+}

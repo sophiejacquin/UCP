@@ -1,0 +1,2003 @@
+creation decoder
+IBEA setup
+avant lancement NSGA2
+dans IBEA
+0: 5.50079e+07  5.5e+07
+1: 5.50079e+07  5.5e+07
+countGen=0
+min: [ 5.50079e+07 , 5.5e+07 ]
+avg: [ 9.50118e+07 , 9.5e+07 ]
+max: [ 1.20014e+08 , 1.2e+08 ]
+deb replacement
+ibea : fin replace
+0: 5.00086e+07  5e+07
+1: 5.00086e+07  5e+07
+countGen=1
+min: [ 5.00086e+07 , 5e+07 ]
+avg: [ 7.67596e+07 , 7.675e+07 ]
+max: [ 9.00146e+07 , 9e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.0004e+07  3e+07
+1: 3.00079e+07  3e+07
+countGen=2
+min: [ 3.0004e+07 , 3e+07 ]
+avg: [ 5.67576e+07 , 5.675e+07 ]
+max: [ 7.50085e+07 , 7.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00035e+07  1e+07
+1: 1.00035e+07  1e+07
+countGen=3
+min: [ 1.00035e+07 , 1e+07 ]
+avg: [ 4.37561e+07 , 4.375e+07 ]
+max: [ 5.50079e+07 , 5.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00035e+07  1e+07
+1: 1.00043e+07  1e+07
+countGen=4
+min: [ 1.00035e+07 , 1e+07 ]
+avg: [ 3.20057e+07 , 3.2e+07 ]
+max: [ 4.00052e+07 , 4e+07 ]
+deb replacement
+ibea : fin replace
+0: 5.00424e+06  5e+06
+1: 5.00424e+06  5e+06
+countGen=5
+min: [ 5.00424e+06 , 5e+06 ]
+avg: [ 2.55045e+07 , 2.55e+07 ]
+max: [ 3.00079e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 5.00387e+06  5e+06
+1: 5.00387e+06  5e+06
+countGen=6
+min: [ 5.00387e+06 , 5e+06 ]
+avg: [ 1.72542e+07 , 1.725e+07 ]
+max: [ 3.0004e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 5.00344e+06  5e+06
+1: 5.00424e+06  5e+06
+countGen=7
+min: [ 5.00344e+06 , 5e+06 ]
+avg: [ 7.75396e+06 , 7.75e+06 ]
+max: [ 1.00043e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 5.00344e+06  5e+06
+1: 5.00424e+06  5e+06
+countGen=8
+min: [ 5.00344e+06 , 5e+06 ]
+avg: [ 5.25399e+06 , 5.25e+06 ]
+max: [ 1.00033e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 594075  394528
+1: 634682  360999
+countGen=9
+min: [ 594075 , 360999 ]
+avg: [ 4.78409e+06 , 4.76891e+06 ]
+max: [ 5.00387e+06 , 5e+06 ]
+deb replacement
+ibea : fin replace
+0: 594075  394528
+1: 634682  360999
+countGen=10
+min: [ 594075 , 360999 ]
+avg: [ 4.34532e+06 , 4.30741e+06 ]
+max: [ 5.00361e+06 , 5e+06 ]
+deb replacement
+ibea : fin replace
+0: 594075  394528
+1: 634682  360999
+countGen=11
+min: [ 594075 , 360999 ]
+avg: [ 3.68728e+06 , 3.61523e+06 ]
+max: [ 5.00344e+06 , 5e+06 ]
+deb replacement
+ibea : fin replace
+0: 594075  394528
+1: 634682  360999
+countGen=12
+min: [ 594075 , 360999 ]
+avg: [ 1.71373e+06 , 1.53861e+06 ]
+max: [ 5.00341e+06 , 5e+06 ]
+deb replacement
+ibea : fin replace
+0: 593325  394353
+1: 634682  360999
+countGen=13
+min: [ 593325 , 360999 ]
+avg: [ 613777 , 380951 ]
+max: [ 649072 , 411765 ]
+deb replacement
+ibea : fin replace
+0: 593055  393962
+1: 634682  360999
+countGen=14
+min: [ 593055 , 360999 ]
+avg: [ 612063 , 378451 ]
+max: [ 636006 , 395198 ]
+deb replacement
+ibea : fin replace
+0: 591798  393507
+1: 634682  360999
+countGen=15
+min: [ 591798 , 360999 ]
+avg: [ 611159 , 378388 ]
+max: [ 634682 , 394528 ]
+deb replacement
+ibea : fin replace
+0: 589567  392200
+1: 634682  360999
+countGen=16
+min: [ 589567 , 360999 ]
+avg: [ 610986 , 378134 ]
+max: [ 634682 , 394528 ]
+deb replacement
+ibea : fin replace
+0: 586365  388161
+1: 623449  357246
+countGen=17
+min: [ 586365 , 357246 ]
+avg: [ 608473 , 377582 ]
+max: [ 634682 , 394528 ]
+deb replacement
+ibea : fin replace
+0: 581179  383831
+1: 613154  355346
+countGen=18
+min: [ 581179 , 355346 ]
+avg: [ 605050 , 376190 ]
+max: [ 629652 , 393207 ]
+deb replacement
+ibea : fin replace
+0: 581179  383831
+1: 613154  355346
+countGen=19
+min: [ 581179 , 355346 ]
+avg: [ 602757 , 374114 ]
+max: [ 625327 , 392200 ]
+deb replacement
+ibea : fin replace
+0: 581179  383831
+1: 613154  355346
+countGen=20
+min: [ 581179 , 355346 ]
+avg: [ 600230 , 372183 ]
+max: [ 622305 , 388161 ]
+deb replacement
+ibea : fin replace
+0: 581179  383831
+1: 615165  354876
+countGen=21
+min: [ 581179 , 354876 ]
+avg: [ 598311 , 371176 ]
+max: [ 621048 , 387498 ]
+deb replacement
+ibea : fin replace
+0: 581179  383831
+1: 615165  354876
+countGen=22
+min: [ 581179 , 354876 ]
+avg: [ 596492 , 369633 ]
+max: [ 616375 , 385433 ]
+deb replacement
+ibea : fin replace
+0: 581179  383831
+1: 614170  355092
+countGen=23
+min: [ 581179 , 355092 ]
+avg: [ 596068 , 369556 ]
+max: [ 614170 , 384281 ]
+deb replacement
+ibea : fin replace
+0: 580481  383965
+1: 614170  355092
+countGen=24
+min: [ 580481 , 355092 ]
+avg: [ 595835 , 369782 ]
+max: [ 614170 , 384281 ]
+deb replacement
+ibea : fin replace
+0: 580161  383267
+1: 614170  355092
+countGen=25
+min: [ 580161 , 355092 ]
+avg: [ 595523 , 369715 ]
+max: [ 614170 , 384114 ]
+deb replacement
+ibea : fin replace
+0: 580161  383267
+1: 613154  355346
+countGen=26
+min: [ 580161 , 355346 ]
+avg: [ 595026 , 369905 ]
+max: [ 613154 , 383967 ]
+deb replacement
+ibea : fin replace
+0: 580161  383267
+1: 613154  355346
+countGen=27
+min: [ 580161 , 355346 ]
+avg: [ 594778 , 369868 ]
+max: [ 613154 , 383967 ]
+deb replacement
+ibea : fin replace
+0: 580161  383267
+1: 611091  355911
+countGen=28
+min: [ 580161 , 355911 ]
+avg: [ 594602 , 369802 ]
+max: [ 611174 , 383967 ]
+deb replacement
+ibea : fin replace
+0: 580161  383267
+1: 611091  355911
+countGen=29
+min: [ 580161 , 355911 ]
+avg: [ 594602 , 369802 ]
+max: [ 611174 , 383967 ]
+deb replacement
+ibea : fin replace
+0: 580161  383267
+1: 611091  355911
+countGen=30
+min: [ 580161 , 355911 ]
+avg: [ 594602 , 369802 ]
+max: [ 611174 , 383967 ]
+deb replacement
+ibea : fin replace
+0: 579423  382952
+1: 611091  355911
+countGen=31
+min: [ 579423 , 355911 ]
+avg: [ 594547 , 369624 ]
+max: [ 611174 , 383967 ]
+deb replacement
+ibea : fin replace
+0: 579423  382952
+1: 611091  355911
+countGen=32
+min: [ 579423 , 355911 ]
+avg: [ 594488 , 369474 ]
+max: [ 611174 , 383967 ]
+deb replacement
+ibea : fin replace
+0: 579423  382952
+1: 611091  355911
+countGen=33
+min: [ 579423 , 355911 ]
+avg: [ 594327 , 369325 ]
+max: [ 611091 , 383267 ]
+deb replacement
+ibea : fin replace
+0: 579423  382952
+1: 611091  355911
+countGen=34
+min: [ 579423 , 355911 ]
+avg: [ 594272 , 369323 ]
+max: [ 611091 , 383267 ]
+deb replacement
+ibea : fin replace
+0: 576471  381353
+1: 611091  355911
+countGen=35
+min: [ 576471 , 355911 ]
+avg: [ 593624 , 369280 ]
+max: [ 611091 , 383267 ]
+deb replacement
+ibea : fin replace
+0: 576471  381353
+1: 609644  356144
+countGen=36
+min: [ 576471 , 356144 ]
+avg: [ 592667 , 369179 ]
+max: [ 609644 , 382952 ]
+deb replacement
+ibea : fin replace
+0: 576471  381353
+1: 609644  356144
+countGen=37
+min: [ 576471 , 356144 ]
+avg: [ 591410 , 368995 ]
+max: [ 609644 , 382952 ]
+deb replacement
+ibea : fin replace
+0: 576471  381353
+1: 604096  356543
+countGen=38
+min: [ 576471 , 356543 ]
+avg: [ 589316 , 368689 ]
+max: [ 604096 , 381353 ]
+deb replacement
+ibea : fin replace
+0: 576471  381353
+1: 604096  356543
+countGen=39
+min: [ 576471 , 356543 ]
+avg: [ 589316 , 368689 ]
+max: [ 604096 , 381353 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=40
+min: [ 575678 , 356162 ]
+avg: [ 589268 , 368662 ]
+max: [ 604096 , 381353 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=41
+min: [ 575678 , 356162 ]
+avg: [ 589172 , 368608 ]
+max: [ 604096 , 381353 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=42
+min: [ 575678 , 356162 ]
+avg: [ 589124 , 368581 ]
+max: [ 604096 , 381353 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=43
+min: [ 575678 , 356162 ]
+avg: [ 588931 , 368472 ]
+max: [ 604096 , 381353 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=44
+min: [ 575678 , 356162 ]
+avg: [ 588498 , 368228 ]
+max: [ 604096 , 381353 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=45
+min: [ 575678 , 356162 ]
+avg: [ 588354 , 368147 ]
+max: [ 602805 , 380719 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=46
+min: [ 575678 , 356162 ]
+avg: [ 588354 , 368147 ]
+max: [ 602805 , 380719 ]
+deb replacement
+ibea : fin replace
+0: 575678  380719
+1: 602805  356162
+countGen=47
+min: [ 575678 , 356162 ]
+avg: [ 588354 , 368147 ]
+max: [ 602805 , 380719 ]
+deb replacement
+ibea : fin replace
+0: 573789  380134
+1: 602805  356162
+countGen=48
+min: [ 573789 , 356162 ]
+avg: [ 588204 , 368165 ]
+max: [ 602805 , 380719 ]
+deb replacement
+ibea : fin replace
+0: 573789  380134
+1: 603875  355766
+countGen=49
+min: [ 573789 , 355766 ]
+avg: [ 588244 , 368162 ]
+max: [ 603875 , 381002 ]
+deb replacement
+ibea : fin replace
+0: 573789  380134
+1: 604960  355383
+countGen=50
+min: [ 573789 , 355383 ]
+avg: [ 588363 , 368153 ]
+max: [ 604960 , 381285 ]
+deb replacement
+ibea : fin replace
+0: 573789  380134
+1: 604960  355383
+countGen=51
+min: [ 573789 , 355383 ]
+avg: [ 588253 , 368168 ]
+max: [ 604960 , 381285 ]
+deb replacement
+ibea : fin replace
+0: 573789  380134
+1: 603875  355766
+countGen=52
+min: [ 573789 , 355766 ]
+avg: [ 587723 , 368229 ]
+max: [ 603875 , 381002 ]
+deb replacement
+ibea : fin replace
+0: 573139  379409
+1: 599984  354644
+countGen=53
+min: [ 573139 , 354644 ]
+avg: [ 586320 , 368301 ]
+max: [ 602805 , 380719 ]
+deb replacement
+ibea : fin replace
+0: 572826  379677
+1: 599984  354644
+countGen=54
+min: [ 572826 , 354644 ]
+avg: [ 585380 , 368266 ]
+max: [ 599984 , 380134 ]
+deb replacement
+ibea : fin replace
+0: 572826  379677
+1: 599984  354644
+countGen=55
+min: [ 572826 , 354644 ]
+avg: [ 585407 , 368019 ]
+max: [ 600268 , 380134 ]
+deb replacement
+ibea : fin replace
+0: 572826  379677
+1: 599984  354644
+countGen=56
+min: [ 572826 , 354644 ]
+avg: [ 585408 , 367573 ]
+max: [ 600268 , 380134 ]
+deb replacement
+ibea : fin replace
+0: 572826  379677
+1: 599984  354644
+countGen=57
+min: [ 572826 , 354644 ]
+avg: [ 585205 , 367422 ]
+max: [ 599984 , 379892 ]
+deb replacement
+ibea : fin replace
+0: 572826  379677
+1: 599984  354644
+countGen=58
+min: [ 572826 , 354644 ]
+avg: [ 585205 , 367422 ]
+max: [ 599984 , 379892 ]
+deb replacement
+ibea : fin replace
+0: 572826  379677
+1: 599984  354644
+countGen=59
+min: [ 572826 , 354644 ]
+avg: [ 585206 , 367422 ]
+max: [ 600057 , 379892 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=60
+min: [ 572089 , 354644 ]
+avg: [ 585159 , 367211 ]
+max: [ 600057 , 379892 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=61
+min: [ 572089 , 354644 ]
+avg: [ 585162 , 367202 ]
+max: [ 600057 , 379892 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=62
+min: [ 572089 , 354644 ]
+avg: [ 585042 , 367155 ]
+max: [ 600057 , 379677 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=63
+min: [ 572089 , 354644 ]
+avg: [ 584829 , 367188 ]
+max: [ 600057 , 379677 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=64
+min: [ 572089 , 354644 ]
+avg: [ 584720 , 367182 ]
+max: [ 600057 , 379659 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=65
+min: [ 572089 , 354644 ]
+avg: [ 584281 , 367291 ]
+max: [ 600057 , 379641 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=66
+min: [ 572089 , 354644 ]
+avg: [ 584228 , 367280 ]
+max: [ 600057 , 379641 ]
+deb replacement
+ibea : fin replace
+0: 572089  379364
+1: 599984  354644
+countGen=67
+min: [ 572089 , 354644 ]
+avg: [ 584228 , 367280 ]
+max: [ 600057 , 379641 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=68
+min: [ 572060 , 354644 ]
+avg: [ 584179 , 367257 ]
+max: [ 600057 , 379427 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=69
+min: [ 572060 , 354644 ]
+avg: [ 584185 , 367233 ]
+max: [ 600057 , 379427 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=70
+min: [ 572060 , 354644 ]
+avg: [ 584089 , 367230 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=71
+min: [ 572060 , 354644 ]
+avg: [ 584014 , 367151 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=72
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=73
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=74
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=75
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=76
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=77
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=78
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=79
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=80
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572060  379065
+1: 599984  354644
+countGen=81
+min: [ 572060 , 354644 ]
+avg: [ 584026 , 367102 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=82
+min: [ 572048 , 354644 ]
+avg: [ 584026 , 367105 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=83
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=84
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=85
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=86
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=87
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=88
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=89
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=90
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=91
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=92
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=93
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=94
+min: [ 572048 , 354644 ]
+avg: [ 584031 , 367084 ]
+max: [ 599984 , 379409 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=95
+min: [ 572048 , 354644 ]
+avg: [ 583917 , 367184 ]
+max: [ 599984 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=96
+min: [ 572048 , 354644 ]
+avg: [ 583917 , 367184 ]
+max: [ 599984 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599984  354644
+countGen=97
+min: [ 572048 , 354644 ]
+avg: [ 583904 , 367262 ]
+max: [ 599984 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=98
+min: [ 572048 , 355731 ]
+avg: [ 583770 , 367490 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=99
+min: [ 572048 , 355731 ]
+avg: [ 583751 , 367642 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=100
+min: [ 572048 , 355731 ]
+avg: [ 583757 , 367641 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=101
+min: [ 572048 , 355731 ]
+avg: [ 583756 , 367644 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=102
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=103
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=104
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=105
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=106
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=107
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=108
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=109
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=110
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=111
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=112
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=113
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=114
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 597230  355731
+countGen=115
+min: [ 572048 , 355731 ]
+avg: [ 583755 , 367647 ]
+max: [ 597273 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=116
+min: [ 572048 , 354953 ]
+avg: [ 583849 , 367563 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=117
+min: [ 572048 , 354953 ]
+avg: [ 583849 , 367563 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=118
+min: [ 572048 , 354953 ]
+avg: [ 583849 , 367563 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=119
+min: [ 572048 , 354953 ]
+avg: [ 583853 , 367561 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=120
+min: [ 572048 , 354953 ]
+avg: [ 583857 , 367560 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=121
+min: [ 572048 , 354953 ]
+avg: [ 583861 , 367531 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=122
+min: [ 572048 , 354953 ]
+avg: [ 583856 , 367532 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=123
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=124
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=125
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=126
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=127
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=128
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=129
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=130
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=131
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 572048  379083
+1: 599385  354953
+countGen=132
+min: [ 572048 , 354953 ]
+avg: [ 583855 , 367535 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 571833  379384
+1: 599385  354953
+countGen=133
+min: [ 571833 , 354953 ]
+avg: [ 583844 , 367472 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 571833  379384
+1: 599385  354953
+countGen=134
+min: [ 571833 , 354953 ]
+avg: [ 583839 , 367357 ]
+max: [ 599385 , 379945 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=135
+min: [ 571792 , 354953 ]
+avg: [ 583874 , 367204 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=136
+min: [ 571792 , 354953 ]
+avg: [ 583635 , 367302 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=137
+min: [ 571792 , 354953 ]
+avg: [ 583602 , 367269 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=138
+min: [ 571792 , 354953 ]
+avg: [ 583579 , 367278 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=139
+min: [ 571792 , 354953 ]
+avg: [ 583579 , 367278 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=140
+min: [ 571792 , 354953 ]
+avg: [ 583579 , 367278 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=141
+min: [ 571792 , 354953 ]
+avg: [ 583579 , 367278 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571792  379103
+1: 599385  354953
+countGen=142
+min: [ 571792 , 354953 ]
+avg: [ 583579 , 367278 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 599385  354953
+countGen=143
+min: [ 571010 , 354953 ]
+avg: [ 583641 , 367181 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 599385  354953
+countGen=144
+min: [ 571010 , 354953 ]
+avg: [ 583680 , 367093 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 599385  354953
+countGen=145
+min: [ 571010 , 354953 ]
+avg: [ 583759 , 367013 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 599385  354953
+countGen=146
+min: [ 571010 , 354953 ]
+avg: [ 583669 , 366908 ]
+max: [ 599385 , 379631 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598299  355336
+countGen=147
+min: [ 571010 , 355336 ]
+avg: [ 583190 , 366858 ]
+max: [ 598299 , 379347 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=148
+min: [ 571010 , 354967 ]
+avg: [ 582702 , 366808 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=149
+min: [ 571010 , 354967 ]
+avg: [ 582891 , 366767 ]
+max: [ 597684 , 378972 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=150
+min: [ 571010 , 354967 ]
+avg: [ 583018 , 366738 ]
+max: [ 597684 , 378972 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=151
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=152
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=153
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=154
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=155
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=156
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=157
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 597641  354967
+countGen=158
+min: [ 571010 , 354967 ]
+avg: [ 583019 , 366732 ]
+max: [ 597641 , 378954 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=159
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=160
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=161
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=162
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=163
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=164
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=165
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=166
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=167
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=168
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=169
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=170
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=171
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 571010  378710
+1: 598726  354584
+countGen=172
+min: [ 571010 , 354584 ]
+avg: [ 583059 , 366729 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598726  354584
+countGen=173
+min: [ 570974 , 354584 ]
+avg: [ 583057 , 366727 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598726  354584
+countGen=174
+min: [ 570974 , 354584 ]
+avg: [ 583047 , 366713 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598726  354584
+countGen=175
+min: [ 570974 , 354584 ]
+avg: [ 582982 , 366725 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598726  354584
+countGen=176
+min: [ 570974 , 354584 ]
+avg: [ 582982 , 366725 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598726  354584
+countGen=177
+min: [ 570974 , 354584 ]
+avg: [ 582982 , 366725 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598726  354584
+countGen=178
+min: [ 570974 , 354584 ]
+avg: [ 582982 , 366725 ]
+max: [ 598726 , 379237 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598622  354513
+countGen=179
+min: [ 570974 , 354513 ]
+avg: [ 582980 , 366722 ]
+max: [ 598622 , 379219 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598622  354513
+countGen=180
+min: [ 570974 , 354513 ]
+avg: [ 583043 , 366708 ]
+max: [ 598622 , 379219 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 598622  354513
+countGen=181
+min: [ 570974 , 354513 ]
+avg: [ 583039 , 366702 ]
+max: [ 598622 , 379219 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=182
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=183
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=184
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=185
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=186
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=187
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=188
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=189
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=190
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=191
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=192
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=193
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=194
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=195
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=196
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=197
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=198
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=199
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=200
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=201
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=202
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=203
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=204
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=205
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=206
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=207
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=208
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=209
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+deb replacement
+ibea : fin replace
+0: 570974  378673
+1: 597537  354896
+countGen=210
+min: [ 570974 , 354896 ]
+avg: [ 582932 , 366714 ]
+max: [ 597537 , 378936 ]
+20
+fitness:-15.2339  diversity:    0   origine : 0
+
+fitness:-15.2462  diversity:    0   origine : 1
+
+fitness:-14.6762  diversity:    0   origine : 2
+
+fitness:-14.6762  diversity:    0   origine : 3
+
+fitness:-14.6762  diversity:    0   origine : 4
+
+fitness:-15.1933  diversity:    0   origine : 5
+
+fitness:-15.2462  diversity:    0   origine : 6
+
+fitness:-15.1933  diversity:    0   origine : 7
+
+fitness:-15.2462  diversity:    0   origine : 8
+
+fitness:-15.2462  diversity:    0   origine : 9
+
+fitness:-15.2462  diversity:    0   origine : 10
+
+fitness:-15.1933  diversity:    0   origine : 11
+
+fitness:-15.1933  diversity:    0   origine : 12
+
+fitness:-15.1933  diversity:    0   origine : 13
+
+fitness:-15.2462  diversity:    0   origine : 14
+
+fitness:-15.2462  diversity:    0   origine : 15
+
+fitness:-14.6762  diversity:    0   origine : 16
+
+fitness:-14.6762  diversity:    0   origine : 17
+
+fitness:-15.1933  diversity:    0   origine : 18
+
+fitness:-15.1933  diversity:    0   origine : 19
+
+Finalpopopoppo Population
+120
+596007   355731
+571022   378691
+596007   355731
+588851   359022
+572817   374071
+571163   377545
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+Final Population
+120
+596007   355731
+571022   378691
+596007   355731
+588851   359022
+572817   374071
+571163   377545
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+595903   355660
+570974   378673
+595903   355660
+588967   358892
+572768   374052
+571115   377526
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+597537   354896
+571738   378936
+597537   354896
+590984   357946
+573550   374262
+571878   377787
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+596050   355802
+571010   378710
+596050   355802
+588713   359184
+572805   374089
+571151   377563
+
+# 24
+610630   352300
+602043   353645
+600811   353988
+599795   354241
+598622   354513
+597537   354896
+597490   355562
+595903   355660
+595592   356778
+594018   357109
+593002   357362
+592069   357564
+591954   357693
+591816   357855
+590984   357946
+590869   358076
+590731   358238
+590663   358845
+588967   358892
+588851   359022
+588713   359184
+572768   374052
+571115   377526
+570974   378673
+ point de ref =(1.4982e+06,561370)
+air de l'hypervolume :-1.93396e+11

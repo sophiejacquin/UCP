@@ -1,0 +1,78 @@
+\hypertarget{eo_u_c_p_parser_8h}{\section{/home/yanis/\-Documents/\-U\-C\-P/src/eo\-U\-C\-P\-Parser.h \-File \-Reference}
+\label{eo_u_c_p_parser_8h}\index{/home/yanis/\-Documents/\-U\-C\-P/src/eo\-U\-C\-P\-Parser.\-h@{/home/yanis/\-Documents/\-U\-C\-P/src/eo\-U\-C\-P\-Parser.\-h}}
+}
+
+
+\-Evaluation of a \-U\-C\-P solution.  
+
+
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+\-Include dependency graph for eo\-U\-C\-P\-Parser.\-h\-:
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classeo_u_c_p_parser}{eo\-U\-C\-P\-Parser}
+\begin{DoxyCompactList}\small\item\em \-Class that represents the parser for \-U\-C\-P data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{eo_u_c_p_parser_8h_a4e3ae12c5682d2302bacc1aa1f48f661}{\-Split} (vector$<$ string $>$ \&dest, string \&chaine, char separateur)
+\begin{DoxyCompactList}\small\item\em \-Split a string. \end{DoxyCompactList}\item 
+bool \hyperlink{eo_u_c_p_parser_8h_abfb2388fdca1e70b304ad44708a41ed3}{est\-Chiffre} (char c)
+\begin{DoxyCompactList}\small\item\em \-Check if a character is a digital. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Evaluation of a \-U\-C\-P solution. \begin{DoxyAuthor}{\-Author}
+\-Yanis \-N\-A\-I\-T \-A\-B\-D\-E\-L\-A\-Z\-I\-Z 
+\end{DoxyAuthor}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{eo_u_c_p_parser_8h_abfb2388fdca1e70b304ad44708a41ed3}{\index{eo\-U\-C\-P\-Parser.\-h@{eo\-U\-C\-P\-Parser.\-h}!est\-Chiffre@{est\-Chiffre}}
+\index{est\-Chiffre@{est\-Chiffre}!eoUCPParser.h@{eo\-U\-C\-P\-Parser.\-h}}
+\subsubsection[{est\-Chiffre}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf est\-Chiffre} (
+\begin{DoxyParamCaption}
+\item[{char}]{c}
+\end{DoxyParamCaption}
+)}}\label{eo_u_c_p_parser_8h_abfb2388fdca1e70b304ad44708a41ed3}
+
+
+\-Check if a character is a digital. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em c} & \-: character to be checked \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+true if c is a digital, false otherwise 
+\end{DoxyReturn}
+\hypertarget{eo_u_c_p_parser_8h_a4e3ae12c5682d2302bacc1aa1f48f661}{\index{eo\-U\-C\-P\-Parser.\-h@{eo\-U\-C\-P\-Parser.\-h}!\-Split@{\-Split}}
+\index{\-Split@{\-Split}!eoUCPParser.h@{eo\-U\-C\-P\-Parser.\-h}}
+\subsubsection[{\-Split}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Split} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ string $>$ \&}]{dest, }
+\item[{string \&}]{chaine, }
+\item[{char}]{separateur}
+\end{DoxyParamCaption}
+)}}\label{eo_u_c_p_parser_8h_a4e3ae12c5682d2302bacc1aa1f48f661}
+
+
+\-Split a string. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em dest} & \-: vector which will contains words of the string \\
+\hline
+{\em chaine} & \-: string to be split \\
+\hline
+{\em separateur} & \-: words separator in the string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+number of words in the string 
+\end{DoxyReturn}

@@ -1,0 +1,38 @@
+#ifndef _eoUCPUnite_h
+#define _eoUCPUnite_h
+
+#include <string>
+#include <iostream>
+#include <fstream>
+
+class eoUCPIndividu{
+  public:
+
+  eoUCPIndividu(unsigned int _Pmin,unsigned int _Pmax,double _a0,double _a1,double _a2,unsigned int _tUp, unsigned int _tDown,double _sHot, double _sCold,int initialState):Pmin(_Pmin),Pmax(_Pmax),a0(_a0),a1(_a1),a2(_a2),tUp(
+
+  virtual string className() const{
+    return "eoUCPUnite";
+  }
+
+
+ private:
+   unsigned int Pmin;
+   unsigned int Pmax;
+
+   double a0;
+   double a1;
+   double a2;
+
+   unsigned int tUp;
+   unsigned int tDown;
+
+   double sHot;
+   double sCold;
+
+   int initialState;
+
+     
+}
+
+
+#endif

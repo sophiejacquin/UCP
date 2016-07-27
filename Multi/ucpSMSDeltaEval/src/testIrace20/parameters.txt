@@ -1,0 +1,48 @@
+## Template for parameter configuration file for Iterated Race.
+##
+## The format is one parameter per line. Each line contains:
+##
+## 1: Name of the parameter. An unquoted alphanumeric string,
+##    example: ants
+
+## 2: Switch to pass the parameter. A quoted (possibly empty) string, 
+##    if the value and the switch must be separated, add a space at
+##    the end of the string. Example : "--version1 --ants "
+
+## 3: Type. An unquoted single letter, among 
+##     i: Integer, c: categorical, o: ordinal, r: real.
+
+## 4: For c and o: All possible values, that is, a variable number of
+##    quoted or unquoted strings separated by commas within
+##    parenthesis. Empty strings and strings containing commas or
+##    spaces must be quoted.
+##    For i,r: a pair of unquoted numbers representing minimum and
+##    maximum values. 
+
+## 5: A conditional parameter can be defined according to constraints
+##    on one or several other parameters.  This is done by adding a
+##    character '|' followed by an R expression involving the names of
+##    other parameters. This expression must return TRUE if the 
+##    constraint is satisfied, FALSE otherwise.
+
+
+# 1:            2:                   3:    4:      5:
+pCross		"--pCross "	    r 	    (0,1.0)
+pCross1		"--pCross1 "	    r 	    (0.0,1.0)
+pMut		"--pMut "	    r 	    (0.0,1.0)
+pMut1		"--pMut1 "	    r 	    (0.0,1.0)
+pMut2		"--pMut2 "	    r	    (0.0,1.0)
+pHMut2		"--pHMut2 "	    r	    (0.0,1.0)
+nbU		"--nbU "	    i	    (2,10)
+pMut3		"--pMut3 " 	    r       (0.0,1.0)
+pMut4		"--pMut4 "	    r	    (0.0,1.0)
+pMut5		"--pMut5 "	    r	    (0.0,1.0)
+nbLamnbda	"--nbLambda "	    i	    (3,15)
+pMut5MO		"--pMut5MO "	    r	    (0.0,1.0)
+pVectMut	"--pVectMut "	    r	    (0.0,1.0)
+mutHDRate	"--mutHDRate "	    r	    (0.0,1.0)
+mutMORate 	"--mutMORate "	    r       (0.0,1.0)
+repet 		"--repet "	    i	    (2,5)
+nbOffspring	"--nbOffspring "    i	    (1,20)
+
+	

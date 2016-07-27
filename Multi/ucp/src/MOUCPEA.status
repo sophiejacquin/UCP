@@ -1,0 +1,41 @@
+
+######                 General    ######
+# --help=0                                 # -h : Prints this message
+# --stopOnUnknownParam=1                   # Stop if unkown param entered
+# --seed=1416406543                        # -S : Random number seed
+
+######    Algorithm               ######
+# --time_max=900                           # -T : time max
+
+######    Evolution Engine        ######
+--popSize=33                             # -P : Population Size
+
+######    Input                   ######
+--inputFile=/Users/sophiejacquin/Desktop/Lucien-UCP/ucp-decoder/Lucien-UCP/Code/UCP-Multi/input-multi/probleme10.tsp # -I : File which describes input information
+
+######    Output                  ######
+# --outputFile=nomOutPut                   # -U : File which describes output information
+
+######    Param                   ######
+# --maxGen=100                             # -G : Maximum number of generations
+--nbLambda=6                             # -n : number of solution evaluated in a pareto front of the sub problem
+
+######    Persistence             ######
+# --Load=                                  # -L : A save file to restart from
+# --recomputeFitness=0                     # -r : Recompute the fitness after re-loading the pop.?
+# --status=/Users/sophiejacquin/Desktop/ucp/src/MOUCPEA.status # Status file
+
+######    Variation Operators     ######
+--cross2Rate=0.4244                      # -y : Relative rate for crossover 2
+--cross3Rate=0.4908                      # -v : Relative rate for crossover 2
+--mut1Rate=0.3231                        # -1 : Relative rate for mutation 1
+# --long=23                                # -l : Longueur periode mutée
+--mut2Rate=0.6094                        # -2 : Relative rate for mutation 2
+--repet=5                                # -z : nb de repetition de mut2
+# --mut2HRate=1                            # -6 : Relative rate for hyper mutation 2
+--mut3Rate=0.2952                        # -3 : Relative rate for mutation 3
+--mut4Rate=0.1529                        # -4 : Relative rate for mutation 3
+--nbU=5                                  # -u : nb unites modifées par mut5
+--mut5Rate=0.7631                        # -5 : Relative rate for mutation 1
+--pCross=0.015                           # -C : Probability of Crossover
+--pMut=0.306                             # -M : Probability of Mutation

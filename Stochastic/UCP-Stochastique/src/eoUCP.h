@@ -1,0 +1,208 @@
+/** -*- mode: c++; c-indent-level: 4; c++-member-init-indent: 8; comment-column: 35; -*-
+
+The above line is usefulin Emacs-like editors
+ */
+
+/*
+Template for creating a new representation in EO
+================================================
+
+Mandatory:
+- a default constructor (constructor without any argument)
+- the I/O functions (readFrom and printOn)
+
+However, if you are using dynamic memory, there are 2 places
+to allocate it: the default constructor (if possible?), or, more in
+the EO spirit, the eoInit object, that you will need to write anyway
+(template file init.tmpl).
+
+But remember that a COPY CONSTRUCTOR will be used in many places in EO,
+so make sure that the default copy constructor works, or, even better,
+do write your own if in doubt.
+And of course write the corresponding destructor!
+
+*/
+
+#ifndef _eoUCP_h
+#define _eoUCP_h
+#include "eoUCPUnit.h"
+#include "eoUCPData.h"
+#include <moeo>
+#include "UCPObjectiveVectorTraits.h"
+/**
+ *  Always write a comment in this format before class definition
+ *  if you want the class to be documented by Doxygen
+
+ * Note that you MUST derive your structure from EO<fitT>
+ * but you MAY use some other already prepared class in the hierarchy
+ * like eoVector for instance, if you handle a vector of something....
+
+ * If you create a structure from scratch,
+ * the only thing you need to provide are
+ *        a default constructor
+ *        IO routines printOn and readFrom
+ *
+ * Note that operator<< and operator>> are defined at EO level
+ * using these routines
+ */
+template< class FitT>
+class eoUCP : public moeoRealVector< UCPObjectiveVector > {
+public:
+  /** Ctor: you MUST provide a default ctor.
+   * though such individuals will generally be processed
+   * by some eoInit object
+   */
+  eoUCP()
+  {
+    // START Code of default Ctor of an eoUCP object
+	nbHeures=0;
+	nbUnits=0;
+    // END   Code of default Ctor of an eoUCP object
+  }
+
+  /** Copy Ctor: you MUST provide a copy ctor if the default
+   * one is not what you want
+   * If this is the case, uncomment and fill the following
+   */
+  /*
+  eoUCP(const eoUCP &)
+  {
+    // START Code of copy Ctor of an eoUCP object
+    // END   Code of copy Ctor of an eoUCP object
+  }
+  */
+
+
+  virtual ~eoUCP()
+  {
+    // START Code of Destructor of an eoEASEAGenome object
+    // END   Code of Destructor of an eoEASEAGenome object
+  }
+
+  virtual string className() const { return "eoUCP"; }
+
+  /** printing... */
+    void printOn(ostream& os,eoUCPData * _data) const
+    {
+	vector<eoUCPUnit>*  units=_data->get_units();
+    vector<double>* load=_data->get_load();
+    vector<double> *reserve=_data->get_reserve();
+
+      // First write the fitness
+      EO<FitT>::printOn(os);
+      os << ' ';
+    // START Code of default output
+	os<<nbHeures<<' '<<nbUnits<<' ';
+	for(int i=0;i<nbUnits;i++)
+	{
+		os<<"unite "<<i<<endl;
+		for(int j=0; j<nbHeures;j++)
+		{
+			os<<temps[j][i]<<' ';
+		}
+		os<<endl;
+	}
+
+	for(int h=1; h<nbHeures; h++)
+	{
+		   double sumPmin=0, sumPmax=0;
+
+		for(int i=0;i<nbUnits;i++)
+		{
+			
+			if(temps[h][i]>0){sumPmin +=(*units)[i].get_Pmin();sumPmax+=(*units)[i].get_Pmax();}
+		}
+		if(sumPmin>(*load)[h-1] || sumPmax<(*reserve)[h-1]+(*load)[h-1] ) cout<<"solution non réalisable "<<h-1<<" "<<sumPmin<<" "<<(*reserve)[h-1]+(*load)[h-1]<< " " <<sumPmax<<endl;
+	}
+	/** HINTS
+	 * in EO we systematically write the sizes of things before the things
+	 * so readFrom is easier to code (see below)
+	 */
+
+    // END   Code of default output
+    }
+
+  /** reading...
+   * of course, your readFrom must be able to read what printOn writes!!!
+   */
+    void readFrom(istream& is)
+      {
+	// of course you should read the fitness first!
+	EO::readFrom(is);
+    // START Code of input
+
+	/** HINTS
+	 * remember the eoUCP object will come from the default ctor
+	 * this is why having the sizes written out is useful
+	 */
+
+    // END   Code of input
+      }
+	void adPeriode(vector<int> etat)
+	{
+		temps.push_back(etat);
+		modif.push_back(true);
+		eval1.push_back(0);
+		eval2.push_back(0);
+		nbHeures++;
+	}
+	int getNbHeures()
+	{
+		return nbHeures;
+	}
+	int getNbUnits()
+	{
+		return nbUnits;
+	}
+	void setNbUnits(int _nbUnits)
+	{
+		nbUnits=_nbUnits;
+	}
+	const vector<bool>& getModif()
+	{
+		return modif;
+	}
+	bool getModif(int i)
+	{
+		return modif[i];
+	}
+	void setModif(int i,bool b)
+	{
+		modif[i]=b;
+	}
+	double getEval1(int i)
+	{
+		return eval1[i];
+	}
+	double getEval2(int i)
+	{
+		return eval2[i];
+	}
+	void setEval1(int i,double e)
+	{eval1[i]=e;}
+	void setEval2(int i,double e)
+	{eval2[i]=e;}
+	int getTemps(int i,int j)
+	{
+		return temps[i][j];
+	}
+	const vector<vector<int> > & getTemps()
+	{
+		return temps;
+	}
+	void setTemps(int i, int j, int t)
+	{
+		temps[i][j]=t;
+	}
+private:			   // put all data here
+    // START Private data of an eoUCP object
+	int nbHeures;
+	int nbUnits;
+	vector<bool> modif;
+	vector<double> eval1;
+	vector<double> eval2;
+	vector<vector<int> > temps;
+    // END   Private data of an eoUCP object
+};
+
+#endif

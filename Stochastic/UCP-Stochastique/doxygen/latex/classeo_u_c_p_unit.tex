@@ -1,0 +1,238 @@
+\hypertarget{classeo_u_c_p_unit}{\section{eo\-U\-C\-P\-Unit \-Class \-Reference}
+\label{classeo_u_c_p_unit}\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}}
+}
+
+
+\-Class that represents a unit that produces power.  
+
+
+
+
+{\ttfamily \#include $<$eo\-U\-C\-P\-Unit.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeo_u_c_p_unit_acd2782315937bbbc3da2301009423116}{eo\-U\-C\-P\-Unit} (int \-\_\-num\-Machine, unsigned int \-\_\-\-Pmin, unsigned int \-\_\-\-Pmax, double \-\_\-a0, double \-\_\-a1, double \-\_\-a2, unsigned int \-\_\-t\-Up, unsigned int \-\_\-t\-Down, double \-\_\-s\-Hot, double \-\_\-s\-Cold, int \-\_\-t\-Cold\-Start, int \-\_\-initial\-State)
+\begin{DoxyCompactList}\small\item\em \-Constructor with all fields. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_unit_aad42435e6647b2a8c217ea46f995c084}{get\-\_\-\-Pmin} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the minimum amount of power that the unit must produce. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_unit_a9a862eea7650d7caa68b362533b0b5bd}{get\-\_\-\-Pmax} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the maximum amount of power that the unit can produce. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_unit_ad67c106bdf17bb7a3dfd4109755ecaa8}{get\-\_\-a0} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the constant a0. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_unit_a15179a045115082ea193f84cf1c0e971}{get\-\_\-a1} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the constant a1. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_unit_ac3ea9f83d31ecfca1dcba23d8e4c4f5f}{get\-\_\-a2} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the constant a2. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_unit_a0e23ba3e0c819cb5b5031d6d66f37faa}{get\-\_\-t\-Up} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the minimum time for the \-O\-N state of the unit. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_unit_a0ab14d553bf956db211fe1a090b687de}{get\-\_\-t\-Down} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the minimum time for the \-O\-F\-F state of the unit. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_unit_a4a92d564ff6e5fb629a4d2d137dc94fd}{get\-\_\-s\-Hot} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the cost for a hot start-\/up. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_unit_a858ce079554ef41c13390b01080ced87}{get\-\_\-s\-Cold} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the cost for a cold start-\/up. \end{DoxyCompactList}\item 
+int \hyperlink{classeo_u_c_p_unit_a38d487e42d5650b6d83fa5552ead7a61}{get\-\_\-t\-Cold\-Start} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the limit time of \-O\-F\-F state before applying a cold start-\/up cost. \end{DoxyCompactList}\item 
+int \hyperlink{classeo_u_c_p_unit_a9c99c17ffe2f63216b8cf2d8e5ee855b}{get\-\_\-initial\-State} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the initial state of the unit. \end{DoxyCompactList}\item 
+virtual string \hyperlink{classeo_u_c_p_unit_ab439f2b37301581ce216a365955a045b}{class\-Name} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Class that represents a unit that produces power. 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classeo_u_c_p_unit_acd2782315937bbbc3da2301009423116}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}}
+\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{eo\-U\-C\-P\-Unit}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eo\-U\-C\-P\-Unit\-::eo\-U\-C\-P\-Unit} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-num\-Machine, }
+\item[{unsigned int}]{\-\_\-\-Pmin, }
+\item[{unsigned int}]{\-\_\-\-Pmax, }
+\item[{double}]{\-\_\-a0, }
+\item[{double}]{\-\_\-a1, }
+\item[{double}]{\-\_\-a2, }
+\item[{unsigned int}]{\-\_\-t\-Up, }
+\item[{unsigned int}]{\-\_\-t\-Down, }
+\item[{double}]{\-\_\-s\-Hot, }
+\item[{double}]{\-\_\-s\-Cold, }
+\item[{int}]{\-\_\-t\-Cold\-Start, }
+\item[{int}]{\-\_\-initial\-State}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_acd2782315937bbbc3da2301009423116}
+
+
+\-Constructor with all fields. 
+
+eo\-U\-C\-P\-Unit$<$\-E\-O\-T$>$ class consctructor 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classeo_u_c_p_unit_ab439f2b37301581ce216a365955a045b}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!class\-Name@{class\-Name}}
+\index{class\-Name@{class\-Name}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{class\-Name}]{\setlength{\rightskip}{0pt plus 5cm}virtual string {\bf eo\-U\-C\-P\-Unit\-::class\-Name} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}\label{classeo_u_c_p_unit_ab439f2b37301581ce216a365955a045b}
+\-Return the class name \hypertarget{classeo_u_c_p_unit_ad67c106bdf17bb7a3dfd4109755ecaa8}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-a0@{get\-\_\-a0}}
+\index{get\-\_\-a0@{get\-\_\-a0}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-a0}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-a0} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_ad67c106bdf17bb7a3dfd4109755ecaa8}
+
+
+\-Get the constant a0. 
+
+\begin{DoxyReturn}{\-Returns}
+the a0 value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a15179a045115082ea193f84cf1c0e971}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-a1@{get\-\_\-a1}}
+\index{get\-\_\-a1@{get\-\_\-a1}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-a1}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-a1} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a15179a045115082ea193f84cf1c0e971}
+
+
+\-Get the constant a1. 
+
+\begin{DoxyReturn}{\-Returns}
+the a1 value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_ac3ea9f83d31ecfca1dcba23d8e4c4f5f}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-a2@{get\-\_\-a2}}
+\index{get\-\_\-a2@{get\-\_\-a2}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-a2}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-a2} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_ac3ea9f83d31ecfca1dcba23d8e4c4f5f}
+
+
+\-Get the constant a2. 
+
+\begin{DoxyReturn}{\-Returns}
+the a2 value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a9c99c17ffe2f63216b8cf2d8e5ee855b}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-initial\-State@{get\-\_\-initial\-State}}
+\index{get\-\_\-initial\-State@{get\-\_\-initial\-State}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-initial\-State}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-initial\-State} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a9c99c17ffe2f63216b8cf2d8e5ee855b}
+
+
+\-Get the initial state of the unit. 
+
+\begin{DoxyReturn}{\-Returns}
+the initial\-State value \-: if initial\-State$<$0 -\/$>$ the unit has been \-O\-F\-F for $|$initial\-State$|$ hours, if initial\-State$>$0 -\/$>$ the unit has been \-O\-F\-F for $|$initial\-State$|$ hours 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a9a862eea7650d7caa68b362533b0b5bd}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-\-Pmax@{get\-\_\-\-Pmax}}
+\index{get\-\_\-\-Pmax@{get\-\_\-\-Pmax}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-\-Pmax}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-\-Pmax} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a9a862eea7650d7caa68b362533b0b5bd}
+
+
+\-Get the maximum amount of power that the unit can produce. 
+
+\begin{DoxyReturn}{\-Returns}
+the \-Pmax value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_aad42435e6647b2a8c217ea46f995c084}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-\-Pmin@{get\-\_\-\-Pmin}}
+\index{get\-\_\-\-Pmin@{get\-\_\-\-Pmin}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-\-Pmin}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-\-Pmin} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_aad42435e6647b2a8c217ea46f995c084}
+
+
+\-Get the minimum amount of power that the unit must produce. 
+
+\begin{DoxyReturn}{\-Returns}
+the \-Pmin value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a858ce079554ef41c13390b01080ced87}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-s\-Cold@{get\-\_\-s\-Cold}}
+\index{get\-\_\-s\-Cold@{get\-\_\-s\-Cold}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-s\-Cold}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-s\-Cold} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a858ce079554ef41c13390b01080ced87}
+
+
+\-Get the cost for a cold start-\/up. 
+
+\begin{DoxyReturn}{\-Returns}
+the s\-Cold value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a4a92d564ff6e5fb629a4d2d137dc94fd}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-s\-Hot@{get\-\_\-s\-Hot}}
+\index{get\-\_\-s\-Hot@{get\-\_\-s\-Hot}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-s\-Hot}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-s\-Hot} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a4a92d564ff6e5fb629a4d2d137dc94fd}
+
+
+\-Get the cost for a hot start-\/up. 
+
+\begin{DoxyReturn}{\-Returns}
+the s\-Hot value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a38d487e42d5650b6d83fa5552ead7a61}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-t\-Cold\-Start@{get\-\_\-t\-Cold\-Start}}
+\index{get\-\_\-t\-Cold\-Start@{get\-\_\-t\-Cold\-Start}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-t\-Cold\-Start}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-t\-Cold\-Start} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a38d487e42d5650b6d83fa5552ead7a61}
+
+
+\-Get the limit time of \-O\-F\-F state before applying a cold start-\/up cost. 
+
+\begin{DoxyReturn}{\-Returns}
+the t\-Cold\-Start value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a0ab14d553bf956db211fe1a090b687de}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-t\-Down@{get\-\_\-t\-Down}}
+\index{get\-\_\-t\-Down@{get\-\_\-t\-Down}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-t\-Down}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-t\-Down} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a0ab14d553bf956db211fe1a090b687de}
+
+
+\-Get the minimum time for the \-O\-F\-F state of the unit. 
+
+\begin{DoxyReturn}{\-Returns}
+the t\-Down value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_unit_a0e23ba3e0c819cb5b5031d6d66f37faa}{\index{eo\-U\-C\-P\-Unit@{eo\-U\-C\-P\-Unit}!get\-\_\-t\-Up@{get\-\_\-t\-Up}}
+\index{get\-\_\-t\-Up@{get\-\_\-t\-Up}!eoUCPUnit@{eo\-U\-C\-P\-Unit}}
+\subsubsection[{get\-\_\-t\-Up}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf eo\-U\-C\-P\-Unit\-::get\-\_\-t\-Up} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_unit_a0e23ba3e0c819cb5b5031d6d66f37faa}
+
+
+\-Get the minimum time for the \-O\-N state of the unit. 
+
+\begin{DoxyReturn}{\-Returns}
+the t\-Up value 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/yanis/\-Documents/\-U\-C\-P/src/eo\-U\-C\-P\-Unit.\-h\end{DoxyCompactItemize}

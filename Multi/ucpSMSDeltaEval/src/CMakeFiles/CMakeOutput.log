@@ -1,0 +1,1143 @@
+The system is: Linux - 3.2.0-55-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: entrant dans le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: quittant le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: entrant dans le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Utilisation des specs internes.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper
+Target: x86_64-linux-gnu
+Configuré avec: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Modèle de thread: posix
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+make[1]: quittant le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: entrant dans le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Utilisation des specs internes.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configuré avec: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Modèle de thread: posix]
+  ignore line: [gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.6] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: entrant dans le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: quittant le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: entrant dans le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.5.3/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.5.3-12ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-4.5/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.5 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.5 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-plugin --enable-gold --enable-ld=default --with-plugin-ld=ld.gold --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.5.3 (Ubuntu/Linaro 4.5.3-12ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.5.3/collect2 --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.5.3/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3 -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.5.3/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crtn.o
+make[1]: quittant le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: entrant dans le répertoire « /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp »]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jacquin/ParadisEO-2.0/eo/tutorial/Templates/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.5.3/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.5.3-12ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-4.5/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.5 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.5 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-plugin --enable-gold --enable-ld=default --with-plugin-ld=ld.gold --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.5.3 (Ubuntu/Linaro 4.5.3-12ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.5.3/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.5.3/collect2 --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.5.3/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3 -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.5.3/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.5.3] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.5.3]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.5.3/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.5.3;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+The system is: Darwin - 11.4.2 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3340871293/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3340871293.dir/build.make CMakeFiles/cmTryCompileExec3340871293.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3340871293.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3340871293.dir/testCCompiler.c.o   -c /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3340871293
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3340871293.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3340871293.dir/testCCompiler.c.o  -o cmTryCompileExec3340871293  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3254740178/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3254740178.dir/build.make CMakeFiles/cmTryCompileExec3254740178.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec3254740178
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3254740178.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3254740178   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec3254740178 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3254740178/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3254740178.dir/build.make CMakeFiles/cmTryCompileExec3254740178.dir/build]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec3254740178]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3254740178.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3254740178   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec3254740178 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3254740178] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3254740178.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: []
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Developer/usr/llvm-gcc-4.2/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2090936072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2090936072.dir/build.make CMakeFiles/cmTryCompileExec2090936072.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2090936072.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2090936072.dir/testCXXCompiler.cxx.o -c /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2090936072
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2090936072.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2090936072.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2090936072  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4205670500/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4205670500.dir/build.make CMakeFiles/cmTryCompileExec4205670500.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec4205670500
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec4205670500.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4205670500   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec4205670500 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4205670500/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4205670500.dir/build.make CMakeFiles/cmTryCompileExec4205670500.dir/build]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucp/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec4205670500]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec4205670500.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4205670500   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec4205670500 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4205670500] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec4205670500.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: [stdc++]
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Developer/usr/llvm-gcc-4.2/lib]
+
+
+The system is: Darwin - 11.4.2 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec889001112/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec889001112.dir/build.make CMakeFiles/cmTryCompileExec889001112.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec889001112.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec889001112.dir/testCCompiler.c.o   -c /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec889001112
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec889001112.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec889001112.dir/testCCompiler.c.o  -o cmTryCompileExec889001112  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec605420217/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec605420217.dir/build.make CMakeFiles/cmTryCompileExec605420217.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec605420217
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec605420217.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec605420217   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec605420217 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec605420217/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec605420217.dir/build.make CMakeFiles/cmTryCompileExec605420217.dir/build]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec605420217]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec605420217.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec605420217   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec605420217 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec605420217] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec605420217.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: []
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Developer/usr/llvm-gcc-4.2/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec171783058/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec171783058.dir/build.make CMakeFiles/cmTryCompileExec171783058.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec171783058.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec171783058.dir/testCXXCompiler.cxx.o -c /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec171783058
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec171783058.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec171783058.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec171783058  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec304887397/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec304887397.dir/build.make CMakeFiles/cmTryCompileExec304887397.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec304887397
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec304887397.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec304887397   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec304887397 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec304887397/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec304887397.dir/build.make CMakeFiles/cmTryCompileExec304887397.dir/build]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMS/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec304887397]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec304887397.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec304887397   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec304887397 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec304887397] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec304887397.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: [stdc++]
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Developer/usr/llvm-gcc-4.2/lib]
+
+
+The system is: Darwin - 11.4.2 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec271990165/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec271990165.dir/build.make CMakeFiles/cmTryCompileExec271990165.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec271990165.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec271990165.dir/testCCompiler.c.o   -c /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec271990165
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec271990165.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec271990165.dir/testCCompiler.c.o  -o cmTryCompileExec271990165  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3955900225/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3955900225.dir/build.make CMakeFiles/cmTryCompileExec3955900225.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec3955900225
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3955900225.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3955900225   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec3955900225 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3955900225/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3955900225.dir/build.make CMakeFiles/cmTryCompileExec3955900225.dir/build]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec3955900225]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3955900225.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3955900225   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec3955900225 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3955900225] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3955900225.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: []
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Developer/usr/llvm-gcc-4.2/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1266383651/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1266383651.dir/build.make CMakeFiles/cmTryCompileExec1266383651.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1266383651.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1266383651.dir/testCXXCompiler.cxx.o -c /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1266383651
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1266383651.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1266383651.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1266383651  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3859877922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3859877922.dir/build.make CMakeFiles/cmTryCompileExec3859877922.dir/build
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec3859877922
+"/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3859877922.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3859877922   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec3859877922 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3859877922/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3859877922.dir/build.make CMakeFiles/cmTryCompileExec3859877922.dir/build]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_progress_report /Users/sophiejacquin/Desktop/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec3859877922]
+  ignore line: ["/Applications/CMake 2.8-8.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3859877922.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3859877922   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.1~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec3859877922 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3859877922] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3859877922.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: [stdc++]
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Developer/usr/llvm-gcc-4.2/lib]
+
+
+The system is: Linux - 3.13.0-37-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1223143825/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1223143825.dir/build.make CMakeFiles/cmTryCompileExec1223143825.dir/build
+make[1]: Entering directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1223143825.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1223143825.dir/testCCompiler.c.o   -c /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1223143825
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1223143825.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1223143825.dir/testCCompiler.c.o  -o cmTryCompileExec1223143825 -rdynamic 
+make[1]: Leaving directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4215954877/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4215954877.dir/build.make CMakeFiles/cmTryCompileExec4215954877.dir/build
+make[1]: Entering directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4215954877
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4215954877.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4215954877 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4215954877' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4215954877 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4215954877/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4215954877.dir/build.make CMakeFiles/cmTryCompileExec4215954877.dir/build]
+  ignore line: [make[1]: Entering directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4215954877]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4215954877.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4215954877 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4215954877' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4215954877 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4215954877] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec4215954877.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1735585262/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1735585262.dir/build.make CMakeFiles/cmTryCompileExec1735585262.dir/build
+make[1]: Entering directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1735585262.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1735585262.dir/testCXXCompiler.cxx.o -c /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1735585262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1735585262.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1735585262.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1735585262 -rdynamic 
+make[1]: Leaving directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2969678434/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2969678434.dir/build.make CMakeFiles/cmTryCompileExec2969678434.dir/build
+make[1]: Entering directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2969678434
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2969678434.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2969678434 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2969678434' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2969678434 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2969678434/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2969678434.dir/build.make CMakeFiles/cmTryCompileExec2969678434.dir/build]
+  ignore line: [make[1]: Entering directory `/home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jacquin/Bureau/ucpSMSDeltaEval/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2969678434]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2969678434.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2969678434 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2969678434' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2969678434 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2969678434] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec2969678434.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+

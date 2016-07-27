@@ -1,0 +1,96 @@
+#include <unistd.h>
+#include <iostream>
+#include <fstream>
+#include <stdio.h>
+#include <sys/types.h>
+#include <stdlib.h> 
+#include <sys/wait.h>
+#include <string>
+#include <sstream>
+using namespace std;
+
+int main(int argc,char ** argv)
+{
+  pid_t pid;
+
+  int nbIterations,status,nb=1,seed=10,commit;
+  double pMut,pCross,pWMut,pWCross;
+  string outputDirName,paramFileName,inputFileName;
+ 
+  for(unsigned int i=2;i<argc;i++)
+    {  
+
+      i++;
+      pCross = atof(argv[i++]);
+      nb++;
+      nb++;
+      
+      i++;		
+      pWCross = atof(argv[i++]);
+      nb++;
+      nb++;
+
+      i++;  
+      pMut = atof(argv[i++]);
+      nb++;
+      nb++;
+ 
+      i++;
+      pWMut = atof(argv[i++]);
+      nb++;
+      nb++;
+
+   
+    }
+ 
+  char * cmd[8];
+
+  cmd[0]=(char*)"./UCP";
+
+  stringstream sparamFile;
+  sparamFile << "@../param/UCP1.param";// << paramFileName;
+  string sp(sparamFile.str());
+  cmd[1]=(char*)(sp.c_str());
+
+  stringstream sinputFile;
+  sinputFile << "--inputFile=../input/probleme1.tsp";// <<inputFileName;
+  string si(sinputFile.str());
+  cmd[2]=(char*)(si.c_str());
+
+  stringstream spMut;
+  spMut << "--pMut=" <<pMut;
+  string spm(spMut.str());
+  cmd[3]=(char*)(spm.c_str());
+
+  stringstream spWMut;
+  spWMut << "--pWMut=" <<pWMut;
+  string spwm(spWMut.str());
+  cmd[4]=(char*)(spwm .c_str());
+
+  stringstream spCross;
+  spCross << "--pCross=" <<pCross;
+  string spc(spCross.str());
+  cmd[5]=(char*)(spc.c_str());
+
+  stringstream spWCross;
+  spWCross << "--pWCross=" <<pWCross;
+  string spwc(spWCross.str());
+  cmd[6]=(char*)(spwc.c_str());
+
+  cmd[7]=NULL;	
+      
+      switch(pid=fork())
+	{
+	case -1:
+	  perror("error::at fork call.\n");
+	case 0:
+	  execvp(cmd[0],cmd);
+	  perror("error::at execvp call.\n");
+	  break; 
+	default:
+	  wait(&status);
+	  break;
+	}	
+ 
+  return 0;
+}

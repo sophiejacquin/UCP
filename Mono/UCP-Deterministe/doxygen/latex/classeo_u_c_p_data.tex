@@ -1,0 +1,262 @@
+\hypertarget{classeo_u_c_p_data}{\section{eo\-U\-C\-P\-Data \-Class \-Reference}
+\label{classeo_u_c_p_data}\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}}
+}
+
+
+\-Class that represents input data of the problem.  
+
+
+
+
+{\ttfamily \#include $<$eo\-U\-C\-P\-Data.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeo_u_c_p_data_a291f4cd392e5037c00de463af512c730}{eo\-U\-C\-P\-Data} ()
+\begin{DoxyCompactList}\small\item\em \-Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_data_a3f0c271425184da74d4e2484b02ded81}{set\-Units} (const std\-::vector$<$ \hyperlink{classeo_u_c_p_unit}{eo\-U\-C\-P\-Unit} $>$ \&\-\_\-units)
+\begin{DoxyCompactList}\small\item\em \-Set the set of units. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_data_a1665395716fbb7ccf06c5cab154e3d66}{set\-Load} (const std\-::vector$<$ double $>$ \-\_\-load)
+\begin{DoxyCompactList}\small\item\em \-Set the demand of power. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_data_af8729ce76f4870676086c72bc012d91b}{push\-\_\-unite} (const \hyperlink{classeo_u_c_p_unit}{eo\-U\-C\-P\-Unit} \&unit)
+\begin{DoxyCompactList}\small\item\em \-Push a unit into the set of units. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_data_a89ddf4c39a8e77e0127525dcbe546625}{push\-\_\-load} (double \-\_\-load\-Value)
+\begin{DoxyCompactList}\small\item\em \-Push a load value. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_data_a1bb315906b50f4836b934e94b52e6111}{push\-\_\-reserve} (double \-\_\-reserve\-Value)
+\begin{DoxyCompactList}\small\item\em \-Push a reserve value. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_data_a48c9315ee1d06c8e3d0be1f920d15377}{units\-\_\-size} ()
+\begin{DoxyCompactList}\small\item\em \-Get the number of units. \end{DoxyCompactList}\item 
+\hypertarget{classeo_u_c_p_data_a3e3212855f98e3e01e28ba217f5bcbef}{void \hyperlink{classeo_u_c_p_data_a3e3212855f98e3e01e28ba217f5bcbef}{clear} ()}\label{classeo_u_c_p_data_a3e3212855f98e3e01e28ba217f5bcbef}
+
+\begin{DoxyCompactList}\small\item\em \-Clear all data. \end{DoxyCompactList}\item 
+\hyperlink{classeo_u_c_p_unit}{eo\-U\-C\-P\-Unit} \& \hyperlink{classeo_u_c_p_data_a6c6ddc5aede011ca15b4e54e3de9f313}{get\-\_\-unite} (unsigned i)
+\begin{DoxyCompactList}\small\item\em \-Get the unit i. \end{DoxyCompactList}\item 
+const double \& \hyperlink{classeo_u_c_p_data_af82d1cb78718b45bf3e5cf0155b52047}{get\-\_\-load} (unsigned int h) const 
+\begin{DoxyCompactList}\small\item\em \-Get the load value at hour h. \end{DoxyCompactList}\item 
+const double \& \hyperlink{classeo_u_c_p_data_aa1487ad1b7221a6770a4f15f774e0702}{get\-\_\-reserve} (unsigned int h) const 
+\begin{DoxyCompactList}\small\item\em \-Get the reserve value at hour h. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{classeo_u_c_p_unit}{eo\-U\-C\-P\-Unit} $>$ $\ast$ \hyperlink{classeo_u_c_p_data_a0370b3d7bec1e0e0783a1716158d7ccf}{get\-\_\-units} ()
+\begin{DoxyCompactList}\small\item\em \-Get the set of units. \end{DoxyCompactList}\item 
+std\-::vector$<$ double $>$ $\ast$ \hyperlink{classeo_u_c_p_data_ade3f3b604c8d0f755e8d8097cedbe67b}{get\-\_\-load} ()
+\begin{DoxyCompactList}\small\item\em \-Get the hourly demand. \end{DoxyCompactList}\item 
+std\-::vector$<$ double $>$ $\ast$ \hyperlink{classeo_u_c_p_data_ad4daa240aa40ef2c6f96ba115cdf6cc4}{get\-\_\-reserve} ()
+\begin{DoxyCompactList}\small\item\em \-Get the hourly reserve. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Class that represents input data of the problem. 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classeo_u_c_p_data_a291f4cd392e5037c00de463af512c730}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}}
+\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{eo\-U\-C\-P\-Data}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eo\-U\-C\-P\-Data\-::eo\-U\-C\-P\-Data} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a291f4cd392e5037c00de463af512c730}
+
+
+\-Constructor. 
+
+\hyperlink{classeo_u_c_p_data}{eo\-U\-C\-P\-Data} class consctructor 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classeo_u_c_p_data_af82d1cb78718b45bf3e5cf0155b52047}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!get\-\_\-load@{get\-\_\-load}}
+\index{get\-\_\-load@{get\-\_\-load}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{get\-\_\-load}]{\setlength{\rightskip}{0pt plus 5cm}const double\& {\bf eo\-U\-C\-P\-Data\-::get\-\_\-load} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{h}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_af82d1cb78718b45bf3e5cf0155b52047}
+
+
+\-Get the load value at hour h. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em h} & \-: hour \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+a reference to the load value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_data_ade3f3b604c8d0f755e8d8097cedbe67b}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!get\-\_\-load@{get\-\_\-load}}
+\index{get\-\_\-load@{get\-\_\-load}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{get\-\_\-load}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$double$>$$\ast$ {\bf eo\-U\-C\-P\-Data\-::get\-\_\-load} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_ade3f3b604c8d0f755e8d8097cedbe67b}
+
+
+\-Get the hourly demand. 
+
+\begin{DoxyReturn}{\-Returns}
+std\-::vector$<$double$>$ $\ast$ 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_data_aa1487ad1b7221a6770a4f15f774e0702}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!get\-\_\-reserve@{get\-\_\-reserve}}
+\index{get\-\_\-reserve@{get\-\_\-reserve}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{get\-\_\-reserve}]{\setlength{\rightskip}{0pt plus 5cm}const double\& {\bf eo\-U\-C\-P\-Data\-::get\-\_\-reserve} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{h}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_aa1487ad1b7221a6770a4f15f774e0702}
+
+
+\-Get the reserve value at hour h. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em h} & \-: hour \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+a reference to the reserve value 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_data_ad4daa240aa40ef2c6f96ba115cdf6cc4}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!get\-\_\-reserve@{get\-\_\-reserve}}
+\index{get\-\_\-reserve@{get\-\_\-reserve}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{get\-\_\-reserve}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$double$>$$\ast$ {\bf eo\-U\-C\-P\-Data\-::get\-\_\-reserve} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_ad4daa240aa40ef2c6f96ba115cdf6cc4}
+
+
+\-Get the hourly reserve. 
+
+\begin{DoxyReturn}{\-Returns}
+std\-::vector$<$double$>$ $\ast$ 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_data_a6c6ddc5aede011ca15b4e54e3de9f313}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!get\-\_\-unite@{get\-\_\-unite}}
+\index{get\-\_\-unite@{get\-\_\-unite}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{get\-\_\-unite}]{\setlength{\rightskip}{0pt plus 5cm}{\bf eo\-U\-C\-P\-Unit}\& {\bf eo\-U\-C\-P\-Data\-::get\-\_\-unite} (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a6c6ddc5aede011ca15b4e54e3de9f313}
+
+
+\-Get the unit i. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-: number of the unit \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+a reference to the i-\/th unit 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_data_a0370b3d7bec1e0e0783a1716158d7ccf}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!get\-\_\-units@{get\-\_\-units}}
+\index{get\-\_\-units@{get\-\_\-units}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{get\-\_\-units}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf eo\-U\-C\-P\-Unit}$>$$\ast$ {\bf eo\-U\-C\-P\-Data\-::get\-\_\-units} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a0370b3d7bec1e0e0783a1716158d7ccf}
+
+
+\-Get the set of units. 
+
+\begin{DoxyReturn}{\-Returns}
+std\-::vector$<$eo\-U\-C\-P\-Unit$>$ $\ast$ 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_data_a89ddf4c39a8e77e0127525dcbe546625}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!push\-\_\-load@{push\-\_\-load}}
+\index{push\-\_\-load@{push\-\_\-load}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{push\-\_\-load}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf eo\-U\-C\-P\-Data\-::push\-\_\-load} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-load\-Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a89ddf4c39a8e77e0127525dcbe546625}
+
+
+\-Push a load value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em load\-Value} & \-: load value to be pushed \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_data_a1bb315906b50f4836b934e94b52e6111}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!push\-\_\-reserve@{push\-\_\-reserve}}
+\index{push\-\_\-reserve@{push\-\_\-reserve}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{push\-\_\-reserve}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf eo\-U\-C\-P\-Data\-::push\-\_\-reserve} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-reserve\-Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a1bb315906b50f4836b934e94b52e6111}
+
+
+\-Push a reserve value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em reserve} & value to be pushed \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_data_af8729ce76f4870676086c72bc012d91b}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!push\-\_\-unite@{push\-\_\-unite}}
+\index{push\-\_\-unite@{push\-\_\-unite}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{push\-\_\-unite}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf eo\-U\-C\-P\-Data\-::push\-\_\-unite} (
+\begin{DoxyParamCaption}
+\item[{const {\bf eo\-U\-C\-P\-Unit} \&}]{unit}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_af8729ce76f4870676086c72bc012d91b}
+
+
+\-Push a unit into the set of units. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em unit} & \-: unit to be pushed \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_data_a1665395716fbb7ccf06c5cab154e3d66}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!set\-Load@{set\-Load}}
+\index{set\-Load@{set\-Load}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{set\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf eo\-U\-C\-P\-Data\-::set\-Load} (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ double $>$}]{\-\_\-load}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a1665395716fbb7ccf06c5cab154e3d66}
+
+
+\-Set the demand of power. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-load} & \-: vector that contains the hourly demand \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_data_a3f0c271425184da74d4e2484b02ded81}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!set\-Units@{set\-Units}}
+\index{set\-Units@{set\-Units}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{set\-Units}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf eo\-U\-C\-P\-Data\-::set\-Units} (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ {\bf eo\-U\-C\-P\-Unit} $>$ \&}]{\-\_\-units}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a3f0c271425184da74d4e2484b02ded81}
+
+
+\-Set the set of units. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-\-Units} & \-: vector that contains the units \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_data_a48c9315ee1d06c8e3d0be1f920d15377}{\index{eo\-U\-C\-P\-Data@{eo\-U\-C\-P\-Data}!units\-\_\-size@{units\-\_\-size}}
+\index{units\-\_\-size@{units\-\_\-size}!eoUCPData@{eo\-U\-C\-P\-Data}}
+\subsubsection[{units\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf eo\-U\-C\-P\-Data\-::units\-\_\-size} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_data_a48c9315ee1d06c8e3d0be1f920d15377}
+
+
+\-Get the number of units. 
+
+\begin{DoxyReturn}{\-Returns}
+the size of the vector contains units 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/yanis/\-Documents/\-U\-C\-P/src/\hyperlink{eo_u_c_p_data_8h}{eo\-U\-C\-P\-Data.\-h}\end{DoxyCompactItemize}

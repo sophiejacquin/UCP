@@ -1,0 +1,30 @@
+template <class EOT>
+class eoDiversityStat{
+	private:
+		double averageFit;
+		double ecartTyp;
+		
+	public:
+	EOT pop;
+
+	double averageFitness()const{
+		return averageFitness;
+	}
+	
+	double ecartType(){
+		return ecartType;
+	}
+
+	void operator()(const eoPop< EOT > & _pop){
+		averageFit=0.0;
+		ecartTyp=0.0;
+		double tmp = 0.0;
+		for(unsigned i=0;i<_pop.size();i++){
+			averageFit += _pop[i].fitness();
+			tmp += _pop[i].fitness() * _pop[i].fitness();
+		}
+		averageFit /= _pop.size();	
+		ecartTyp = sqrt(tmp/_pop.size -averageFitness);				
+	}
+};
+

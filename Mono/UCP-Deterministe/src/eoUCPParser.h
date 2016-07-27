@@ -1,0 +1,215 @@
+#ifndef _eoUCPParser_h
+#define _eoUCPParser_h
+
+#include <vector>
+#include <string>
+#include <iostream>
+#include <fstream>
+
+
+/*!
+ * \file eoUCPParser.h
+ * \brief Evaluation of a UCP solution
+ * \author Yanis NAIT ABDELAZIZ
+ */
+
+/*!
+ * \brief Split a string 
+ *
+ * \param dest : vector which will contains words of the string
+ * \param chaine : string to be split
+ * \param separateur : words separator in the string
+ * \return number of words in the string
+ */
+int Split(vector<string>& dest, string & chaine, char separateur)
+{
+  dest.clear();
+  string::size_type stTemp = chaine.find(separateur);
+  while(stTemp != string::npos)
+    {
+      dest.push_back(chaine.substr(0, stTemp));
+      chaine = chaine.substr(stTemp + 1);
+      stTemp = chaine.find(separateur);
+    }
+  dest.push_back(chaine);
+  return dest.size();
+} 
+
+/*!
+ * \brief Check if a character is a digital
+ *
+ * \param c : character to be checked
+ * \return true if c is a digital, false otherwise
+ */
+bool estChiffre(char c)
+{
+  return (c>='0' && c<='9');
+}
+
+/*!
+ * \class eoUCPParser
+ * \brief Class that represents the parser for UCP data
+ */
+class eoUCPParser{
+ public:
+  
+  /*!
+   * \brief Constructor
+   *
+   * eoUCPParser class consctructor 
+   * \param _filename : file  which contains input data 
+   */
+ eoUCPParser(const std::string & _filename):filename(_filename)
+  {
+  }
+
+
+  /*!
+   * \brief Operator () which set the eoUCPInit fields and to eoUCPData fields from the input file 
+   */
+  template<typename GenotypeT>
+    void operator()( eoUCPInit<GenotypeT>  & _init,eoUCPData & _data)
+    {
+      /*Clear all data*/    
+      _data.clear();
+      /*Open the file */
+      std::ifstream file(filename.c_str());
+      std::string line;
+      /* If the opening-file succeds */
+      if(!file.fail()){
+	/*Read the file line per liney */
+	while (std::getline(file,line))
+	  {
+	    /*If the first character of the line is '#', then read the next line */	  
+	    if(line[0]!='#')
+	      for(unsigned i=0;i<line.size();i++)
+		{
+		  /* First '-', may be a parameter */
+		  if(line[i]=='-')
+		    {
+		      i++;
+		      /* Second '-', it's a parameter */
+		      if(line[i]=='-')
+			{
+			  /* Variables to store these parameters */
+			  int nb_unites;
+			  int nb_heures;
+
+			  i++;
+			  std::string mot;
+			  /* Read the name of the parameter */	
+			  while(line[i]!='=')
+			    {
+			      mot.push_back(line[i]);
+			      i++;		   
+			    }
+	  
+			  std::string value;
+			  /* If the name of the parameter is "unites", store its value in nb_unites */
+			  if(mot.compare("unites")==0)
+			    {
+			      i++;
+		  
+			      while(estChiffre(line[i]))
+				{
+				  value.push_back(line[i++]);
+				}
+
+			      nb_unites = atoi(value.c_str());
+			    }
+			  /* If the name of the parameter is "heures", store its value in nb_unites  */
+			  else if(mot.compare("heures")==0)
+			    {
+			      i++;   
+			      while(estChiffre(line[i]))
+				{
+				  value.push_back(line[i++]);
+				}
+
+			      nb_heures = atoi(value.c_str());
+			    }
+			  /* After reading the parameters values, set eoUCPInit fields */
+			  _init.set(nb_unites,nb_heures);
+			}
+		    }
+	      
+		  /* If the character is '@', we have o descrption of a unit features */
+		  else if(line[i]=='@')
+		    {
+		      /* Read all features of the unit and store them in a eoUCPUnit object */
+		      int numMachine,Pmax,Pmin,tUp,tDown,tColdStart,initialState,cpt;
+		      double a0,a1,a2,sHot,sCold;
+		      std::vector<std::string> tVal;
+		      Split(tVal,line,',');
+		      cpt=0;	      
+
+		      numMachine   = atoi(tVal[cpt++].substr(1).c_str());
+		      Pmax         = atoi(tVal[cpt++].c_str());
+		      Pmin         = atoi(tVal[cpt++].c_str());
+		      a0           = (double) atof(tVal[cpt++].c_str());
+		      a1           = (double) atof(tVal[cpt++].c_str());
+		      a2           = (double) atof(tVal[cpt++].c_str());
+		      tUp          = atoi(tVal[cpt++].c_str());
+		      tDown        = atoi(tVal[cpt++].c_str());
+		      sHot         = (double)atof(tVal[cpt++].c_str());
+		      sCold        = (double)atof(tVal[cpt++].c_str());
+		      tColdStart   = atoi(tVal[cpt++].c_str());
+		      initialState = atoi(tVal[cpt++].c_str());	     
+		      //cout<<sCold<<" "<<a2<<" ";
+		      /*Push the unit in  data*/
+		      eoUCPUnit unit(numMachine,Pmin,Pmax,a0,a1,a2,tUp,tDown,sHot,sCold,tColdStart,initialState);
+		      _data.push_unite(unit);
+		    }
+
+		  /*If the character is '%', may be  load or reserve */
+		  else if(line[i]=='%')
+		    {
+		      i++;
+		      /*Descrition of hourly load */
+		      if(line[i]=='l')
+			{		
+			  std::vector<std::string> load;
+			  while(!(estChiffre(line[i])))
+			    i++;
+			  std::string sload = line.substr(i);
+			  Split(load,sload,',');
+		
+			  for(unsigned j=0;j<load.size();j++)
+			    {
+			      /*Push the load value in data */
+			      _data.push_load(atof(load[j].c_str()));
+			    }
+			}
+		      /*Description of hourly reserve*/
+		      else if(line[i]=='r')
+			{
+			  std::vector<std::string> reserve;
+			  while(!(estChiffre(line[i])))
+			    i++;
+			  std::string sreserve = line.substr(i);
+			  Split(reserve,sreserve,',');
+		
+			  for(unsigned j=0;j<reserve.size();j++)
+			    {
+			      /*Push the reserve value in data */
+			      _data.push_reserve(atof(reserve[j].c_str()));
+			    }
+			}
+		    }
+		}	
+	  }
+      } 
+      /*Opening-file fails*/
+      else 
+	{ 
+	  perror("Fichier inexistant ou non lisible.\n");
+	  exit(EXIT_FAILURE);
+	}
+    }
+
+
+ private:
+  std::string filename; /*!< Input file pathname*/
+};
+
+#endif

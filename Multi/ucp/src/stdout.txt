@@ -1,0 +1,92 @@
+creation decoder
+IBEA setup
+avant lancement NSGA2
+countGen=0
+min: [ 5.00102e+07 , 5e+07 ]
+avg: [ 8.32468e+07 , 8.32258e+07 ]
+max: [ 1.10015e+08 , 1.1e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :12 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 12
+countGen=1
+min: [ 3.001e+07 , 3e+07 ]
+avg: [ 7.67077e+07 , 7.66892e+07 ]
+max: [ 1.15021e+08 , 1.15e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=2
+min: [ 1.00093e+07 , 1e+07 ]
+avg: [ 5.92895e+07 , 5.92742e+07 ]
+max: [ 8.00173e+07 , 8e+07 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=4
+min: [ 5.00949e+06 , 5e+06 ]
+avg: [ 3.28331e+07 , 3.28226e+07 ]
+max: [ 7.00111e+07 , 7e+07 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5

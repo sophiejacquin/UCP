@@ -1,0 +1,27 @@
+#!/bin/bash
+i=1
+s=5555555
+while [ $i -le 20 ]; do 
+var=testE${i}
+./MOUCPEANorme  --inputFile="./input-multi/probleme60.tsp" -G500   --pCross=0.8295  --pMut=0.8066 --popSize=20 --nbLambda=4 --mut1Rate=0.4178 --mut2Rate=0.3510 --mut3Rate=0.3715 --mut4Rate=0.8141 --mut5Rate=0.8241  --mut5RateMO=0.5303 --pVectMut=0.7639 --nbU=7 --mut2HDRate=0.5807 --mut2HRate=0.0415 --mutMORate=0.6475 --repet=4 >>Test60/$var
+STDOUT="Test60/$var"
+COST=$(tail -1 ${STDOUT} | cut -d ':' -f 2)
+echo "$COST" >>Test60/result
+echo "$COST" $var fait
+
+let $[ s+=100 ]
+let $[ i+=1 ] # incremente i de 1 a chaque boucle 
+done
+i=1
+s=5555555
+while [ $i -le 20 ]; do 
+var=testE${i}
+./MOUCPEANorme  --inputFile="./input-multi/probleme80.tsp" -G500   --pCross=0.1687  --pMut=0.3434 --popSize=20 --nbLambda=3 --mut1Rate=0.6305 --mut2Rate=0.3188 --mut3Rate=0.4420 --mut4Rate=0.2072 --mut5Rate=0.2730  --mut5RateMO=0.8170 --pVectMut=0.6502 --nbU=6 --mut2HDRate=0.7108 --mut2HRate=0.0229 --mutMORate=0.1039 --repet=4 >>Test80/$var
+STDOUT="Test80/$var"
+COST=$(tail -1 ${STDOUT} | cut -d ':' -f 2)
+echo "$COST" >>Test80/result
+echo "$COST" $var fait
+
+let $[ s+=100 ]
+let $[ i+=1 ] # incremente i de 1 a chaque boucle 
+done

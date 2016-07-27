@@ -1,0 +1,3389 @@
+creation decoder
+IBEA setup
+avant lancement sms
+countGen=0
+min: [ 4.50452e+07 , 4.5e+07 ]
+avg: [ 6.6551e+07 , 6.65e+07 ]
+max: [ 9.00555e+07 , 9e+07 ]
+sms av decodage
+countGen=1
+min: [ 3.50475e+07 , 3.5e+07 ]
+avg: [ 6.08933e+07 , 6.08464e+07 ]
+max: [ 1.00061e+08 , 1e+08 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=2
+min: [ 3.00342e+07 , 3e+07 ]
+avg: [ 4.12315e+07 , 4.11862e+07 ]
+max: [ 6.50536e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=3
+min: [ 2.00308e+07 , 2e+07 ]
+avg: [ 3.44851e+07 , 3.44459e+07 ]
+max: [ 6.00413e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=4
+min: [ 1.00237e+07 , 1e+07 ]
+avg: [ 2.46982e+07 , 2.46654e+07 ]
+max: [ 5.0029e+07 , 5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=5
+min: [ 1.00225e+07 , 1e+07 ]
+avg: [ 1.62598e+07 , 1.62317e+07 ]
+max: [ 4.50379e+07 , 4.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=6
+min: [ 5.02311e+06 , 5e+06 ]
+avg: [ 1.11157e+07 , 1.10901e+07 ]
+max: [ 3.5028e+07 , 3.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=7
+min: [ 5.02248e+06 , 5e+06 ]
+avg: [ 1.06491e+07 , 1.0625e+07 ]
+max: [ 2.50256e+07 , 2.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=8
+min: [ 3.67569e+06 , 2.29728e+06 ]
+avg: [ 5.94945e+06 , 5.87652e+06 ]
+max: [ 2.50227e+07 , 2.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=9
+min: [ 3.6349e+06 , 2.2681e+06 ]
+avg: [ 4.33084e+06 , 3.21405e+06 ]
+max: [ 2.50278e+07 , 2.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=10
+min: [ 3.607e+06 , 2.24449e+06 ]
+avg: [ 4.89109e+06 , 3.73197e+06 ]
+max: [ 3.00348e+07 , 3e+07 ]
+deb replacement
+union trié et parent effacé
+sms av decodage
+countGen=11
+min: [ 3.57408e+06 , 2.23241e+06 ]
+avg: [ 6.67151e+06 , 5.77496e+06 ]
+max: [ 4.00354e+07 , 4e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=12
+min: [ 3.54864e+06 , 2.21444e+06 ]
+avg: [ 8.17759e+06 , 7.34713e+06 ]
+max: [ 5.50366e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=13
+min: [ 3.51047e+06 , 2.19533e+06 ]
+avg: [ 7.32966e+06 , 6.301e+06 ]
+max: [ 6.5031e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+sms av decodage
+countGen=14
+min: [ 3.50598e+06 , 2.19221e+06 ]
+avg: [ 1.10159e+07 , 1.02234e+07 ]
+max: [ 5.50332e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=15
+min: [ 3.48836e+06 , 2.1844e+06 ]
+avg: [ 1.16508e+07 , 1.08739e+07 ]
+max: [ 6.00383e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=16
+min: [ 3.47672e+06 , 2.18093e+06 ]
+avg: [ 1.46181e+07 , 1.39722e+07 ]
+max: [ 6.00378e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=17
+min: [ 3.47084e+06 , 2.1739e+06 ]
+avg: [ 1.28068e+07 , 1.21684e+07 ]
+max: [ 6.50332e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=18
+min: [ 3.46017e+06 , 2.17005e+06 ]
+avg: [ 1.08263e+07 , 1.01388e+07 ]
+max: [ 6.50359e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=19
+min: [ 3.45246e+06 , 2.16872e+06 ]
+avg: [ 1.63772e+07 , 1.58718e+07 ]
+max: [ 7.50315e+07 , 7.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=20
+min: [ 3.44905e+06 , 2.15719e+06 ]
+avg: [ 1.0792e+07 , 9.88916e+06 ]
+max: [ 7.00396e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=21
+min: [ 3.44015e+06 , 2.14904e+06 ]
+avg: [ 1.21706e+07 , 1.14015e+07 ]
+max: [ 7.003e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=22
+min: [ 3.43453e+06 , 2.14823e+06 ]
+avg: [ 1.2178e+07 , 1.15021e+07 ]
+max: [ 7.00291e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=23
+min: [ 3.42419e+06 , 2.1464e+06 ]
+avg: [ 9.63655e+06 , 8.83068e+06 ]
+max: [ 6.0033e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=24
+min: [ 3.4231e+06 , 2.142e+06 ]
+avg: [ 1.11269e+07 , 1.02945e+07 ]
+max: [ 6.00348e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=25
+min: [ 3.42026e+06 , 2.14125e+06 ]
+avg: [ 1.31943e+07 , 1.23793e+07 ]
+max: [ 9.50342e+07 , 9.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=26
+min: [ 3.41619e+06 , 2.13788e+06 ]
+avg: [ 7.65131e+06 , 6.69261e+06 ]
+max: [ 6.50344e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=27
+min: [ 3.415e+06 , 2.13308e+06 ]
+avg: [ 1.0725e+07 , 9.8643e+06 ]
+max: [ 6.50332e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+sms av decodage
+countGen=28
+min: [ 3.41261e+06 , 2.13156e+06 ]
+avg: [ 1.08339e+07 , 1.01279e+07 ]
+max: [ 6.50353e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=29
+min: [ 3.41197e+06 , 2.13117e+06 ]
+avg: [ 9.58256e+06 , 8.80593e+06 ]
+max: [ 7.00303e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=30
+min: [ 3.40445e+06 , 2.12664e+06 ]
+avg: [ 8.48999e+06 , 7.59701e+06 ]
+max: [ 5.50351e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=31
+min: [ 3.40384e+06 , 2.12534e+06 ]
+avg: [ 8.79994e+06 , 7.92838e+06 ]
+max: [ 6.00343e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=32
+min: [ 3.40041e+06 , 2.12488e+06 ]
+avg: [ 7.56875e+06 , 6.60842e+06 ]
+max: [ 7.00301e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=33
+min: [ 3.39594e+06 , 2.12352e+06 ]
+avg: [ 7.44279e+06 , 6.45602e+06 ]
+max: [ 7.00342e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=34
+min: [ 3.39555e+06 , 2.12236e+06 ]
+avg: [ 1.06534e+07 , 9.87589e+06 ]
+max: [ 7.00346e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=35
+min: [ 3.39504e+06 , 2.12003e+06 ]
+avg: [ 7.93827e+06 , 7.07481e+06 ]
+max: [ 6.0034e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=36
+min: [ 3.39265e+06 , 2.11987e+06 ]
+avg: [ 8.47316e+06 , 7.54509e+06 ]
+max: [ 8.00341e+07 , 8e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=37
+min: [ 3.39057e+06 , 2.11791e+06 ]
+avg: [ 9.89317e+06 , 9.09033e+06 ]
+max: [ 5.50341e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=38
+min: [ 3.39057e+06 , 2.11538e+06 ]
+avg: [ 9.23115e+06 , 8.36984e+06 ]
+max: [ 6.50382e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=39
+min: [ 3.38986e+06 , 2.11466e+06 ]
+avg: [ 9.4917e+06 , 8.65319e+06 ]
+max: [ 6.50298e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=40
+min: [ 3.38813e+06 , 2.11418e+06 ]
+avg: [ 9.84405e+06 , 9.07002e+06 ]
+max: [ 6.50291e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=41
+min: [ 3.38781e+06 , 2.11369e+06 ]
+avg: [ 1.15873e+07 , 1.08814e+07 ]
+max: [ 6.50336e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=42
+min: [ 3.38771e+06 , 2.11369e+06 ]
+avg: [ 1.18278e+07 , 1.11194e+07 ]
+max: [ 7.50383e+07 , 7.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=43
+min: [ 3.38697e+06 , 2.11369e+06 ]
+avg: [ 4.70444e+06 , 3.58666e+06 ]
+max: [ 6.003e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=44
+min: [ 3.38548e+06 , 2.11369e+06 ]
+avg: [ 4.45657e+06 , 3.34547e+06 ]
+max: [ 5.00301e+07 , 5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=45
+min: [ 3.38477e+06 , 2.11369e+06 ]
+avg: [ 6.04833e+06 , 4.99329e+06 ]
+max: [ 7.00301e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=46
+min: [ 3.38453e+06 , 2.11369e+06 ]
+avg: [ 5.70788e+06 , 4.67698e+06 ]
+max: [ 5.00306e+07 , 5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=47
+min: [ 3.38353e+06 , 2.11369e+06 ]
+avg: [ 6.49395e+06 , 5.47158e+06 ]
+max: [ 8.50295e+07 , 8.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=48
+min: [ 3.38352e+06 , 2.11369e+06 ]
+avg: [ 6.45101e+06 , 5.42937e+06 ]
+max: [ 7.00302e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=49
+min: [ 3.38273e+06 , 2.11369e+06 ]
+avg: [ 5.78134e+06 , 4.79044e+06 ]
+max: [ 6.00298e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=50
+min: [ 3.38219e+06 , 2.11369e+06 ]
+avg: [ 7.31372e+06 , 6.45268e+06 ]
+max: [ 6.00295e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=51
+min: [ 3.38128e+06 , 2.11369e+06 ]
+avg: [ 8.50163e+06 , 7.6047e+06 ]
+max: [ 7.00296e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=52
+min: [ 3.38074e+06 , 2.11369e+06 ]
+avg: [ 7.50098e+06 , 6.54613e+06 ]
+max: [ 5.00304e+07 , 5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=53
+min: [ 3.37996e+06 , 2.11369e+06 ]
+avg: [ 9.08155e+06 , 8.15163e+06 ]
+max: [ 8.50292e+07 , 8.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=54
+min: [ 3.37994e+06 , 2.11078e+06 ]
+avg: [ 9.79231e+06 , 8.89409e+06 ]
+max: [ 7.5035e+07 , 7.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=55
+min: [ 3.3793e+06 , 2.10889e+06 ]
+avg: [ 7.92962e+06 , 6.98425e+06 ]
+max: [ 6.00301e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=56
+min: [ 3.37786e+06 , 2.10889e+06 ]
+avg: [ 8.89361e+06 , 8.02179e+06 ]
+max: [ 7.003e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=57
+min: [ 3.37635e+06 , 2.10889e+06 ]
+avg: [ 7.11367e+06 , 6.06044e+06 ]
+max: [ 7.003e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=58
+min: [ 3.3752e+06 , 2.10889e+06 ]
+avg: [ 7.00894e+06 , 6.02645e+06 ]
+max: [ 7.00298e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=59
+min: [ 3.37468e+06 , 2.10889e+06 ]
+avg: [ 7.83232e+06 , 6.8956e+06 ]
+max: [ 7.00338e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=60
+min: [ 3.37427e+06 , 2.10889e+06 ]
+avg: [ 9.15057e+06 , 8.33014e+06 ]
+max: [ 7.00304e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=61
+min: [ 3.3742e+06 , 2.10889e+06 ]
+avg: [ 8.31927e+06 , 7.44096e+06 ]
+max: [ 7.00298e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=64
+min: [ 3.37373e+06 , 2.10889e+06 ]
+avg: [ 9.26458e+06 , 8.40709e+06 ]
+max: [ 7.00294e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=65
+min: [ 3.3734e+06 , 2.10889e+06 ]
+avg: [ 8.79015e+06 , 8.07648e+06 ]
+max: [ 6.00336e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=66
+min: [ 3.37315e+06 , 2.10889e+06 ]
+avg: [ 8.02793e+06 , 7.16994e+06 ]
+max: [ 6.50339e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=67
+min: [ 3.37315e+06 , 2.10889e+06 ]
+avg: [ 7.57458e+06 , 6.67372e+06 ]
+max: [ 5.50296e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=68
+min: [ 3.37264e+06 , 2.10889e+06 ]
+avg: [ 9.49428e+06 , 8.69718e+06 ]
+max: [ 7.00296e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=73
+min: [ 3.37191e+06 , 2.10889e+06 ]
+avg: [ 8.80209e+06 , 7.91706e+06 ]
+max: [ 6.00288e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=74
+min: [ 3.37166e+06 , 2.10867e+06 ]
+avg: [ 7.69232e+06 , 6.81943e+06 ]
+max: [ 7.50288e+07 , 7.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=75
+min: [ 3.37166e+06 , 2.1053e+06 ]
+avg: [ 6.23546e+06 , 5.17366e+06 ]
+max: [ 5.50329e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=76
+min: [ 3.37166e+06 , 2.10292e+06 ]
+avg: [ 7.47823e+06 , 6.57741e+06 ]
+max: [ 9.50294e+07 , 9.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=78
+min: [ 3.37132e+06 , 2.10292e+06 ]
+avg: [ 8.00896e+06 , 7.06251e+06 ]
+max: [ 7.50285e+07 , 7.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=80
+min: [ 3.3713e+06 , 2.1026e+06 ]
+avg: [ 7.90277e+06 , 6.99767e+06 ]
+max: [ 6.00284e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=81
+min: [ 3.37111e+06 , 2.10235e+06 ]
+avg: [ 9.32997e+06 , 8.54509e+06 ]
+max: [ 6.00296e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=82
+min: [ 3.37028e+06 , 2.09895e+06 ]
+avg: [ 9.13423e+06 , 8.26247e+06 ]
+max: [ 8.50283e+07 , 8.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=83
+min: [ 3.36976e+06 , 2.09895e+06 ]
+avg: [ 6.82512e+06 , 5.85001e+06 ]
+max: [ 6.50323e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=84
+min: [ 3.36953e+06 , 2.09857e+06 ]
+avg: [ 7.20935e+06 , 6.24818e+06 ]
+max: [ 5.50291e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=85
+min: [ 3.36953e+06 , 2.09647e+06 ]
+avg: [ 8.90738e+06 , 8.07348e+06 ]
+max: [ 6.50291e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=86
+min: [ 3.36929e+06 , 2.09626e+06 ]
+avg: [ 7.59438e+06 , 6.62612e+06 ]
+max: [ 6.00281e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=88
+min: [ 3.36929e+06 , 2.09553e+06 ]
+avg: [ 7.8612e+06 , 6.87072e+06 ]
+max: [ 5.50382e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=89
+min: [ 3.36927e+06 , 2.09516e+06 ]
+avg: [ 7.15008e+06 , 6.17034e+06 ]
+max: [ 5.50281e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=91
+min: [ 3.3692e+06 , 2.09516e+06 ]
+avg: [ 7.00032e+06 , 5.95321e+06 ]
+max: [ 6.50337e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=92
+min: [ 3.36918e+06 , 2.09516e+06 ]
+avg: [ 9.40188e+06 , 8.4847e+06 ]
+max: [ 6.50279e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=93
+min: [ 3.36895e+06 , 2.09468e+06 ]
+avg: [ 7.84767e+06 , 6.91802e+06 ]
+max: [ 6.5029e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=94
+min: [ 3.36878e+06 , 2.09468e+06 ]
+avg: [ 7.08879e+06 , 6.13472e+06 ]
+max: [ 6.50289e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=95
+min: [ 3.3676e+06 , 2.09468e+06 ]
+avg: [ 9.44003e+06 , 8.50528e+06 ]
+max: [ 6.00277e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=96
+min: [ 3.3672e+06 , 2.09468e+06 ]
+avg: [ 7.54289e+06 , 6.52765e+06 ]
+max: [ 7.00285e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=99
+min: [ 3.36704e+06 , 2.09468e+06 ]
+avg: [ 7.45022e+06 , 6.47694e+06 ]
+max: [ 6.50286e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=100
+min: [ 3.36703e+06 , 2.09468e+06 ]
+avg: [ 8.62215e+06 , 7.83698e+06 ]
+max: [ 8.50292e+07 , 8.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=101
+min: [ 3.36592e+06 , 2.09468e+06 ]
+avg: [ 6.51022e+06 , 5.50417e+06 ]
+max: [ 7.00284e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=103
+min: [ 3.36588e+06 , 2.09468e+06 ]
+avg: [ 5.88493e+06 , 4.93034e+06 ]
+max: [ 5.00327e+07 , 5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=106
+min: [ 3.36586e+06 , 2.09468e+06 ]
+avg: [ 7.90334e+06 , 7.01985e+06 ]
+max: [ 6.50276e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=107
+min: [ 3.36548e+06 , 2.09468e+06 ]
+avg: [ 6.94201e+06 , 6.0628e+06 ]
+max: [ 7.00301e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=110
+min: [ 3.36522e+06 , 2.09468e+06 ]
+avg: [ 7.43701e+06 , 6.46768e+06 ]
+max: [ 6.50283e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=111
+min: [ 3.36518e+06 , 2.09468e+06 ]
+avg: [ 7.38414e+06 , 6.35659e+06 ]
+max: [ 6.50292e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=113
+min: [ 3.36493e+06 , 2.09468e+06 ]
+avg: [ 5.88907e+06 , 4.82255e+06 ]
+max: [ 6.50292e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=114
+min: [ 3.36492e+06 , 2.09468e+06 ]
+avg: [ 1.03872e+07 , 9.63195e+06 ]
+max: [ 7.00292e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=117
+min: [ 3.36467e+06 , 2.09468e+06 ]
+avg: [ 8.27098e+06 , 7.31633e+06 ]
+max: [ 6.50319e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=121
+min: [ 3.36466e+06 , 2.09468e+06 ]
+avg: [ 7.03004e+06 , 6.01444e+06 ]
+max: [ 6.5028e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=122
+min: [ 3.36465e+06 , 2.09468e+06 ]
+avg: [ 5.24916e+06 , 4.1981e+06 ]
+max: [ 5.50282e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=123
+min: [ 3.36457e+06 , 2.09468e+06 ]
+avg: [ 7.20201e+06 , 6.18428e+06 ]
+max: [ 8.00288e+07 , 8e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=124
+min: [ 3.3643e+06 , 2.09468e+06 ]
+avg: [ 9.78417e+06 , 8.88386e+06 ]
+max: [ 6.50292e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=125
+min: [ 3.36388e+06 , 2.09468e+06 ]
+avg: [ 5.32923e+06 , 4.27809e+06 ]
+max: [ 6.0028e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=126
+min: [ 3.36378e+06 , 2.09468e+06 ]
+avg: [ 7.13304e+06 , 6.24284e+06 ]
+max: [ 6.50278e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=130
+min: [ 3.36378e+06 , 2.09468e+06 ]
+avg: [ 9.93852e+06 , 9.18462e+06 ]
+max: [ 6.5028e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=135
+min: [ 3.36376e+06 , 2.09468e+06 ]
+avg: [ 6.9833e+06 , 6.05945e+06 ]
+max: [ 5.00319e+07 , 5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=155
+min: [ 3.36369e+06 , 2.09468e+06 ]
+avg: [ 5.06878e+06 , 3.95319e+06 ]
+max: [ 6.5028e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=167
+min: [ 3.36366e+06 , 2.09468e+06 ]
+avg: [ 8.9525e+06 , 8.00925e+06 ]
+max: [ 6.5028e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=205
+min: [ 3.36364e+06 , 2.09468e+06 ]
+avg: [ 6.80114e+06 , 5.83611e+06 ]
+max: [ 5.0033e+07 , 5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=210
+min: [ 3.36317e+06 , 2.09468e+06 ]
+avg: [ 4.79679e+06 , 3.68181e+06 ]
+max: [ 6.0028e+07 , 6e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=213
+min: [ 3.36306e+06 , 2.09468e+06 ]
+avg: [ 5.45557e+06 , 4.42491e+06 ]
+max: [ 5.5028e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=217
+min: [ 3.36273e+06 , 2.09468e+06 ]
+avg: [ 5.95114e+06 , 4.89067e+06 ]
+max: [ 6.50328e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=237
+min: [ 3.36267e+06 , 2.09468e+06 ]
+avg: [ 5.33484e+06 , 4.30013e+06 ]
+max: [ 4.0033e+07 , 4e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=256
+min: [ 3.3626e+06 , 2.09468e+06 ]
+avg: [ 4.88221e+06 , 3.75849e+06 ]
+max: [ 5.5028e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=261
+min: [ 3.36256e+06 , 2.09468e+06 ]
+avg: [ 7.72773e+06 , 6.83655e+06 ]
+max: [ 6.50324e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=347
+min: [ 3.36253e+06 , 2.09468e+06 ]
+avg: [ 5.44198e+06 , 4.34764e+06 ]
+max: [ 5.5028e+07 , 5.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=366
+min: [ 3.36253e+06 , 2.09468e+06 ]
+avg: [ 5.68133e+06 , 4.60578e+06 ]
+max: [ 4.00325e+07 , 4e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=417
+min: [ 3.3625e+06 , 2.09468e+06 ]
+avg: [ 9.26362e+06 , 8.45466e+06 ]
+max: [ 7.00279e+07 , 7e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+countGen=437
+min: [ 3.36246e+06 , 2.09468e+06 ]
+avg: [ 7.30408e+06 , 6.34431e+06 ]
+max: [ 6.5028e+07 , 6.5e+07 ]
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+sms av decodage
+deb replacement
+union trié et parent effacé
+end replacement
+taille parents :20
+20
+fitness:31  diversity:    1e+13   origine : 0
+
+fitness:31  diversity:    1e+13   origine : 1
+
+fitness:31  diversity:    1e+13   origine : 2
+
+fitness:31  diversity:    1e+13   origine : 3
+
+fitness:31  diversity:    1e+13   origine : 4
+
+fitness:31  diversity:    1e+13   origine : 5
+
+fitness:31  diversity:    1e+13   origine : 6
+
+fitness:31  diversity:    1e+13   origine : 7
+
+fitness:31  diversity:    1e+13   origine : 8
+
+fitness:31  diversity:    1e+13   origine : 9
+
+fitness:31  diversity:    1e+13   origine : 10
+
+fitness:31  diversity:    1e+13   origine : 11
+
+fitness:31  diversity:    1e+13   origine : 12
+
+fitness:31  diversity:    1e+13   origine : 13
+
+fitness:31  diversity:    1e+13   origine : 14
+
+fitness:31  diversity:    1e+13   origine : 15
+
+fitness:31  diversity:    1e+13   origine : 16
+
+fitness:31  diversity:    1e+13   origine : 17
+
+fitness:31  diversity:    1e+13   origine : 18
+
+fitness:31  diversity:    1e+13   origine : 19
+
+Finalpopopoppo Population
+80
+3.49804e+06   2.14754e+06
+3.38186e+06   2.27218e+06
+3.47904e+06   2.15612e+06
+3.39154e+06   2.24674e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+Final Population
+80
+3.49804e+06   2.14754e+06
+3.38186e+06   2.27218e+06
+3.47904e+06   2.15612e+06
+3.39154e+06   2.24674e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+3.46144e+06   2.16851e+06
+3.36246e+06   2.28724e+06
+3.44485e+06   2.17599e+06
+3.37591e+06   2.25306e+06
+
+# 207
+3.59848e+06   2.09468e+06
+3.59832e+06   2.09468e+06
+3.59423e+06   2.09538e+06
+3.59399e+06   2.09539e+06
+3.59283e+06   2.09566e+06
+3.59159e+06   2.09584e+06
+3.59138e+06   2.09589e+06
+3.58991e+06   2.0961e+06
+3.58871e+06   2.09632e+06
+3.58821e+06   2.0968e+06
+3.58583e+06   2.0968e+06
+3.58562e+06   2.09736e+06
+3.58389e+06   2.09752e+06
+3.58272e+06   2.09777e+06
+3.57981e+06   2.09822e+06
+3.57874e+06   2.09862e+06
+3.57805e+06   2.09881e+06
+3.57775e+06   2.09905e+06
+3.57732e+06   2.09926e+06
+3.57669e+06   2.09944e+06
+3.57166e+06   2.09964e+06
+3.57136e+06   2.10072e+06
+3.56325e+06   2.10178e+06
+3.56094e+06   2.10333e+06
+3.55303e+06   2.10505e+06
+3.55234e+06   2.10777e+06
+3.54827e+06   2.10848e+06
+3.54744e+06   2.11089e+06
+3.54732e+06   2.11109e+06
+3.54566e+06   2.11149e+06
+3.54528e+06   2.11177e+06
+3.54507e+06   2.112e+06
+3.54015e+06   2.11215e+06
+3.5395e+06   2.11339e+06
+3.53804e+06   2.11363e+06
+3.53125e+06   2.1147e+06
+3.53066e+06   2.11506e+06
+3.53029e+06   2.11764e+06
+3.52984e+06   2.11821e+06
+3.52622e+06   2.11835e+06
+3.52601e+06   2.1184e+06
+3.52576e+06   2.11891e+06
+3.5217e+06   2.11963e+06
+3.51954e+06   2.12069e+06
+3.51805e+06   2.12222e+06
+3.5172e+06   2.12292e+06
+3.516e+06   2.12391e+06
+3.51574e+06   2.12474e+06
+3.51538e+06   2.12478e+06
+3.51495e+06   2.12483e+06
+3.50782e+06   2.1252e+06
+3.50563e+06   2.1276e+06
+3.50265e+06   2.12927e+06
+3.49859e+06   2.12998e+06
+3.49754e+06   2.1306e+06
+3.49539e+06   2.13242e+06
+3.49434e+06   2.13316e+06
+3.49312e+06   2.1346e+06
+3.49206e+06   2.13509e+06
+3.49204e+06   2.1351e+06
+3.4918e+06   2.1362e+06
+3.49075e+06   2.1365e+06
+3.48854e+06   2.13705e+06
+3.48633e+06   2.13783e+06
+3.48605e+06   2.13935e+06
+3.48436e+06   2.14128e+06
+3.48362e+06   2.14147e+06
+3.48329e+06   2.14167e+06
+3.48327e+06   2.14176e+06
+3.48179e+06   2.14217e+06
+3.4781e+06   2.14346e+06
+3.47722e+06   2.14432e+06
+3.47529e+06   2.14549e+06
+3.47515e+06   2.14632e+06
+3.47288e+06   2.14784e+06
+3.4727e+06   2.14888e+06
+3.47243e+06   2.14897e+06
+3.47208e+06   2.1491e+06
+3.47187e+06   2.14944e+06
+3.47117e+06   2.14965e+06
+3.46927e+06   2.14983e+06
+3.46815e+06   2.1503e+06
+3.46749e+06   2.15033e+06
+3.46719e+06   2.15036e+06
+3.46701e+06   2.15076e+06
+3.46654e+06   2.15083e+06
+3.4665e+06   2.15096e+06
+3.4656e+06   2.15099e+06
+3.46516e+06   2.15105e+06
+3.4651e+06   2.15119e+06
+3.46463e+06   2.15137e+06
+3.46358e+06   2.15177e+06
+3.46315e+06   2.15218e+06
+3.46235e+06   2.15247e+06
+3.4622e+06   2.15301e+06
+3.46204e+06   2.15335e+06
+3.46167e+06   2.15348e+06
+3.45896e+06   2.15375e+06
+3.45875e+06   2.15585e+06
+3.45647e+06   2.15597e+06
+3.4555e+06   2.15673e+06
+3.45434e+06   2.15801e+06
+3.45195e+06   2.15825e+06
+3.44965e+06   2.16053e+06
+3.44883e+06   2.16191e+06
+3.44883e+06   2.16202e+06
+3.44724e+06   2.16377e+06
+3.44716e+06   2.16391e+06
+3.44708e+06   2.16513e+06
+3.44678e+06   2.16602e+06
+3.44675e+06   2.16605e+06
+3.44671e+06   2.16679e+06
+3.44668e+06   2.16684e+06
+3.44667e+06   2.16725e+06
+3.44659e+06   2.16783e+06
+3.4462e+06   2.16814e+06
+3.4461e+06   2.16856e+06
+3.44593e+06   2.16927e+06
+3.44593e+06   2.16978e+06
+3.44513e+06   2.1701e+06
+3.4451e+06   2.17061e+06
+3.44502e+06   2.17093e+06
+3.44488e+06   2.17138e+06
+3.44473e+06   2.17155e+06
+3.44466e+06   2.17239e+06
+3.44465e+06   2.17251e+06
+3.44457e+06   2.17309e+06
+3.44455e+06   2.17435e+06
+3.44447e+06   2.17527e+06
+3.4177e+06   2.22311e+06
+3.40663e+06   2.22516e+06
+3.40113e+06   2.22664e+06
+3.39983e+06   2.22772e+06
+3.39959e+06   2.22794e+06
+3.39638e+06   2.22882e+06
+3.39614e+06   2.22886e+06
+3.3958e+06   2.23054e+06
+3.39239e+06   2.23148e+06
+3.39118e+06   2.23222e+06
+3.38949e+06   2.23223e+06
+3.38689e+06   2.23245e+06
+3.38592e+06   2.23301e+06
+3.38506e+06   2.23335e+06
+3.38497e+06   2.23401e+06
+3.3849e+06   2.23405e+06
+3.38484e+06   2.23437e+06
+3.38236e+06   2.23447e+06
+3.38049e+06   2.23637e+06
+3.37895e+06   2.23739e+06
+3.37699e+06   2.23803e+06
+3.37632e+06   2.23999e+06
+3.37565e+06   2.24002e+06
+3.37553e+06   2.24046e+06
+3.37526e+06   2.24155e+06
+3.37452e+06   2.24228e+06
+3.37442e+06   2.2471e+06
+3.37438e+06   2.24751e+06
+3.37437e+06   2.24752e+06
+3.37435e+06   2.24755e+06
+3.37416e+06   2.24784e+06
+3.37416e+06   2.24841e+06
+3.37388e+06   2.24903e+06
+3.3737e+06   2.24977e+06
+3.3737e+06   2.25048e+06
+3.37279e+06   2.25741e+06
+3.37215e+06   2.25836e+06
+3.37214e+06   2.25943e+06
+3.3717e+06   2.25953e+06
+3.36843e+06   2.25984e+06
+3.36821e+06   2.26196e+06
+3.36686e+06   2.26309e+06
+3.36678e+06   2.2635e+06
+3.3665e+06   2.26459e+06
+3.36578e+06   2.26533e+06
+3.36573e+06   2.26905e+06
+3.36508e+06   2.26946e+06
+3.36489e+06   2.27021e+06
+3.36482e+06   2.27176e+06
+3.36479e+06   2.27254e+06
+3.36459e+06   2.2732e+06
+3.36456e+06   2.27399e+06
+3.3641e+06   2.27482e+06
+3.36397e+06   2.2751e+06
+3.36388e+06   2.27635e+06
+3.36353e+06   2.27687e+06
+3.36337e+06   2.27763e+06
+3.363e+06   2.27793e+06
+3.36284e+06   2.27868e+06
+3.36281e+06   2.27946e+06
+3.36277e+06   2.28024e+06
+3.36276e+06   2.28024e+06
+3.36276e+06   2.28096e+06
+3.36273e+06   2.28102e+06
+3.36272e+06   2.28102e+06
+3.36269e+06   2.28179e+06
+3.36266e+06   2.28257e+06
+3.36264e+06   2.28335e+06
+3.36262e+06   2.28335e+06
+3.3626e+06   2.28413e+06
+3.36259e+06   2.28413e+06
+3.36258e+06   2.28485e+06
+3.36256e+06   2.28491e+06
+3.36255e+06   2.28563e+06
+3.36253e+06   2.28569e+06
+3.3625e+06   2.28647e+06
+3.36249e+06   2.28719e+06
+3.36246e+06   2.28724e+06
+ point de ref =(8.98919e+06,3.36822e+06)
+air de l'hypervolume :-7.15007e+12

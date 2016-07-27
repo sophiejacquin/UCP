@@ -1,0 +1,450 @@
+creation decoder
+IBEA setup
+avant lancement NSGA2
+dans IBEA
+0: 4.5037e+07  4.5e+07
+1: 4.5037e+07  4.5e+07
+countGen=0
+min: [ 4.5037e+07 , 4.5e+07 ]
+avg: [ 6.62989e+07 , 6.625e+07 ]
+max: [ 1.00064e+08 , 1e+08 ]
+deb replacement
+ibea : fin replace
+0: 4.00367e+07  4e+07
+1: 4.00367e+07  4e+07
+countGen=1
+min: [ 4.00367e+07 , 4e+07 ]
+avg: [ 5.22891e+07 , 5.225e+07 ]
+max: [ 6.00528e+07 , 6e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.50382e+07  3.5e+07
+1: 3.50382e+07  3.5e+07
+countGen=2
+min: [ 3.50382e+07 , 3.5e+07 ]
+avg: [ 4.52882e+07 , 4.525e+07 ]
+max: [ 5.0037e+07 , 5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.50356e+07  3.5e+07
+1: 3.50359e+07  3.5e+07
+countGen=3
+min: [ 3.50356e+07 , 3.5e+07 ]
+avg: [ 4.25364e+07 , 4.25e+07 ]
+max: [ 4.5037e+07 , 4.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.50356e+07  3.5e+07
+1: 3.50356e+07  3.5e+07
+countGen=4
+min: [ 3.50356e+07 , 3.5e+07 ]
+avg: [ 3.82865e+07 , 3.825e+07 ]
+max: [ 4.00381e+07 , 4e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.50353e+07  3.5e+07
+1: 3.50356e+07  3.5e+07
+countGen=5
+min: [ 3.50353e+07 , 3.5e+07 ]
+avg: [ 3.50363e+07 , 3.5e+07 ]
+max: [ 3.50382e+07 , 3.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.50353e+07  3.5e+07
+1: 3.50356e+07  3.5e+07
+countGen=6
+min: [ 3.50353e+07 , 3.5e+07 ]
+avg: [ 3.50356e+07 , 3.5e+07 ]
+max: [ 3.50359e+07 , 3.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.00372e+07  3e+07
+1: 3.00372e+07  3e+07
+countGen=7
+min: [ 3.00372e+07 , 3e+07 ]
+avg: [ 3.47855e+07 , 3.475e+07 ]
+max: [ 3.50356e+07 , 3.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.00372e+07  3e+07
+1: 3.00372e+07  3e+07
+countGen=8
+min: [ 3.00372e+07 , 3e+07 ]
+avg: [ 3.47852e+07 , 3.475e+07 ]
+max: [ 3.50355e+07 , 3.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.00315e+07  3e+07
+1: 3.00372e+07  3e+07
+countGen=9
+min: [ 3.00315e+07 , 3e+07 ]
+avg: [ 3.30353e+07 , 3.3e+07 ]
+max: [ 3.50353e+07 , 3.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.00315e+07  3e+07
+1: 3.00315e+07  3e+07
+countGen=10
+min: [ 3.00315e+07 , 3e+07 ]
+avg: [ 3.10357e+07 , 3.1e+07 ]
+max: [ 3.5034e+07 , 3.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.00315e+07  3e+07
+1: 3.00372e+07  3e+07
+countGen=11
+min: [ 3.00315e+07 , 3e+07 ]
+avg: [ 3.00347e+07 , 3e+07 ]
+max: [ 3.00372e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.00313e+07  3e+07
+1: 3.00315e+07  3e+07
+countGen=12
+min: [ 3.00313e+07 , 3e+07 ]
+avg: [ 3.00323e+07 , 3e+07 ]
+max: [ 3.00364e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 3.00306e+07  3e+07
+1: 3.00315e+07  3e+07
+countGen=13
+min: [ 3.00306e+07 , 3e+07 ]
+avg: [ 3.00314e+07 , 3e+07 ]
+max: [ 3.00315e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.50284e+07  2.5e+07
+1: 2.50309e+07  2.5e+07
+countGen=14
+min: [ 2.50284e+07 , 2.5e+07 ]
+avg: [ 2.95311e+07 , 2.95e+07 ]
+max: [ 3.00315e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.50264e+07  2.5e+07
+1: 2.50309e+07  2.5e+07
+countGen=15
+min: [ 2.50264e+07 , 2.5e+07 ]
+avg: [ 2.82801e+07 , 2.825e+07 ]
+max: [ 3.00313e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.50264e+07  2.5e+07
+1: 2.50286e+07  2.5e+07
+countGen=16
+min: [ 2.50264e+07 , 2.5e+07 ]
+avg: [ 2.52792e+07 , 2.525e+07 ]
+max: [ 3.00294e+07 , 3e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.50247e+07  2.5e+07
+1: 2.50265e+07  2.5e+07
+countGen=17
+min: [ 2.50247e+07 , 2.5e+07 ]
+avg: [ 2.5027e+07 , 2.5e+07 ]
+max: [ 2.50286e+07 , 2.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.0028e+07  2e+07
+1: 2.0028e+07  2e+07
+countGen=18
+min: [ 2.0028e+07 , 2e+07 ]
+avg: [ 2.47762e+07 , 2.475e+07 ]
+max: [ 2.50265e+07 , 2.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.0028e+07  2e+07
+1: 2.0028e+07  2e+07
+countGen=19
+min: [ 2.0028e+07 , 2e+07 ]
+avg: [ 2.4026e+07 , 2.4e+07 ]
+max: [ 2.50264e+07 , 2.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.00271e+07  2e+07
+1: 2.00279e+07  2e+07
+countGen=20
+min: [ 2.00271e+07 , 2e+07 ]
+avg: [ 2.22764e+07 , 2.225e+07 ]
+max: [ 2.50247e+07 , 2.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.00268e+07  2e+07
+1: 2.00268e+07  2e+07
+countGen=21
+min: [ 2.00268e+07 , 2e+07 ]
+avg: [ 2.00279e+07 , 2e+07 ]
+max: [ 2.00281e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.00268e+07  2e+07
+1: 2.00278e+07  2e+07
+countGen=22
+min: [ 2.00268e+07 , 2e+07 ]
+avg: [ 2.00275e+07 , 2e+07 ]
+max: [ 2.0028e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.00267e+07  2e+07
+1: 2.00271e+07  2e+07
+countGen=23
+min: [ 2.00267e+07 , 2e+07 ]
+avg: [ 2.00272e+07 , 2e+07 ]
+max: [ 2.00276e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 2.00263e+07  2e+07
+1: 2.00269e+07  2e+07
+countGen=24
+min: [ 2.00263e+07 , 2e+07 ]
+avg: [ 2.00269e+07 , 2e+07 ]
+max: [ 2.00271e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.50283e+07  1.5e+07
+1: 1.50283e+07  1.5e+07
+countGen=25
+min: [ 1.50283e+07 , 1.5e+07 ]
+avg: [ 1.97768e+07 , 1.975e+07 ]
+max: [ 2.00268e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.50276e+07  1.5e+07
+1: 1.50276e+07  1.5e+07
+countGen=26
+min: [ 1.50276e+07 , 1.5e+07 ]
+avg: [ 1.95267e+07 , 1.95e+07 ]
+max: [ 2.00268e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.50276e+07  1.5e+07
+1: 1.50283e+07  1.5e+07
+countGen=27
+min: [ 1.50276e+07 , 1.5e+07 ]
+avg: [ 1.85267e+07 , 1.85e+07 ]
+max: [ 2.00264e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00283e+07  1e+07
+1: 1.00283e+07  1e+07
+countGen=28
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.7277e+07 , 1.725e+07 ]
+max: [ 2.00259e+07 , 2e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00283e+07  1e+07
+1: 1.00283e+07  1e+07
+countGen=29
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.45277e+07 , 1.45e+07 ]
+max: [ 1.50283e+07 , 1.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00283e+07  1e+07
+1: 1.00283e+07  1e+07
+countGen=30
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.37776e+07 , 1.375e+07 ]
+max: [ 1.50276e+07 , 1.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.0028e+07  1e+07
+1: 1.00283e+07  1e+07
+countGen=31
+min: [ 1.0028e+07 , 1e+07 ]
+avg: [ 1.1528e+07 , 1.15e+07 ]
+max: [ 1.50272e+07 , 1.5e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00277e+07  1e+07
+1: 1.00283e+07  1e+07
+countGen=32
+min: [ 1.00277e+07 , 1e+07 ]
+avg: [ 1.00282e+07 , 1e+07 ]
+max: [ 1.00283e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00277e+07  1e+07
+1: 1.00283e+07  1e+07
+countGen=33
+min: [ 1.00277e+07 , 1e+07 ]
+avg: [ 1.00281e+07 , 1e+07 ]
+max: [ 1.00283e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00274e+07  1e+07
+1: 1.00281e+07  1e+07
+countGen=34
+min: [ 1.00274e+07 , 1e+07 ]
+avg: [ 1.0028e+07 , 1e+07 ]
+max: [ 1.00283e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00269e+07  1e+07
+1: 1.00274e+07  1e+07
+countGen=35
+min: [ 1.00269e+07 , 1e+07 ]
+avg: [ 1.00277e+07 , 1e+07 ]
+max: [ 1.0028e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00263e+07  1e+07
+1: 1.00277e+07  1e+07
+countGen=36
+min: [ 1.00263e+07 , 1e+07 ]
+avg: [ 1.00274e+07 , 1e+07 ]
+max: [ 1.00278e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00263e+07  1e+07
+1: 1.0027e+07  1e+07
+countGen=37
+min: [ 1.00263e+07 , 1e+07 ]
+avg: [ 1.0027e+07 , 1e+07 ]
+max: [ 1.00274e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00259e+07  1e+07
+1: 1.00269e+07  1e+07
+countGen=38
+min: [ 1.00259e+07 , 1e+07 ]
+avg: [ 1.00266e+07 , 1e+07 ]
+max: [ 1.0027e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00265e+07  1e+07
+countGen=39
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.00263e+07 , 1e+07 ]
+max: [ 1.00265e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00263e+07  1e+07
+countGen=40
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.0026e+07 , 1e+07 ]
+max: [ 1.00263e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00257e+07  1e+07
+countGen=41
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.00257e+07 , 1e+07 ]
+max: [ 1.00259e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00256e+07  1e+07
+countGen=42
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.00256e+07 , 1e+07 ]
+max: [ 1.00257e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00256e+07  1e+07
+countGen=43
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.00256e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00256e+07  1e+07
+countGen=44
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.00256e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00256e+07  1e+07
+countGen=45
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.00256e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00256e+07  1e+07
+1: 1.00256e+07  1e+07
+countGen=46
+min: [ 1.00256e+07 , 1e+07 ]
+avg: [ 1.00256e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00247e+07  1e+07
+1: 1.00256e+07  1e+07
+countGen=47
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00255e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00247e+07  1e+07
+1: 1.00247e+07  1e+07
+countGen=48
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00255e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00247e+07  1e+07
+1: 1.00248e+07  1e+07
+countGen=49
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00254e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00241e+07  1e+07
+1: 1.00248e+07  1e+07
+countGen=50
+min: [ 1.00241e+07 , 1e+07 ]
+avg: [ 1.0025e+07 , 1e+07 ]
+max: [ 1.00256e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00241e+07  1e+07
+1: 1.00247e+07  1e+07
+countGen=51
+min: [ 1.00241e+07 , 1e+07 ]
+avg: [ 1.00246e+07 , 1e+07 ]
+max: [ 1.00248e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00236e+07  1e+07
+1: 1.00247e+07  1e+07
+countGen=52
+min: [ 1.00236e+07 , 1e+07 ]
+avg: [ 1.00244e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00236e+07  1e+07
+1: 1.00242e+07  1e+07
+countGen=53
+min: [ 1.00236e+07 , 1e+07 ]
+avg: [ 1.00242e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00236e+07  1e+07
+1: 1.00241e+07  1e+07
+countGen=54
+min: [ 1.00236e+07 , 1e+07 ]
+avg: [ 1.0024e+07 , 1e+07 ]
+max: [ 1.00241e+07 , 1e+07 ]
+deb replacement
+ibea : fin replace
+0: 1.00236e+07  1e+07
+1: 1.00241e+07  1e+07
+countGen=55
+min: [ 1.00236e+07 , 1e+07 ]
+avg: [ 1.00239e+07 , 1e+07 ]
+max: [ 1.00241e+07 , 1e+07 ]

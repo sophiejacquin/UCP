@@ -1,0 +1,76 @@
+#include <unistd.h>
+#include <iostream>
+#include <fstream>
+#include <stdio.h>
+#include <sys/types.h>
+#include <stdlib.h> 
+#include <sys/wait.h>
+#include <string>
+#include <sstream>
+using namespace std;
+
+int main(int argc,char ** argv)
+{
+  pid_t pid;
+  int nbIterations,status,nb=1,seed=10,commit;
+  string outputDirName,paramFileName,inputFileName;
+ 
+  for(unsigned int i=1;i<argc;i++)
+    {      
+      paramFileName = argv[i++];
+      nb++;
+    
+      inputFileName = argv[i++];
+      nb++;
+
+      outputDirName = argv[i++];
+      nb++;
+
+      nbIterations = atoi(argv[i]);
+    }
+ 
+  char * cmd[nb+1];
+
+  cmd[0]=(char*)"./UCP";
+
+  stringstream sparamFile;
+  sparamFile << "@" << paramFileName;
+  string sp(sparamFile.str());
+  cmd[1]=(char*)(sp.c_str());
+
+  stringstream sinputFile;
+  sinputFile << "--inputFile=" <<inputFileName;
+  string si(sinputFile.str());
+  cmd[2]=(char*)(si.c_str()); 
+
+  for(unsigned i=0;i<nbIterations;i++)
+    {
+    
+      stringstream resDir;
+      resDir<<"--resDir="<<outputDirName<<i;
+      string paramResDir(resDir.str());
+      cmd[3]=(char*)paramResDir.c_str();
+
+      stringstream sseed;      
+      sseed << "--seed="<<seed;      
+      string paramSeed(sseed.str());
+      cmd[4]=(char*)paramSeed.c_str();
+
+      cmd[5]=NULL;
+      
+      switch(pid=fork())
+	{
+	case -1:
+	  perror("error::at fork call.\n");
+	case 0:
+	  execvp(cmd[0],cmd);
+	  perror("error::at execvp call.\n");
+	  break; 
+	default:
+	  wait(&status);
+	  break;
+	} 	
+      seed+=10;
+    }
+  return 0;
+}

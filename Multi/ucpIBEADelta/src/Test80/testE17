@@ -1,0 +1,3232 @@
+creation decoder
+IBEA setup
+avant lancement NSGA2
+dans IBEA
+countGen=0
+min: [ 4.00404e+07 , 4e+07 ]
+avg: [ 6.13111e+07 , 6.125e+07 ]
+max: [ 9.00839e+07 , 9e+07 ]
+9.90923e+07 9.9e+07
+deb replacement
+9.90923e+07 9.9e+07
+countGen=1
+min: [ 4.00404e+07 , 4e+07 ]
+avg: [ 4.73033e+07 , 4.725e+07 ]
+max: [ 6.00425e+07 , 6e+07 ]
+deb replacement
+6.60468e+07 6.6e+07
+countGen=2
+min: [ 4.004e+07 , 4e+07 ]
+avg: [ 4.27955e+07 , 4.275e+07 ]
+max: [ 4.50612e+07 , 4.5e+07 ]
+deb replacement
+4.95673e+07 4.95e+07
+countGen=3
+min: [ 2.5035e+07 , 2.5e+07 ]
+avg: [ 3.92903e+07 , 3.925e+07 ]
+max: [ 4.00449e+07 , 4e+07 ]
+deb replacement
+4.40494e+07 4.4e+07
+countGen=4
+min: [ 2.5035e+07 , 2.5e+07 ]
+avg: [ 3.77896e+07 , 3.775e+07 ]
+max: [ 4.00404e+07 , 4e+07 ]
+deb replacement
+4.40451e+07 4.4e+07
+countGen=5
+min: [ 2.5035e+07 , 2.5e+07 ]
+avg: [ 3.42888e+07 , 3.425e+07 ]
+max: [ 4.004e+07 , 4e+07 ]
+deb replacement
+4.40456e+07 4.4e+07
+countGen=6
+min: [ 2.5035e+07 , 2.5e+07 ]
+avg: [ 2.87858e+07 , 2.875e+07 ]
+max: [ 3.50362e+07 , 3.5e+07 ]
+deb replacement
+3.85398e+07 3.85e+07
+countGen=7
+min: [ 2.00355e+07 , 2e+07 ]
+avg: [ 2.4785e+07 , 2.475e+07 ]
+max: [ 2.5035e+07 , 2.5e+07 ]
+deb replacement
+3.8544e+07 3.85e+07
+countGen=8
+min: [ 2.00355e+07 , 2e+07 ]
+avg: [ 2.42851e+07 , 2.425e+07 ]
+max: [ 2.5035e+07 , 2.5e+07 ]
+deb replacement
+2.75449e+07 2.75e+07
+countGen=9
+min: [ 2.00355e+07 , 2e+07 ]
+avg: [ 2.30352e+07 , 2.3e+07 ]
+max: [ 2.5035e+07 , 2.5e+07 ]
+deb replacement
+2.75385e+07 2.75e+07
+countGen=10
+min: [ 2.00355e+07 , 2e+07 ]
+avg: [ 2.00355e+07 , 2e+07 ]
+max: [ 2.00355e+07 , 2e+07 ]
+deb replacement
+2.20438e+07 2.2e+07
+countGen=11
+min: [ 2.00355e+07 , 2e+07 ]
+avg: [ 2.00355e+07 , 2e+07 ]
+max: [ 2.00355e+07 , 2e+07 ]
+deb replacement
+2.2045e+07 2.2e+07
+countGen=12
+min: [ 2.00355e+07 , 2e+07 ]
+avg: [ 2.00355e+07 , 2e+07 ]
+max: [ 2.00355e+07 , 2e+07 ]
+deb replacement
+2.20451e+07 2.2e+07
+countGen=13
+min: [ 2.00349e+07 , 2e+07 ]
+avg: [ 2.00354e+07 , 2e+07 ]
+max: [ 2.00355e+07 , 2e+07 ]
+deb replacement
+2.20451e+07 2.2e+07
+countGen=14
+min: [ 2.00337e+07 , 2e+07 ]
+avg: [ 2.00352e+07 , 2e+07 ]
+max: [ 2.00355e+07 , 2e+07 ]
+deb replacement
+2.20439e+07 2.2e+07
+countGen=15
+min: [ 2.00337e+07 , 2e+07 ]
+avg: [ 2.00345e+07 , 2e+07 ]
+max: [ 2.00355e+07 , 2e+07 ]
+deb replacement
+3.85378e+07 3.85e+07
+countGen=16
+min: [ 2.00337e+07 , 2e+07 ]
+avg: [ 2.00339e+07 , 2e+07 ]
+max: [ 2.00344e+07 , 2e+07 ]
+deb replacement
+2.2038e+07 2.2e+07
+countGen=17
+min: [ 2.00337e+07 , 2e+07 ]
+avg: [ 2.00337e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+2.75381e+07 2.75e+07
+countGen=18
+min: [ 2.00337e+07 , 2e+07 ]
+avg: [ 2.00337e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+2.20373e+07 2.2e+07
+countGen=19
+min: [ 2.00337e+07 , 2e+07 ]
+avg: [ 2.00337e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+2.20422e+07 2.2e+07
+countGen=20
+min: [ 2.00337e+07 , 2e+07 ]
+avg: [ 2.00337e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+2.20426e+07 2.2e+07
+countGen=21
+min: [ 2.00332e+07 , 2e+07 ]
+avg: [ 2.00337e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+5.50371e+07 5.5e+07
+countGen=22
+min: [ 2.00332e+07 , 2e+07 ]
+avg: [ 2.00336e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+3.3042e+07 3.3e+07
+countGen=23
+min: [ 2.00332e+07 , 2e+07 ]
+avg: [ 2.00336e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+2.75381e+07 2.75e+07
+countGen=24
+min: [ 2.00331e+07 , 2e+07 ]
+avg: [ 2.00335e+07 , 2e+07 ]
+max: [ 2.00337e+07 , 2e+07 ]
+deb replacement
+2.20421e+07 2.2e+07
+countGen=25
+min: [ 2.00331e+07 , 2e+07 ]
+avg: [ 2.00332e+07 , 2e+07 ]
+max: [ 2.00334e+07 , 2e+07 ]
+deb replacement
+3.30414e+07 3.3e+07
+countGen=26
+min: [ 2.00331e+07 , 2e+07 ]
+avg: [ 2.00331e+07 , 2e+07 ]
+max: [ 2.00332e+07 , 2e+07 ]
+deb replacement
+2.20377e+07 2.2e+07
+countGen=27
+min: [ 2.00331e+07 , 2e+07 ]
+avg: [ 2.00331e+07 , 2e+07 ]
+max: [ 2.00332e+07 , 2e+07 ]
+deb replacement
+2.20414e+07 2.2e+07
+countGen=28
+min: [ 2.00331e+07 , 2e+07 ]
+avg: [ 2.00331e+07 , 2e+07 ]
+max: [ 2.00331e+07 , 2e+07 ]
+deb replacement
+2.75364e+07 2.75e+07
+countGen=29
+min: [ 2.00331e+07 , 2e+07 ]
+avg: [ 2.00331e+07 , 2e+07 ]
+max: [ 2.00331e+07 , 2e+07 ]
+deb replacement
+2.20429e+07 2.2e+07
+countGen=30
+min: [ 2.0033e+07 , 2e+07 ]
+avg: [ 2.00331e+07 , 2e+07 ]
+max: [ 2.00331e+07 , 2e+07 ]
+deb replacement
+2.20364e+07 2.2e+07
+countGen=31
+min: [ 2.00329e+07 , 2e+07 ]
+avg: [ 2.00331e+07 , 2e+07 ]
+max: [ 2.00331e+07 , 2e+07 ]
+deb replacement
+3.30363e+07 3.3e+07
+countGen=32
+min: [ 2.00329e+07 , 2e+07 ]
+avg: [ 2.0033e+07 , 2e+07 ]
+max: [ 2.00331e+07 , 2e+07 ]
+deb replacement
+2.20377e+07 2.2e+07
+countGen=33
+min: [ 2.00329e+07 , 2e+07 ]
+avg: [ 2.00329e+07 , 2e+07 ]
+max: [ 2.00331e+07 , 2e+07 ]
+deb replacement
+3.30365e+07 3.3e+07
+countGen=34
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00329e+07 , 2e+07 ]
+max: [ 2.00329e+07 , 2e+07 ]
+deb replacement
+2.20399e+07 2.2e+07
+countGen=35
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00329e+07 , 2e+07 ]
+max: [ 2.00329e+07 , 2e+07 ]
+deb replacement
+3.85361e+07 3.85e+07
+countGen=36
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00329e+07 , 2e+07 ]
+max: [ 2.00329e+07 , 2e+07 ]
+deb replacement
+4.95361e+07 4.95e+07
+countGen=37
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00328e+07 , 2e+07 ]
+max: [ 2.00329e+07 , 2e+07 ]
+deb replacement
+4.40361e+07 4.4e+07
+countGen=38
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00328e+07 , 2e+07 ]
+max: [ 2.00329e+07 , 2e+07 ]
+deb replacement
+2.75364e+07 2.75e+07
+countGen=39
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00328e+07 , 2e+07 ]
+max: [ 2.00328e+07 , 2e+07 ]
+deb replacement
+2.20392e+07 2.2e+07
+countGen=40
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00328e+07 , 2e+07 ]
+max: [ 2.00328e+07 , 2e+07 ]
+deb replacement
+2.20361e+07 2.2e+07
+countGen=41
+min: [ 2.00328e+07 , 2e+07 ]
+avg: [ 2.00328e+07 , 2e+07 ]
+max: [ 2.00328e+07 , 2e+07 ]
+deb replacement
+3.30367e+07 3.3e+07
+countGen=42
+min: [ 2.00306e+07 , 2e+07 ]
+avg: [ 2.00327e+07 , 2e+07 ]
+max: [ 2.00328e+07 , 2e+07 ]
+deb replacement
+4.95361e+07 4.95e+07
+countGen=43
+min: [ 2.00306e+07 , 2e+07 ]
+avg: [ 2.00324e+07 , 2e+07 ]
+max: [ 2.00328e+07 , 2e+07 ]
+deb replacement
+3.85337e+07 3.85e+07
+countGen=44
+min: [ 2.00306e+07 , 2e+07 ]
+avg: [ 2.00316e+07 , 2e+07 ]
+max: [ 2.00328e+07 , 2e+07 ]
+deb replacement
+3.30347e+07 3.3e+07
+countGen=45
+min: [ 1.50323e+07 , 1.5e+07 ]
+avg: [ 1.97807e+07 , 1.975e+07 ]
+max: [ 2.00306e+07 , 2e+07 ]
+deb replacement
+2.75337e+07 2.75e+07
+countGen=46
+min: [ 1.50318e+07 , 1.5e+07 ]
+avg: [ 1.9031e+07 , 1.9e+07 ]
+max: [ 2.00306e+07 , 2e+07 ]
+deb replacement
+2.20405e+07 2.2e+07
+countGen=47
+min: [ 1.50318e+07 , 1.5e+07 ]
+avg: [ 1.77816e+07 , 1.775e+07 ]
+max: [ 2.00306e+07 , 2e+07 ]
+deb replacement
+3.30358e+07 3.3e+07
+countGen=48
+min: [ 1.50318e+07 , 1.5e+07 ]
+avg: [ 1.50328e+07 , 1.5e+07 ]
+max: [ 1.50373e+07 , 1.5e+07 ]
+deb replacement
+3.85356e+07 3.85e+07
+countGen=49
+min: [ 1.50318e+07 , 1.5e+07 ]
+avg: [ 1.50322e+07 , 1.5e+07 ]
+max: [ 1.50325e+07 , 1.5e+07 ]
+deb replacement
+1.65388e+07 1.65e+07
+countGen=50
+min: [ 1.50316e+07 , 1.5e+07 ]
+avg: [ 1.5032e+07 , 1.5e+07 ]
+max: [ 1.50322e+07 , 1.5e+07 ]
+deb replacement
+4.95349e+07 4.95e+07
+countGen=51
+min: [ 1.50316e+07 , 1.5e+07 ]
+avg: [ 1.50318e+07 , 1.5e+07 ]
+max: [ 1.50319e+07 , 1.5e+07 ]
+deb replacement
+1.65376e+07 1.65e+07
+countGen=52
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.47818e+07 , 1.475e+07 ]
+max: [ 1.50318e+07 , 1.5e+07 ]
+deb replacement
+2.20351e+07 2.2e+07
+countGen=53
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.47818e+07 , 1.475e+07 ]
+max: [ 1.50318e+07 , 1.5e+07 ]
+deb replacement
+1.65392e+07 1.65e+07
+countGen=54
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.42818e+07 , 1.425e+07 ]
+max: [ 1.50316e+07 , 1.5e+07 ]
+deb replacement
+2.75368e+07 2.75e+07
+countGen=55
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.37818e+07 , 1.375e+07 ]
+max: [ 1.50316e+07 , 1.5e+07 ]
+deb replacement
+1.65357e+07 1.65e+07
+countGen=56
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.20321e+07 , 1.2e+07 ]
+max: [ 1.50316e+07 , 1.5e+07 ]
+deb replacement
+2.75394e+07 2.75e+07
+countGen=57
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.0034e+07 , 1e+07 ]
+max: [ 1.0034e+07 , 1e+07 ]
+deb replacement
+3.30374e+07 3.3e+07
+countGen=58
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.0034e+07 , 1e+07 ]
+max: [ 1.0034e+07 , 1e+07 ]
+deb replacement
+3.85374e+07 3.85e+07
+countGen=59
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.0034e+07 , 1e+07 ]
+max: [ 1.0034e+07 , 1e+07 ]
+deb replacement
+1.10428e+07 1.1e+07
+countGen=60
+min: [ 1.0034e+07 , 1e+07 ]
+avg: [ 1.0034e+07 , 1e+07 ]
+max: [ 1.0034e+07 , 1e+07 ]
+deb replacement
+1.10387e+07 1.1e+07
+countGen=61
+min: [ 1.00339e+07 , 1e+07 ]
+avg: [ 1.0034e+07 , 1e+07 ]
+max: [ 1.0034e+07 , 1e+07 ]
+deb replacement
+1.10387e+07 1.1e+07
+countGen=62
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.0034e+07 , 1e+07 ]
+max: [ 1.0034e+07 , 1e+07 ]
+deb replacement
+2.75429e+07 2.75e+07
+countGen=63
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.00339e+07 , 1e+07 ]
+max: [ 1.0034e+07 , 1e+07 ]
+deb replacement
+1.6538e+07 1.65e+07
+countGen=64
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.00338e+07 , 1e+07 ]
+max: [ 1.00339e+07 , 1e+07 ]
+deb replacement
+2.20373e+07 2.2e+07
+countGen=65
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00338e+07 , 1e+07 ]
+deb replacement
+1.65371e+07 1.65e+07
+countGen=66
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+3.8537e+07 3.85e+07
+countGen=67
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+1.6537e+07 1.65e+07
+countGen=68
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+1.65373e+07 1.65e+07
+countGen=69
+min: [ 1.00337e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+1.10431e+07 1.1e+07
+countGen=70
+min: [ 1.00336e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+2.2038e+07 2.2e+07
+countGen=71
+min: [ 1.00336e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+1.6537e+07 1.65e+07
+countGen=72
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00337e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+1.65358e+07 1.65e+07
+countGen=73
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00336e+07 , 1e+07 ]
+max: [ 1.00337e+07 , 1e+07 ]
+deb replacement
+1.10373e+07 1.1e+07
+countGen=74
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00336e+07 , 1e+07 ]
+max: [ 1.00336e+07 , 1e+07 ]
+deb replacement
+2.20376e+07 2.2e+07
+countGen=75
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00335e+07 , 1e+07 ]
+max: [ 1.00336e+07 , 1e+07 ]
+deb replacement
+3.85368e+07 3.85e+07
+countGen=76
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00335e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+2.75368e+07 2.75e+07
+countGen=77
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00335e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+1.10377e+07 1.1e+07
+countGen=78
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00335e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+2.75368e+07 2.75e+07
+countGen=79
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00335e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+2.75368e+07 2.75e+07
+countGen=80
+min: [ 1.00335e+07 , 1e+07 ]
+avg: [ 1.00335e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+2.75368e+07 2.75e+07
+countGen=81
+min: [ 1.00308e+07 , 1e+07 ]
+avg: [ 1.00333e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+3.85418e+07 3.85e+07
+countGen=82
+min: [ 1.00308e+07 , 1e+07 ]
+avg: [ 1.00333e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+4.40368e+07 4.4e+07
+countGen=83
+min: [ 1.00308e+07 , 1e+07 ]
+avg: [ 1.00327e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+2.75339e+07 2.75e+07
+countGen=84
+min: [ 1.00308e+07 , 1e+07 ]
+avg: [ 1.00311e+07 , 1e+07 ]
+max: [ 1.00335e+07 , 1e+07 ]
+deb replacement
+1.10379e+07 1.1e+07
+countGen=85
+min: [ 1.00308e+07 , 1e+07 ]
+avg: [ 1.00308e+07 , 1e+07 ]
+max: [ 1.00308e+07 , 1e+07 ]
+deb replacement
+3.85394e+07 3.85e+07
+countGen=86
+min: [ 1.00308e+07 , 1e+07 ]
+avg: [ 1.00308e+07 , 1e+07 ]
+max: [ 1.00308e+07 , 1e+07 ]
+deb replacement
+1.10348e+07 1.1e+07
+countGen=87
+min: [ 1.00308e+07 , 1e+07 ]
+avg: [ 1.00308e+07 , 1e+07 ]
+max: [ 1.00308e+07 , 1e+07 ]
+deb replacement
+1.65339e+07 1.65e+07
+countGen=88
+min: [ 1.00306e+07 , 1e+07 ]
+avg: [ 1.00308e+07 , 1e+07 ]
+max: [ 1.00308e+07 , 1e+07 ]
+deb replacement
+1.65339e+07 1.65e+07
+countGen=89
+min: [ 1.00306e+07 , 1e+07 ]
+avg: [ 1.00308e+07 , 1e+07 ]
+max: [ 1.00308e+07 , 1e+07 ]
+deb replacement
+3.30389e+07 3.3e+07
+countGen=90
+min: [ 1.00306e+07 , 1e+07 ]
+avg: [ 1.00308e+07 , 1e+07 ]
+max: [ 1.00308e+07 , 1e+07 ]
+deb replacement
+1.65329e+07 1.65e+07
+countGen=91
+min: [ 1.00306e+07 , 1e+07 ]
+avg: [ 1.00307e+07 , 1e+07 ]
+max: [ 1.00308e+07 , 1e+07 ]
+deb replacement
+2.20338e+07 2.2e+07
+countGen=92
+min: [ 1.003e+07 , 1e+07 ]
+avg: [ 1.00305e+07 , 1e+07 ]
+max: [ 1.00306e+07 , 1e+07 ]
+deb replacement
+2.20391e+07 2.2e+07
+countGen=93
+min: [ 1.003e+07 , 1e+07 ]
+avg: [ 1.00305e+07 , 1e+07 ]
+max: [ 1.00306e+07 , 1e+07 ]
+deb replacement
+3.85386e+07 3.85e+07
+countGen=94
+min: [ 1.003e+07 , 1e+07 ]
+avg: [ 1.00305e+07 , 1e+07 ]
+max: [ 1.00306e+07 , 1e+07 ]
+deb replacement
+3.30386e+07 3.3e+07
+countGen=95
+min: [ 1.003e+07 , 1e+07 ]
+avg: [ 1.00303e+07 , 1e+07 ]
+max: [ 1.00306e+07 , 1e+07 ]
+deb replacement
+1.10403e+07 1.1e+07
+countGen=96
+min: [ 1.003e+07 , 1e+07 ]
+avg: [ 1.003e+07 , 1e+07 ]
+max: [ 1.00306e+07 , 1e+07 ]
+deb replacement
+1.10336e+07 1.1e+07
+countGen=97
+min: [ 1.003e+07 , 1e+07 ]
+avg: [ 1.003e+07 , 1e+07 ]
+max: [ 1.003e+07 , 1e+07 ]
+deb replacement
+4.9533e+07 4.95e+07
+countGen=98
+min: [ 1.003e+07 , 1e+07 ]
+avg: [ 1.003e+07 , 1e+07 ]
+max: [ 1.003e+07 , 1e+07 ]
+deb replacement
+2.20333e+07 2.2e+07
+countGen=99
+min: [ 1.00294e+07 , 1e+07 ]
+avg: [ 1.003e+07 , 1e+07 ]
+max: [ 1.003e+07 , 1e+07 ]
+deb replacement
+1.10333e+07 1.1e+07
+countGen=100
+min: [ 1.00294e+07 , 1e+07 ]
+avg: [ 1.00299e+07 , 1e+07 ]
+max: [ 1.003e+07 , 1e+07 ]
+deb replacement
+2.20339e+07 2.2e+07
+countGen=101
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00297e+07 , 1e+07 ]
+max: [ 1.003e+07 , 1e+07 ]
+deb replacement
+1.10348e+07 1.1e+07
+countGen=102
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00293e+07 , 1e+07 ]
+max: [ 1.00294e+07 , 1e+07 ]
+deb replacement
+3.30323e+07 3.3e+07
+countGen=103
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00292e+07 , 1e+07 ]
+max: [ 1.00294e+07 , 1e+07 ]
+deb replacement
+3.8537e+07 3.85e+07
+countGen=104
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00292e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+1.10376e+07 1.1e+07
+countGen=105
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00292e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+1.10324e+07 1.1e+07
+countGen=106
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00292e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+1.1037e+07 1.1e+07
+countGen=107
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00292e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+3.85321e+07 3.85e+07
+countGen=108
+min: [ 1.00292e+07 , 1e+07 ]
+avg: [ 1.00292e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+3.30376e+07 3.3e+07
+countGen=109
+min: [ 1.00286e+07 , 1e+07 ]
+avg: [ 1.00291e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+1.10333e+07 1.1e+07
+countGen=110
+min: [ 1.00286e+07 , 1e+07 ]
+avg: [ 1.00291e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+1.10331e+07 1.1e+07
+countGen=111
+min: [ 1.00286e+07 , 1e+07 ]
+avg: [ 1.00291e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+1.10331e+07 1.1e+07
+countGen=112
+min: [ 1.00286e+07 , 1e+07 ]
+avg: [ 1.00289e+07 , 1e+07 ]
+max: [ 1.00292e+07 , 1e+07 ]
+deb replacement
+1.10416e+07 1.1e+07
+countGen=113
+min: [ 1.00286e+07 , 1e+07 ]
+avg: [ 1.00286e+07 , 1e+07 ]
+max: [ 1.00287e+07 , 1e+07 ]
+deb replacement
+1.65316e+07 1.65e+07
+countGen=114
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.00286e+07 , 1e+07 ]
+max: [ 1.00286e+07 , 1e+07 ]
+deb replacement
+2.20321e+07 2.2e+07
+countGen=115
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.00286e+07 , 1e+07 ]
+max: [ 1.00286e+07 , 1e+07 ]
+deb replacement
+1.10364e+07 1.1e+07
+countGen=116
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.00285e+07 , 1e+07 ]
+max: [ 1.00286e+07 , 1e+07 ]
+deb replacement
+1.10333e+07 1.1e+07
+countGen=117
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.00285e+07 , 1e+07 ]
+max: [ 1.00286e+07 , 1e+07 ]
+deb replacement
+3.85361e+07 3.85e+07
+countGen=118
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.00284e+07 , 1e+07 ]
+max: [ 1.00286e+07 , 1e+07 ]
+deb replacement
+1.10324e+07 1.1e+07
+countGen=119
+min: [ 1.00283e+07 , 1e+07 ]
+avg: [ 1.00283e+07 , 1e+07 ]
+max: [ 1.00283e+07 , 1e+07 ]
+deb replacement
+2.75312e+07 2.75e+07
+countGen=120
+min: [ 1.00281e+07 , 1e+07 ]
+avg: [ 1.00283e+07 , 1e+07 ]
+max: [ 1.00283e+07 , 1e+07 ]
+deb replacement
+1.65312e+07 1.65e+07
+countGen=121
+min: [ 1.00281e+07 , 1e+07 ]
+avg: [ 1.00283e+07 , 1e+07 ]
+max: [ 1.00283e+07 , 1e+07 ]
+deb replacement
+2.20319e+07 2.2e+07
+countGen=122
+min: [ 1.00281e+07 , 1e+07 ]
+avg: [ 1.00282e+07 , 1e+07 ]
+max: [ 1.00283e+07 , 1e+07 ]
+deb replacement
+1.10386e+07 1.1e+07
+countGen=123
+min: [ 1.00281e+07 , 1e+07 ]
+avg: [ 1.00281e+07 , 1e+07 ]
+max: [ 1.00281e+07 , 1e+07 ]
+deb replacement
+2.75311e+07 2.75e+07
+countGen=124
+min: [ 1.00281e+07 , 1e+07 ]
+avg: [ 1.00281e+07 , 1e+07 ]
+max: [ 1.00281e+07 , 1e+07 ]
+deb replacement
+2.75309e+07 2.75e+07
+countGen=125
+min: [ 1.00281e+07 , 1e+07 ]
+avg: [ 1.00281e+07 , 1e+07 ]
+max: [ 1.00281e+07 , 1e+07 ]
+deb replacement
+1.10358e+07 1.1e+07
+countGen=126
+min: [ 1.0028e+07 , 1e+07 ]
+avg: [ 1.00281e+07 , 1e+07 ]
+max: [ 1.00281e+07 , 1e+07 ]
+deb replacement
+4.40309e+07 4.4e+07
+countGen=127
+min: [ 1.0028e+07 , 1e+07 ]
+avg: [ 1.00281e+07 , 1e+07 ]
+max: [ 1.00281e+07 , 1e+07 ]
+deb replacement
+3.30364e+07 3.3e+07
+countGen=128
+min: [ 1.0028e+07 , 1e+07 ]
+avg: [ 1.0028e+07 , 1e+07 ]
+max: [ 1.00281e+07 , 1e+07 ]
+deb replacement
+1.65308e+07 1.65e+07
+countGen=129
+min: [ 1.00279e+07 , 1e+07 ]
+avg: [ 1.0028e+07 , 1e+07 ]
+max: [ 1.0028e+07 , 1e+07 ]
+deb replacement
+1.10319e+07 1.1e+07
+countGen=130
+min: [ 1.00279e+07 , 1e+07 ]
+avg: [ 1.0028e+07 , 1e+07 ]
+max: [ 1.0028e+07 , 1e+07 ]
+deb replacement
+3.85308e+07 3.85e+07
+countGen=131
+min: [ 1.00279e+07 , 1e+07 ]
+avg: [ 1.0028e+07 , 1e+07 ]
+max: [ 1.0028e+07 , 1e+07 ]
+deb replacement
+1.10327e+07 1.1e+07
+countGen=132
+min: [ 1.00278e+07 , 1e+07 ]
+avg: [ 1.00279e+07 , 1e+07 ]
+max: [ 1.0028e+07 , 1e+07 ]
+deb replacement
+3.30308e+07 3.3e+07
+countGen=133
+min: [ 1.00278e+07 , 1e+07 ]
+avg: [ 1.00279e+07 , 1e+07 ]
+max: [ 1.00279e+07 , 1e+07 ]
+deb replacement
+1.10325e+07 1.1e+07
+countGen=134
+min: [ 1.00278e+07 , 1e+07 ]
+avg: [ 1.00279e+07 , 1e+07 ]
+max: [ 1.00279e+07 , 1e+07 ]
+deb replacement
+1.10307e+07 1.1e+07
+countGen=135
+min: [ 1.00277e+07 , 1e+07 ]
+avg: [ 1.00278e+07 , 1e+07 ]
+max: [ 1.00278e+07 , 1e+07 ]
+deb replacement
+2.20309e+07 2.2e+07
+countGen=136
+min: [ 1.00277e+07 , 1e+07 ]
+avg: [ 1.00278e+07 , 1e+07 ]
+max: [ 1.00278e+07 , 1e+07 ]
+deb replacement
+3.85306e+07 3.85e+07
+countGen=137
+min: [ 1.00277e+07 , 1e+07 ]
+avg: [ 1.00278e+07 , 1e+07 ]
+max: [ 1.00278e+07 , 1e+07 ]
+deb replacement
+1.65307e+07 1.65e+07
+countGen=138
+min: [ 1.00277e+07 , 1e+07 ]
+avg: [ 1.00278e+07 , 1e+07 ]
+max: [ 1.00278e+07 , 1e+07 ]
+deb replacement
+1.65305e+07 1.65e+07
+countGen=139
+min: [ 1.00272e+07 , 1e+07 ]
+avg: [ 1.00277e+07 , 1e+07 ]
+max: [ 1.00277e+07 , 1e+07 ]
+deb replacement
+2.75304e+07 2.75e+07
+countGen=140
+min: [ 1.00272e+07 , 1e+07 ]
+avg: [ 1.00276e+07 , 1e+07 ]
+max: [ 1.00277e+07 , 1e+07 ]
+deb replacement
+1.653e+07 1.65e+07
+countGen=141
+min: [ 1.00272e+07 , 1e+07 ]
+avg: [ 1.00275e+07 , 1e+07 ]
+max: [ 1.00277e+07 , 1e+07 ]
+deb replacement
+1.65301e+07 1.65e+07
+countGen=142
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00272e+07 , 1e+07 ]
+max: [ 1.00273e+07 , 1e+07 ]
+deb replacement
+2.75299e+07 2.75e+07
+countGen=143
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00272e+07 , 1e+07 ]
+max: [ 1.00272e+07 , 1e+07 ]
+deb replacement
+2.75305e+07 2.75e+07
+countGen=144
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00272e+07 , 1e+07 ]
+max: [ 1.00272e+07 , 1e+07 ]
+deb replacement
+1.1036e+07 1.1e+07
+countGen=145
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00271e+07 , 1e+07 ]
+max: [ 1.00272e+07 , 1e+07 ]
+deb replacement
+3.30298e+07 3.3e+07
+countGen=146
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00271e+07 , 1e+07 ]
+max: [ 1.00271e+07 , 1e+07 ]
+deb replacement
+1.65304e+07 1.65e+07
+countGen=147
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00271e+07 , 1e+07 ]
+max: [ 1.00271e+07 , 1e+07 ]
+deb replacement
+3.85353e+07 3.85e+07
+countGen=148
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00271e+07 , 1e+07 ]
+max: [ 1.00271e+07 , 1e+07 ]
+deb replacement
+1.653e+07 1.65e+07
+countGen=149
+min: [ 1.00271e+07 , 1e+07 ]
+avg: [ 1.00271e+07 , 1e+07 ]
+max: [ 1.00271e+07 , 1e+07 ]
+deb replacement
+1.65308e+07 1.65e+07
+countGen=150
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00271e+07 , 1e+07 ]
+max: [ 1.00271e+07 , 1e+07 ]
+deb replacement
+2.75308e+07 2.75e+07
+countGen=151
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00269e+07 , 1e+07 ]
+max: [ 1.00271e+07 , 1e+07 ]
+deb replacement
+1.103e+07 1.1e+07
+countGen=152
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00265e+07 , 1e+07 ]
+max: [ 1.00271e+07 , 1e+07 ]
+deb replacement
+1.10298e+07 1.1e+07
+countGen=153
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10338e+07 1.1e+07
+countGen=154
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10297e+07 1.1e+07
+countGen=155
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+2.75288e+07 2.75e+07
+countGen=156
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10343e+07 1.1e+07
+countGen=157
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+2.75337e+07 2.75e+07
+countGen=158
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+2.75294e+07 2.75e+07
+countGen=159
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.104e+07 1.1e+07
+countGen=160
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+3.85343e+07 3.85e+07
+countGen=161
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10314e+07 1.1e+07
+countGen=162
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10294e+07 1.1e+07
+countGen=163
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10337e+07 1.1e+07
+countGen=164
+min: [ 1.00262e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+2.20337e+07 2.2e+07
+countGen=165
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10288e+07 1.1e+07
+countGen=166
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.103e+07 1.1e+07
+countGen=167
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00262e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.1034e+07 1.1e+07
+countGen=168
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+1.10307e+07 1.1e+07
+countGen=169
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00262e+07 , 1e+07 ]
+deb replacement
+3.85297e+07 3.85e+07
+countGen=170
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+4.40287e+07 4.4e+07
+countGen=171
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.10387e+07 1.1e+07
+countGen=172
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.65289e+07 1.65e+07
+countGen=173
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.65287e+07 1.65e+07
+countGen=174
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.10287e+07 1.1e+07
+countGen=175
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.10342e+07 1.1e+07
+countGen=176
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+4.40287e+07 4.4e+07
+countGen=177
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.10317e+07 1.1e+07
+countGen=178
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+2.75336e+07 2.75e+07
+countGen=179
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.65287e+07 1.65e+07
+countGen=180
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.10296e+07 1.1e+07
+countGen=181
+min: [ 1.00261e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.10293e+07 1.1e+07
+countGen=182
+min: [ 1.00255e+07 , 1e+07 ]
+avg: [ 1.00261e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.65287e+07 1.65e+07
+countGen=183
+min: [ 1.00255e+07 , 1e+07 ]
+avg: [ 1.0026e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+3.85287e+07 3.85e+07
+countGen=184
+min: [ 1.00255e+07 , 1e+07 ]
+avg: [ 1.00259e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+3.85287e+07 3.85e+07
+countGen=185
+min: [ 1.00254e+07 , 1e+07 ]
+avg: [ 1.00256e+07 , 1e+07 ]
+max: [ 1.00261e+07 , 1e+07 ]
+deb replacement
+1.65289e+07 1.65e+07
+countGen=186
+min: [ 1.00254e+07 , 1e+07 ]
+avg: [ 1.00255e+07 , 1e+07 ]
+max: [ 1.00255e+07 , 1e+07 ]
+deb replacement
+2.20281e+07 2.2e+07
+countGen=187
+min: [ 1.00254e+07 , 1e+07 ]
+avg: [ 1.00254e+07 , 1e+07 ]
+max: [ 1.00255e+07 , 1e+07 ]
+deb replacement
+1.1029e+07 1.1e+07
+countGen=188
+min: [ 1.00254e+07 , 1e+07 ]
+avg: [ 1.00254e+07 , 1e+07 ]
+max: [ 1.00254e+07 , 1e+07 ]
+deb replacement
+1.65279e+07 1.65e+07
+countGen=189
+min: [ 1.00253e+07 , 1e+07 ]
+avg: [ 1.00254e+07 , 1e+07 ]
+max: [ 1.00254e+07 , 1e+07 ]
+deb replacement
+1.65279e+07 1.65e+07
+countGen=190
+min: [ 1.00253e+07 , 1e+07 ]
+avg: [ 1.00253e+07 , 1e+07 ]
+max: [ 1.00254e+07 , 1e+07 ]
+deb replacement
+1.65278e+07 1.65e+07
+countGen=191
+min: [ 1.00253e+07 , 1e+07 ]
+avg: [ 1.00253e+07 , 1e+07 ]
+max: [ 1.00254e+07 , 1e+07 ]
+deb replacement
+1.65279e+07 1.65e+07
+countGen=192
+min: [ 1.00253e+07 , 1e+07 ]
+avg: [ 1.00253e+07 , 1e+07 ]
+max: [ 1.00253e+07 , 1e+07 ]
+deb replacement
+4.40278e+07 4.4e+07
+countGen=193
+min: [ 1.00253e+07 , 1e+07 ]
+avg: [ 1.00253e+07 , 1e+07 ]
+max: [ 1.00253e+07 , 1e+07 ]
+deb replacement
+1.65278e+07 1.65e+07
+countGen=194
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00252e+07 , 1e+07 ]
+max: [ 1.00253e+07 , 1e+07 ]
+deb replacement
+2.20284e+07 2.2e+07
+countGen=195
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00252e+07 , 1e+07 ]
+max: [ 1.00253e+07 , 1e+07 ]
+deb replacement
+2.75272e+07 2.75e+07
+countGen=196
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00249e+07 , 1e+07 ]
+max: [ 1.00253e+07 , 1e+07 ]
+deb replacement
+4.95278e+07 4.95e+07
+countGen=197
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.10298e+07 1.1e+07
+countGen=198
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.10303e+07 1.1e+07
+countGen=199
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+3.85327e+07 3.85e+07
+countGen=200
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.65272e+07 1.65e+07
+countGen=201
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+2.20272e+07 2.2e+07
+countGen=202
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+2.75275e+07 2.75e+07
+countGen=203
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.65272e+07 1.65e+07
+countGen=204
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.10378e+07 1.1e+07
+countGen=205
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.65278e+07 1.65e+07
+countGen=206
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+2.20272e+07 2.2e+07
+countGen=207
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+3.30282e+07 3.3e+07
+countGen=208
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+2.20278e+07 2.2e+07
+countGen=209
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.10327e+07 1.1e+07
+countGen=210
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.65272e+07 1.65e+07
+countGen=211
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+2.20278e+07 2.2e+07
+countGen=212
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.10304e+07 1.1e+07
+countGen=213
+min: [ 1.00247e+07 , 1e+07 ]
+avg: [ 1.00247e+07 , 1e+07 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.65272e+07 1.65e+07
+countGen=214
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 9.77484e+06 , 9.75e+06 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.65272e+07 1.65e+07
+countGen=215
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 9.52519e+06 , 9.5e+06 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+4.40272e+07 4.4e+07
+countGen=216
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 8.2768e+06 , 8.25e+06 ]
+max: [ 1.00247e+07 , 1e+07 ]
+deb replacement
+1.10316e+07 1.1e+07
+countGen=217
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.03069e+06 , 5e+06 ]
+max: [ 5.03844e+06 , 5e+06 ]
+deb replacement
+2.75305e+07 2.75e+07
+countGen=218
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.02831e+06 , 5e+06 ]
+max: [ 5.02906e+06 , 5e+06 ]
+deb replacement
+4.40299e+07 4.4e+07
+countGen=219
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.02747e+06 , 5e+06 ]
+max: [ 5.02889e+06 , 5e+06 ]
+deb replacement
+1.10299e+07 1.1e+07
+countGen=220
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+1.10302e+07 1.1e+07
+countGen=221
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+3.85299e+07 3.85e+07
+countGen=222
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+5.53846e+06 5.5e+06
+countGen=223
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+3.30299e+07 3.3e+07
+countGen=224
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+3.30299e+07 3.3e+07
+countGen=225
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+1.10299e+07 1.1e+07
+countGen=226
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+5.53091e+06 5.5e+06
+countGen=227
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+3.30349e+07 3.3e+07
+countGen=228
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+2.75354e+07 2.75e+07
+countGen=229
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+3.30349e+07 3.3e+07
+countGen=230
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+5.53193e+06 5.5e+06
+countGen=231
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+5.53268e+06 5.5e+06
+countGen=232
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+1.10299e+07 1.1e+07
+countGen=233
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+5.53506e+06 5.5e+06
+countGen=234
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+1.65299e+07 1.65e+07
+countGen=235
+min: [ 5.0272e+06 , 5e+06 ]
+avg: [ 5.0272e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+1.103e+07 1.1e+07
+countGen=236
+min: [ 5.02665e+06 , 5e+06 ]
+avg: [ 5.02717e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+4.40299e+07 4.4e+07
+countGen=237
+min: [ 5.02665e+06 , 5e+06 ]
+avg: [ 5.02714e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+2.20305e+07 2.2e+07
+countGen=238
+min: [ 5.02665e+06 , 5e+06 ]
+avg: [ 5.02714e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+5.53299e+06 5.5e+06
+countGen=239
+min: [ 5.02665e+06 , 5e+06 ]
+avg: [ 5.02707e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+5.53067e+06 5.5e+06
+countGen=240
+min: [ 5.02665e+06 , 5e+06 ]
+avg: [ 5.02682e+06 , 5e+06 ]
+max: [ 5.0272e+06 , 5e+06 ]
+deb replacement
+1.65303e+07 1.65e+07
+countGen=241
+min: [ 5.02665e+06 , 5e+06 ]
+avg: [ 5.02665e+06 , 5e+06 ]
+max: [ 5.02665e+06 , 5e+06 ]
+deb replacement
+2.20343e+07 2.2e+07
+countGen=242
+min: [ 5.02665e+06 , 5e+06 ]
+avg: [ 5.02665e+06 , 5e+06 ]
+max: [ 5.02665e+06 , 5e+06 ]
+deb replacement
+1.10293e+07 1.1e+07
+countGen=243
+min: [ 5.02659e+06 , 5e+06 ]
+avg: [ 5.02665e+06 , 5e+06 ]
+max: [ 5.02665e+06 , 5e+06 ]
+deb replacement
+2.20343e+07 2.2e+07
+countGen=244
+min: [ 5.02659e+06 , 5e+06 ]
+avg: [ 5.02664e+06 , 5e+06 ]
+max: [ 5.02665e+06 , 5e+06 ]
+deb replacement
+2.20299e+07 2.2e+07
+countGen=245
+min: [ 5.02659e+06 , 5e+06 ]
+avg: [ 5.02663e+06 , 5e+06 ]
+max: [ 5.02665e+06 , 5e+06 ]
+deb replacement
+5.52993e+06 5.5e+06
+countGen=246
+min: [ 5.02659e+06 , 5e+06 ]
+avg: [ 5.0266e+06 , 5e+06 ]
+max: [ 5.02665e+06 , 5e+06 ]
+deb replacement
+5.53629e+06 5.5e+06
+countGen=247
+min: [ 5.02653e+06 , 5e+06 ]
+avg: [ 5.02659e+06 , 5e+06 ]
+max: [ 5.02659e+06 , 5e+06 ]
+deb replacement
+1.6528e+07 1.65e+07
+countGen=248
+min: [ 5.02653e+06 , 5e+06 ]
+avg: [ 5.02658e+06 , 5e+06 ]
+max: [ 5.02659e+06 , 5e+06 ]
+deb replacement
+2.20292e+07 2.2e+07
+countGen=249
+min: [ 5.02653e+06 , 5e+06 ]
+avg: [ 5.02656e+06 , 5e+06 ]
+max: [ 5.02659e+06 , 5e+06 ]
+deb replacement
+2.20347e+07 2.2e+07
+countGen=250
+min: [ 5.02653e+06 , 5e+06 ]
+avg: [ 5.02653e+06 , 5e+06 ]
+max: [ 5.02653e+06 , 5e+06 ]
+deb replacement
+2.75341e+07 2.75e+07
+countGen=251
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02653e+06 , 5e+06 ]
+max: [ 5.02653e+06 , 5e+06 ]
+deb replacement
+1.10298e+07 1.1e+07
+countGen=252
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02653e+06 , 5e+06 ]
+max: [ 5.02653e+06 , 5e+06 ]
+deb replacement
+1.65347e+07 1.65e+07
+countGen=253
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02652e+06 , 5e+06 ]
+max: [ 5.02653e+06 , 5e+06 ]
+deb replacement
+2.75292e+07 2.75e+07
+countGen=254
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02652e+06 , 5e+06 ]
+max: [ 5.02653e+06 , 5e+06 ]
+deb replacement
+1.10292e+07 1.1e+07
+countGen=255
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.0265e+06 , 5e+06 ]
+max: [ 5.02653e+06 , 5e+06 ]
+deb replacement
+1.10292e+07 1.1e+07
+countGen=256
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.54083e+06 5.5e+06
+countGen=257
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.53257e+06 5.5e+06
+countGen=258
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=259
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+1.65341e+07 1.65e+07
+countGen=260
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+2.75301e+07 2.75e+07
+countGen=261
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.53035e+06 5.5e+06
+countGen=262
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+1.65293e+07 1.65e+07
+countGen=263
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.53033e+06 5.5e+06
+countGen=264
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+3.30291e+07 3.3e+07
+countGen=265
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.52934e+06 5.5e+06
+countGen=266
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+3.30346e+07 3.3e+07
+countGen=267
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+3.30341e+07 3.3e+07
+countGen=268
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+2.75291e+07 2.75e+07
+countGen=269
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+1.65291e+07 1.65e+07
+countGen=270
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+2.20346e+07 2.2e+07
+countGen=271
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.52918e+06 5.5e+06
+countGen=272
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=273
+min: [ 5.02647e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+2.75341e+07 2.75e+07
+countGen=274
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+2.75291e+07 2.75e+07
+countGen=275
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02647e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.53134e+06 5.5e+06
+countGen=276
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02646e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+5.53397e+06 5.5e+06
+countGen=277
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02645e+06 , 5e+06 ]
+max: [ 5.02647e+06 , 5e+06 ]
+deb replacement
+1.65297e+07 1.65e+07
+countGen=278
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+5.53032e+06 5.5e+06
+countGen=279
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+2.20294e+07 2.2e+07
+countGen=280
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+1.10301e+07 1.1e+07
+countGen=281
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+2.20301e+07 2.2e+07
+countGen=282
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=283
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+5.52966e+06 5.5e+06
+countGen=284
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=285
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+2.75346e+07 2.75e+07
+countGen=286
+min: [ 5.02644e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+1.1029e+07 1.1e+07
+countGen=287
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+2.75291e+07 2.75e+07
+countGen=288
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+1.65292e+07 1.65e+07
+countGen=289
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02644e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+1.65291e+07 1.65e+07
+countGen=290
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02643e+06 , 5e+06 ]
+max: [ 5.02644e+06 , 5e+06 ]
+deb replacement
+1.10293e+07 1.1e+07
+countGen=291
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+2.75291e+07 2.75e+07
+countGen=292
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.1029e+07 1.1e+07
+countGen=293
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=294
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+2.753e+07 2.75e+07
+countGen=295
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=296
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+2.20291e+07 2.2e+07
+countGen=297
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=298
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=299
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+2.7534e+07 2.75e+07
+countGen=300
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+2.753e+07 2.75e+07
+countGen=301
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=302
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+5.53004e+06 5.5e+06
+countGen=303
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.10291e+07 1.1e+07
+countGen=304
+min: [ 5.02641e+06 , 5e+06 ]
+avg: [ 5.02641e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.6534e+07 1.65e+07
+countGen=305
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.0264e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+5.534e+06 5.5e+06
+countGen=306
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02638e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+1.65344e+07 1.65e+07
+countGen=307
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02632e+06 , 5e+06 ]
+max: [ 5.02641e+06 , 5e+06 ]
+deb replacement
+5.53052e+06 5.5e+06
+countGen=308
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+1.65292e+07 1.65e+07
+countGen=309
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+1.10289e+07 1.1e+07
+countGen=310
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+5.5324e+06 5.5e+06
+countGen=311
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+5.52948e+06 5.5e+06
+countGen=312
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+5.52947e+06 5.5e+06
+countGen=313
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+1.10289e+07 1.1e+07
+countGen=314
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+5.5301e+06 5.5e+06
+countGen=315
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+2.20295e+07 2.2e+07
+countGen=316
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+2.20338e+07 2.2e+07
+countGen=317
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+5.53436e+06 5.5e+06
+countGen=318
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+5.52886e+06 5.5e+06
+countGen=319
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+3.30289e+07 3.3e+07
+countGen=320
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+1.65289e+07 1.65e+07
+countGen=321
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+2.75344e+07 2.75e+07
+countGen=322
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+1.10289e+07 1.1e+07
+countGen=323
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+1.65277e+07 1.65e+07
+countGen=324
+min: [ 5.02624e+06 , 5e+06 ]
+avg: [ 5.02624e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+2.75299e+07 2.75e+07
+countGen=325
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02623e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+2.20295e+07 2.2e+07
+countGen=326
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02619e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+2.75289e+07 2.75e+07
+countGen=327
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02614e+06 , 5e+06 ]
+max: [ 5.02624e+06 , 5e+06 ]
+deb replacement
+2.75295e+07 2.75e+07
+countGen=328
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02601e+06 , 5e+06 ]
+deb replacement
+2.20286e+07 2.2e+07
+countGen=329
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53436e+06 5.5e+06
+countGen=330
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.65286e+07 1.65e+07
+countGen=331
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.10286e+07 1.1e+07
+countGen=332
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75292e+07 2.75e+07
+countGen=333
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.65286e+07 1.65e+07
+countGen=334
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.10286e+07 1.1e+07
+countGen=335
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53622e+06 5.5e+06
+countGen=336
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.52895e+06 5.5e+06
+countGen=337
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53969e+06 5.5e+06
+countGen=338
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.10286e+07 1.1e+07
+countGen=339
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75296e+07 2.75e+07
+countGen=340
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.52957e+06 5.5e+06
+countGen=341
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53218e+06 5.5e+06
+countGen=342
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.65286e+07 1.65e+07
+countGen=343
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75335e+07 2.75e+07
+countGen=344
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.65296e+07 1.65e+07
+countGen=345
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53521e+06 5.5e+06
+countGen=346
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.10286e+07 1.1e+07
+countGen=347
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.10286e+07 1.1e+07
+countGen=348
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.20335e+07 2.2e+07
+countGen=349
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.5358e+06 5.5e+06
+countGen=350
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75335e+07 2.75e+07
+countGen=351
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75341e+07 2.75e+07
+countGen=352
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53358e+06 5.5e+06
+countGen=353
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.52867e+06 5.5e+06
+countGen=354
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.20292e+07 2.2e+07
+countGen=355
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+3.85286e+07 3.85e+07
+countGen=356
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53353e+06 5.5e+06
+countGen=357
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75296e+07 2.75e+07
+countGen=358
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.65288e+07 1.65e+07
+countGen=359
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.65286e+07 1.65e+07
+countGen=360
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.10286e+07 1.1e+07
+countGen=361
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75286e+07 2.75e+07
+countGen=362
+min: [ 5.02598e+06 , 5e+06 ]
+avg: [ 5.02598e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+1.65289e+07 1.65e+07
+countGen=363
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02595e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.2028e+07 2.2e+07
+countGen=364
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.0259e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+2.75329e+07 2.75e+07
+countGen=365
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02579e+06 , 5e+06 ]
+max: [ 5.02598e+06 , 5e+06 ]
+deb replacement
+5.53378e+06 5.5e+06
+countGen=366
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02544e+06 , 5e+06 ]
+max: [ 5.02549e+06 , 5e+06 ]
+deb replacement
+5.52814e+06 5.5e+06
+countGen=367
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.52859e+06 5.5e+06
+countGen=368
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+1.6528e+07 1.65e+07
+countGen=369
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.52804e+06 5.5e+06
+countGen=370
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+2.2029e+07 2.2e+07
+countGen=371
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+1.65283e+07 1.65e+07
+countGen=372
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+1.10329e+07 1.1e+07
+countGen=373
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+3.8528e+07 3.85e+07
+countGen=374
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+2.75335e+07 2.75e+07
+countGen=375
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+1.1028e+07 1.1e+07
+countGen=376
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+2.7528e+07 2.75e+07
+countGen=377
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.53526e+06 5.5e+06
+countGen=378
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+1.10282e+07 1.1e+07
+countGen=379
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+1.1028e+07 1.1e+07
+countGen=380
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.52826e+06 5.5e+06
+countGen=381
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.53608e+06 5.5e+06
+countGen=382
+min: [ 5.02543e+06 , 5e+06 ]
+avg: [ 5.02543e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.53347e+06 5.5e+06
+countGen=383
+min: [ 5.02531e+06 , 5e+06 ]
+avg: [ 5.02542e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+2.75329e+07 2.75e+07
+countGen=384
+min: [ 5.02531e+06 , 5e+06 ]
+avg: [ 5.02541e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.53292e+06 5.5e+06
+countGen=385
+min: [ 5.02531e+06 , 5e+06 ]
+avg: [ 5.02539e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+5.53903e+06 5.5e+06
+countGen=386
+min: [ 5.02531e+06 , 5e+06 ]
+avg: [ 5.02534e+06 , 5e+06 ]
+max: [ 5.02543e+06 , 5e+06 ]
+deb replacement
+3.30278e+07 3.3e+07
+countGen=387
+min: [ 5.02531e+06 , 5e+06 ]
+avg: [ 5.02531e+06 , 5e+06 ]
+max: [ 5.02531e+06 , 5e+06 ]
+deb replacement
+5.53027e+06 5.5e+06
+countGen=388
+min: [ 5.02528e+06 , 5e+06 ]
+avg: [ 5.02531e+06 , 5e+06 ]
+max: [ 5.02531e+06 , 5e+06 ]
+deb replacement
+5.53333e+06 5.5e+06
+countGen=389
+min: [ 5.02528e+06 , 5e+06 ]
+avg: [ 5.02531e+06 , 5e+06 ]
+max: [ 5.02531e+06 , 5e+06 ]
+deb replacement
+5.53455e+06 5.5e+06
+countGen=390
+min: [ 5.02528e+06 , 5e+06 ]
+avg: [ 5.0253e+06 , 5e+06 ]
+max: [ 5.02531e+06 , 5e+06 ]
+deb replacement
+2.75328e+07 2.75e+07
+countGen=391
+min: [ 4.79288e+06 , 2.98027e+06 ]
+avg: [ 5.01669e+06 , 4.81256e+06 ]
+max: [ 5.137e+06 , 5e+06 ]
+deb replacement
+5.6507e+06 5.5e+06
+countGen=392
+min: [ 4.79288e+06 , 2.98027e+06 ]
+avg: [ 4.99948e+06 , 4.43768e+06 ]
+max: [ 5.137e+06 , 5e+06 ]
+deb replacement
+5.652e+06 5.5e+06
+countGen=393
+min: [ 4.79288e+06 , 2.98027e+06 ]
+avg: [ 4.9478e+06 , 3.31322e+06 ]
+max: [ 5.13818e+06 , 5e+06 ]
+deb replacement
+5.652e+06 5.5e+06
+countGen=394
+min: [ 4.79092e+06 , 2.97274e+06 ]
+avg: [ 4.93878e+06 , 3.12468e+06 ]
+max: [ 5.137e+06 , 3.2809e+06 ]
+deb replacement
+2.20332e+07 2.2e+07
+countGen=395
+min: [ 4.77507e+06 , 2.94498e+06 ]
+avg: [ 4.93551e+06 , 3.11991e+06 ]
+max: [ 5.13635e+06 , 3.2809e+06 ]
+deb replacement
+5.64999e+06 3.609e+06
+countGen=396
+min: [ 4.74999e+06 , 2.94498e+06 ]
+avg: [ 4.92822e+06 , 3.11152e+06 ]
+max: [ 5.13627e+06 , 3.27937e+06 ]
+deb replacement
+1.10331e+07 1.1e+07
+countGen=397
+min: [ 4.74999e+06 , 2.94297e+06 ]
+avg: [ 4.91491e+06 , 3.10075e+06 ]
+max: [ 5.13245e+06 , 3.27059e+06 ]
+deb replacement
+2.20337e+07 2.2e+07
+countGen=398
+min: [ 4.74999e+06 , 2.94116e+06 ]
+avg: [ 4.90598e+06 , 3.08612e+06 ]
+max: [ 5.10354e+06 , 3.25157e+06 ]
+deb replacement
+5.61389e+06 5.5e+06
+countGen=399
+min: [ 4.74968e+06 , 2.92068e+06 ]
+avg: [ 4.88576e+06 , 3.0855e+06 ]
+max: [ 5.09429e+06 , 3.25008e+06 ]
+deb replacement
+2.75454e+07 2.75e+07
+countGen=400
+min: [ 4.73314e+06 , 2.92068e+06 ]
+avg: [ 4.87263e+06 , 3.07746e+06 ]
+max: [ 5.06327e+06 , 3.24946e+06 ]
+deb replacement
+3.30422e+07 3.3e+07
+countGen=401
+min: [ 4.73314e+06 , 2.92068e+06 ]
+avg: [ 4.86954e+06 , 3.06284e+06 ]
+max: [ 5.06327e+06 , 3.22666e+06 ]
+deb replacement
+5.5696e+06 5.5e+06
+countGen=402
+min: [ 4.71468e+06 , 2.92068e+06 ]
+avg: [ 4.86102e+06 , 3.05665e+06 ]
+max: [ 5.05265e+06 , 3.22666e+06 ]
+deb replacement
+1.65462e+07 1.65e+07
+countGen=403
+min: [ 4.71468e+06 , 2.91846e+06 ]
+avg: [ 4.85215e+06 , 3.04402e+06 ]
+max: [ 5.05265e+06 , 3.17348e+06 ]
+deb replacement
+5.55791e+06 5.5e+06
+countGen=404
+min: [ 4.71468e+06 , 2.91846e+06 ]
+avg: [ 4.84941e+06 , 3.04062e+06 ]
+max: [ 5.05265e+06 , 3.16533e+06 ]
+deb replacement
+3.85447e+07 3.85e+07
+countGen=405
+min: [ 4.69846e+06 , 2.91076e+06 ]
+avg: [ 4.82912e+06 , 3.03321e+06 ]
+max: [ 5.04191e+06 , 3.16057e+06 ]
+deb replacement
+5.50397e+07 5.5e+07
+countGen=406
+min: [ 4.69846e+06 , 2.91076e+06 ]
+avg: [ 4.81916e+06 , 3.02981e+06 ]
+max: [ 4.97052e+06 , 3.14117e+06 ]
+deb replacement
+1.65522e+07 1.65e+07
+countGen=407
+min: [ 4.67003e+06 , 2.90927e+06 ]
+avg: [ 4.80929e+06 , 3.02425e+06 ]
+max: [ 4.97052e+06 , 3.14249e+06 ]
+deb replacement
+2.20473e+07 2.2e+07
+countGen=408
+min: [ 4.67003e+06 , 2.90228e+06 ]
+avg: [ 4.79331e+06 , 3.01636e+06 ]
+max: [ 4.94437e+06 , 3.12576e+06 ]
+deb replacement
+2.75528e+07 2.75e+07
+countGen=409
+min: [ 4.67003e+06 , 2.90228e+06 ]
+avg: [ 4.78178e+06 , 3.01281e+06 ]
+max: [ 4.94029e+06 , 3.12476e+06 ]
+deb replacement
+5.50475e+07 5.5e+07
+countGen=410
+min: [ 4.67003e+06 , 2.88904e+06 ]
+avg: [ 4.77074e+06 , 3.00669e+06 ]
+max: [ 4.92354e+06 , 3.11055e+06 ]
+deb replacement
+2.75454e+07 2.75e+07
+countGen=411
+min: [ 4.67003e+06 , 2.88856e+06 ]
+avg: [ 4.77022e+06 , 3.00439e+06 ]
+max: [ 4.92354e+06 , 3.11055e+06 ]
+deb replacement
+2.75471e+07 2.75e+07
+countGen=412
+min: [ 4.65991e+06 , 2.88166e+06 ]
+avg: [ 4.77473e+06 , 2.99906e+06 ]
+max: [ 4.91756e+06 , 3.10842e+06 ]
+deb replacement
+2.75473e+07 2.75e+07
+countGen=413
+min: [ 4.65197e+06 , 2.88166e+06 ]
+avg: [ 4.77432e+06 , 2.99764e+06 ]
+max: [ 4.91756e+06 , 3.11321e+06 ]
+deb replacement
+3.85492e+07 3.85e+07
+countGen=414
+min: [ 4.65197e+06 , 2.88166e+06 ]
+avg: [ 4.76561e+06 , 2.99947e+06 ]
+max: [ 4.91756e+06 , 3.10842e+06 ]
+deb replacement
+2.20477e+07 2.2e+07
+countGen=415
+min: [ 4.65197e+06 , 2.88166e+06 ]
+avg: [ 4.76279e+06 , 2.9988e+06 ]
+max: [ 4.91638e+06 , 3.10842e+06 ]
+deb replacement
+3.30535e+07 3.3e+07
+countGen=416
+min: [ 4.65197e+06 , 2.88166e+06 ]
+avg: [ 4.76095e+06 , 2.9969e+06 ]
+max: [ 4.91638e+06 , 3.10572e+06 ]
+deb replacement
+3.30455e+07 3.3e+07
+countGen=417
+min: [ 4.65197e+06 , 2.88166e+06 ]
+avg: [ 4.76066e+06 , 2.99624e+06 ]
+max: [ 4.91322e+06 , 3.10434e+06 ]
+deb replacement
+3.30482e+07 3.3e+07
+countGen=418
+min: [ 4.64564e+06 , 2.88166e+06 ]
+avg: [ 4.76087e+06 , 2.99574e+06 ]
+max: [ 4.91322e+06 , 3.10434e+06 ]
+deb replacement
+1.10491e+07 1.1e+07
+countGen=419
+min: [ 4.64564e+06 , 2.87959e+06 ]
+avg: [ 4.75882e+06 , 2.99559e+06 ]
+max: [ 4.91423e+06 , 3.10434e+06 ]
+deb replacement
+5.54796e+06 5.5e+06
+countGen=420
+min: [ 4.64555e+06 , 2.87959e+06 ]
+avg: [ 4.75276e+06 , 2.99624e+06 ]
+max: [ 4.91423e+06 , 3.10853e+06 ]
+deb replacement
+6.60446e+07 6.6e+07
+countGen=421
+min: [ 4.64555e+06 , 2.87959e+06 ]
+avg: [ 4.7495e+06 , 2.9941e+06 ]
+max: [ 4.91423e+06 , 3.10853e+06 ]
+deb replacement
+2.75465e+07 2.75e+07
+countGen=422
+min: [ 4.6408e+06 , 2.87959e+06 ]
+avg: [ 4.75043e+06 , 2.98862e+06 ]
+max: [ 4.88216e+06 , 3.10853e+06 ]
+deb replacement
+2.20438e+07 2.2e+07
+countGen=423
+min: [ 4.6408e+06 , 2.87959e+06 ]
+avg: [ 4.74866e+06 , 2.98721e+06 ]
+max: [ 4.88216e+06 , 3.10621e+06 ]
+deb replacement
+2.20445e+07 2.2e+07
+countGen=424
+min: [ 4.63926e+06 , 2.87959e+06 ]
+avg: [ 4.74483e+06 , 2.98771e+06 ]
+max: [ 4.88216e+06 , 3.10621e+06 ]
+deb replacement
+4.40492e+07 4.4e+07
+countGen=425
+min: [ 4.63872e+06 , 2.87736e+06 ]
+avg: [ 4.743e+06 , 2.98557e+06 ]
+max: [ 4.88216e+06 , 3.10528e+06 ]
+deb replacement
+2.75451e+07 2.75e+07
+countGen=426
+min: [ 4.63872e+06 , 2.87736e+06 ]
+avg: [ 4.73907e+06 , 2.98567e+06 ]
+max: [ 4.88216e+06 , 3.10528e+06 ]
+deb replacement
+3.30446e+07 3.3e+07
+countGen=427
+min: [ 4.63645e+06 , 2.87736e+06 ]
+avg: [ 4.73806e+06 , 2.98409e+06 ]
+max: [ 4.87405e+06 , 3.10528e+06 ]
+deb replacement
+5.36145e+06 3.41581e+06
+countGen=428
+min: [ 4.63645e+06 , 2.87662e+06 ]
+avg: [ 4.73792e+06 , 2.97889e+06 ]
+max: [ 4.8608e+06 , 3.10528e+06 ]
+deb replacement
+4.40483e+07 4.4e+07
+countGen=429
+min: [ 4.6339e+06 , 2.8741e+06 ]
+avg: [ 4.73511e+06 , 2.97925e+06 ]
+max: [ 4.86014e+06 , 3.0904e+06 ]
+deb replacement
+5.34787e+06 3.39944e+06
+countGen=430
+min: [ 4.62742e+06 , 2.8741e+06 ]
+avg: [ 4.73417e+06 , 2.97508e+06 ]
+max: [ 4.86014e+06 , 3.0904e+06 ]
+deb replacement
+5.34761e+06 3.39944e+06
+countGen=431
+min: [ 4.62742e+06 , 2.87369e+06 ]
+avg: [ 4.72854e+06 , 2.97429e+06 ]
+max: [ 4.86014e+06 , 3.0813e+06 ]
+deb replacement
+2.20496e+07 2.2e+07
+countGen=432
+min: [ 4.6261e+06 , 2.87369e+06 ]
+avg: [ 4.7237e+06 , 2.97323e+06 ]
+max: [ 4.85028e+06 , 3.0813e+06 ]
+deb replacement
+1.65488e+07 1.65e+07
+countGen=433
+min: [ 4.61704e+06 , 2.87358e+06 ]
+avg: [ 4.72231e+06 , 2.97313e+06 ]
+max: [ 4.8423e+06 , 3.0813e+06 ]
+deb replacement
+2.75454e+07 2.75e+07
+countGen=434
+min: [ 4.61704e+06 , 2.87358e+06 ]
+avg: [ 4.72001e+06 , 2.97294e+06 ]
+max: [ 4.8423e+06 , 3.07792e+06 ]
+deb replacement
+5.33208e+06 3.38572e+06
+countGen=435
+min: [ 4.61704e+06 , 2.86945e+06 ]
+avg: [ 4.71667e+06 , 2.97033e+06 ]
+max: [ 4.84735e+06 , 3.0767e+06 ]
+deb replacement
+1.10446e+07 1.1e+07
+countGen=436
+min: [ 4.61249e+06 , 2.86945e+06 ]
+avg: [ 4.71102e+06 , 2.97218e+06 ]
+max: [ 4.84735e+06 , 3.07455e+06 ]
+deb replacement
+5.54841e+06 5.5e+06
+countGen=437
+min: [ 4.61249e+06 , 2.86945e+06 ]
+avg: [ 4.70855e+06 , 2.96831e+06 ]
+max: [ 4.82724e+06 , 3.07266e+06 ]
+deb replacement
+5.31348e+06 3.38667e+06
+countGen=438
+min: [ 4.61249e+06 , 2.86945e+06 ]
+avg: [ 4.70871e+06 , 2.9677e+06 ]
+max: [ 4.82724e+06 , 3.07266e+06 ]
+deb replacement
+2.75499e+07 2.75e+07
+countGen=439
+min: [ 4.60977e+06 , 2.8647e+06 ]
+avg: [ 4.7076e+06 , 2.96747e+06 ]
+max: [ 4.833e+06 , 3.07266e+06 ]
+deb replacement
+7.15489e+07 7.15e+07
+countGen=440
+min: [ 4.60716e+06 , 2.8647e+06 ]
+avg: [ 4.70596e+06 , 2.96609e+06 ]
+max: [ 4.83528e+06 , 3.07266e+06 ]
+deb replacement
+2.75498e+07 2.75e+07
+countGen=441
+min: [ 4.60716e+06 , 2.8647e+06 ]
+avg: [ 4.70304e+06 , 2.963e+06 ]
+max: [ 4.83528e+06 , 3.05495e+06 ]
+deb replacement
+2.20489e+07 2.2e+07
+countGen=442
+min: [ 4.60716e+06 , 2.86451e+06 ]
+avg: [ 4.70219e+06 , 2.96266e+06 ]
+max: [ 4.833e+06 , 3.05495e+06 ]
+deb replacement
+4.40542e+07 4.4e+07
+countGen=443
+min: [ 4.59514e+06 , 2.86451e+06 ]
+avg: [ 4.70059e+06 , 2.96236e+06 ]
+max: [ 4.833e+06 , 3.05495e+06 ]
+deb replacement
+3.30487e+07 3.3e+07
+countGen=444
+min: [ 4.59438e+06 , 2.86451e+06 ]
+avg: [ 4.69923e+06 , 2.96184e+06 ]
+max: [ 4.833e+06 , 3.05495e+06 ]
+deb replacement
+3.85532e+07 3.85e+07
+countGen=445
+min: [ 4.59438e+06 , 2.86233e+06 ]
+avg: [ 4.69311e+06 , 2.96082e+06 ]
+max: [ 4.833e+06 , 3.05636e+06 ]
+deb replacement
+3.30478e+07 3.3e+07
+countGen=446
+min: [ 4.59001e+06 , 2.86233e+06 ]
+avg: [ 4.6837e+06 , 2.9602e+06 ]
+max: [ 4.8328e+06 , 3.05385e+06 ]
+deb replacement
+3.85533e+07 3.85e+07
+countGen=447
+min: [ 4.59001e+06 , 2.86233e+06 ]
+avg: [ 4.68086e+06 , 2.9588e+06 ]
+max: [ 4.8328e+06 , 3.05385e+06 ]
+deb replacement
+5.31608e+06 3.36707e+06
+countGen=448
+min: [ 4.58931e+06 , 2.86233e+06 ]
+avg: [ 4.68181e+06 , 2.95344e+06 ]
+max: [ 4.82596e+06 , 3.05078e+06 ]
+deb replacement
+1.65477e+07 1.65e+07
+countGen=449
+min: [ 4.5872e+06 , 2.86233e+06 ]
+avg: [ 4.67385e+06 , 2.9497e+06 ]
+max: [ 4.78822e+06 , 3.03735e+06 ]
+deb replacement
+3.30477e+07 3.3e+07
+countGen=450
+min: [ 4.5872e+06 , 2.86233e+06 ]
+avg: [ 4.67364e+06 , 2.94958e+06 ]
+max: [ 4.78822e+06 , 3.03735e+06 ]
+deb replacement
+5.2685e+06 3.34178e+06
+countGen=451
+min: [ 4.5789e+06 , 2.86196e+06 ]
+avg: [ 4.67141e+06 , 2.94948e+06 ]
+max: [ 4.78529e+06 , 3.03623e+06 ]
+deb replacement
+5.26382e+06 3.33985e+06
+countGen=452
+min: [ 4.5789e+06 , 2.86196e+06 ]
+avg: [ 4.66957e+06 , 2.94931e+06 ]
+max: [ 4.7824e+06 , 3.03623e+06 ]
+deb replacement
+3.30477e+07 3.3e+07
+countGen=453
+min: [ 4.5789e+06 , 2.86066e+06 ]
+avg: [ 4.66765e+06 , 2.94873e+06 ]
+max: [ 4.78111e+06 , 3.03558e+06 ]
+deb replacement
+1.10483e+07 1.1e+07
+countGen=454
+min: [ 4.57881e+06 , 2.85999e+06 ]
+avg: [ 4.66184e+06 , 2.94775e+06 ]
+max: [ 4.77888e+06 , 3.03179e+06 ]
+deb replacement
+1.6548e+07 1.65e+07
+countGen=455
+min: [ 4.57881e+06 , 2.85999e+06 ]
+avg: [ 4.66164e+06 , 2.94711e+06 ]
+max: [ 4.77888e+06 , 3.03179e+06 ]
+deb replacement
+3.30477e+07 3.3e+07
+countGen=456
+min: [ 4.57881e+06 , 2.85999e+06 ]
+avg: [ 4.66211e+06 , 2.94685e+06 ]
+max: [ 4.77888e+06 , 3.03179e+06 ]
+deb replacement
+2.2049e+07 2.2e+07
+countGen=457
+min: [ 4.5786e+06 , 2.84933e+06 ]
+avg: [ 4.66205e+06 , 2.94618e+06 ]
+max: [ 4.78239e+06 , 3.03088e+06 ]
+deb replacement
+5.26333e+06 3.34215e+06
+countGen=458
+min: [ 4.5786e+06 , 2.84893e+06 ]
+avg: [ 4.66446e+06 , 2.94444e+06 ]
+max: [ 4.78485e+06 , 3.03088e+06 ]
+deb replacement
+6.05486e+07 6.05e+07
+countGen=459
+min: [ 4.5786e+06 , 2.84871e+06 ]
+avg: [ 4.66417e+06 , 2.94364e+06 ]
+max: [ 4.78485e+06 , 3.03079e+06 ]
+deb replacement
+5.2636e+06 3.34169e+06
+countGen=460
+min: [ 4.57444e+06 , 2.84871e+06 ]
+avg: [ 4.66789e+06 , 2.93974e+06 ]
+max: [ 4.78239e+06 , 3.02652e+06 ]
+deb replacement
+2.20483e+07 2.2e+07
+countGen=461
+min: [ 4.57444e+06 , 2.84871e+06 ]
+avg: [ 4.66633e+06 , 2.94e+06 ]
+max: [ 4.77973e+06 , 3.02652e+06 ]
+deb replacement
+1.65483e+07 1.65e+07
+countGen=462
+min: [ 4.57444e+06 , 2.84871e+06 ]
+avg: [ 4.66569e+06 , 2.93984e+06 ]
+max: [ 4.77952e+06 , 3.02652e+06 ]
+deb replacement
+3.85538e+07 3.85e+07
+countGen=463
+min: [ 4.57444e+06 , 2.84871e+06 ]
+avg: [ 4.66282e+06 , 2.94043e+06 ]
+max: [ 4.77952e+06 , 3.02652e+06 ]
+deb replacement
+4.95483e+07 4.95e+07
+countGen=464
+min: [ 4.57444e+06 , 2.83394e+06 ]
+avg: [ 4.66371e+06 , 2.93956e+06 ]
+max: [ 4.79549e+06 , 3.02652e+06 ]
+deb replacement
+4.40538e+07 4.4e+07
+countGen=465
+min: [ 4.57444e+06 , 2.83394e+06 ]
+avg: [ 4.66501e+06 , 2.93853e+06 ]
+max: [ 4.79549e+06 , 3.02652e+06 ]
+deb replacement
+5.27641e+06 3.32993e+06
+countGen=466
+min: [ 4.57244e+06 , 2.83394e+06 ]
+avg: [ 4.66574e+06 , 2.93557e+06 ]
+max: [ 4.78511e+06 , 3.02721e+06 ]
+deb replacement
+5.50509e+07 5.5e+07
+countGen=467
+min: [ 4.57244e+06 , 2.83394e+06 ]
+avg: [ 4.66516e+06 , 2.93173e+06 ]
+max: [ 4.78511e+06 , 3.02721e+06 ]
+deb replacement
+1.65492e+07 1.65e+07
+countGen=468
+min: [ 4.57244e+06 , 2.83394e+06 ]
+avg: [ 4.66551e+06 , 2.92994e+06 ]
+max: [ 4.78511e+06 , 3.02721e+06 ]
+deb replacement
+5.5486e+06 5.5e+06
+countGen=469
+min: [ 4.57155e+06 , 2.83345e+06 ]
+avg: [ 4.66263e+06 , 2.9317e+06 ]
+max: [ 4.78511e+06 , 3.02721e+06 ]
+deb replacement
+4.40547e+07 4.4e+07
+countGen=470
+min: [ 4.57155e+06 , 2.83323e+06 ]
+avg: [ 4.66435e+06 , 2.92941e+06 ]
+max: [ 4.78511e+06 , 3.02646e+06 ]
+deb replacement
+1.65492e+07 1.65e+07
+countGen=471
+min: [ 4.57155e+06 , 2.83323e+06 ]
+avg: [ 4.66317e+06 , 2.92947e+06 ]
+max: [ 4.78436e+06 , 3.02646e+06 ]
+deb replacement
+5.2628e+06 3.32948e+06
+countGen=472
+min: [ 4.5709e+06 , 2.83323e+06 ]
+avg: [ 4.66675e+06 , 2.9254e+06 ]
+max: [ 4.78436e+06 , 3.0268e+06 ]
+deb replacement
+4.40535e+07 4.4e+07
+countGen=473
+min: [ 4.5709e+06 , 2.83323e+06 ]
+avg: [ 4.6635e+06 , 2.9277e+06 ]
+max: [ 4.78398e+06 , 3.0268e+06 ]
+deb replacement
+2.75477e+07 2.75e+07
+countGen=474
+min: [ 4.56941e+06 , 2.83323e+06 ]
+avg: [ 4.66284e+06 , 2.92755e+06 ]
+max: [ 4.78398e+06 , 3.02493e+06 ]
+deb replacement
+5.50485e+07 5.5e+07
+countGen=475
+min: [ 4.56213e+06 , 2.83323e+06 ]
+avg: [ 4.66193e+06 , 2.92876e+06 ]
+max: [ 4.78398e+06 , 3.03229e+06 ]
+deb replacement
+3.85509e+07 3.85e+07
+countGen=476
+min: [ 4.56213e+06 , 2.83323e+06 ]
+avg: [ 4.66112e+06 , 2.92954e+06 ]
+max: [ 4.78398e+06 , 3.03235e+06 ]
+deb replacement
+4.4044e+07 4.4e+07
+countGen=477
+min: [ 4.56213e+06 , 2.83323e+06 ]
+avg: [ 4.65963e+06 , 2.93127e+06 ]
+max: [ 4.78398e+06 , 3.03235e+06 ]
+deb replacement
+4.40529e+07 4.4e+07
+countGen=478
+min: [ 4.56069e+06 , 2.83323e+06 ]
+avg: [ 4.65695e+06 , 2.93312e+06 ]
+max: [ 4.78398e+06 , 3.0328e+06 ]
+deb replacement
+2.20495e+07 2.2e+07
+countGen=479
+min: [ 4.56069e+06 , 2.83323e+06 ]
+avg: [ 4.65695e+06 , 2.93312e+06 ]
+max: [ 4.78398e+06 , 3.0328e+06 ]
+deb replacement
+2.20492e+07 2.2e+07
+countGen=480
+min: [ 4.56069e+06 , 2.83323e+06 ]
+avg: [ 4.6569e+06 , 2.93312e+06 ]
+max: [ 4.78398e+06 , 3.0328e+06 ]
+deb replacement
+2.75488e+07 2.75e+07
+countGen=481
+min: [ 4.56069e+06 , 2.83323e+06 ]
+avg: [ 4.65645e+06 , 2.93345e+06 ]
+max: [ 4.78398e+06 , 3.0328e+06 ]
+deb replacement
+4.40485e+07 4.4e+07
+countGen=482
+min: [ 4.56069e+06 , 2.83323e+06 ]
+avg: [ 4.65637e+06 , 2.93342e+06 ]
+max: [ 4.78398e+06 , 3.0328e+06 ]
+deb replacement
+3.30492e+07 3.3e+07
+countGen=483
+min: [ 4.56069e+06 , 2.83323e+06 ]
+avg: [ 4.65627e+06 , 2.93341e+06 ]
+max: [ 4.78398e+06 , 3.0328e+06 ]
+deb replacement
+5.26383e+06 3.33628e+06
+countGen=484
+min: [ 4.55861e+06 , 2.83323e+06 ]
+avg: [ 4.66128e+06 , 2.92928e+06 ]
+max: [ 4.78398e+06 , 3.0328e+06 ]
+deb replacement
+5.2837e+06 3.33608e+06
+countGen=485
+min: [ 4.55861e+06 , 2.82905e+06 ]
+avg: [ 4.66172e+06 , 2.92912e+06 ]
+max: [ 4.80336e+06 , 3.0328e+06 ]
+deb replacement
+5.5492e+06 5.5e+06
+countGen=486
+min: [ 4.55861e+06 , 2.82905e+06 ]
+avg: [ 4.65474e+06 , 2.93387e+06 ]
+max: [ 4.80336e+06 , 3.0328e+06 ]
+deb replacement
+8.80493e+07 8.8e+07
+countGen=487
+min: [ 4.55763e+06 , 2.82905e+06 ]
+avg: [ 4.65617e+06 , 2.93092e+06 ]
+max: [ 4.80336e+06 , 3.02721e+06 ]
+deb replacement
+6.05446e+07 6.05e+07
+countGen=488
+min: [ 4.55754e+06 , 2.82905e+06 ]
+avg: [ 4.65654e+06 , 2.93061e+06 ]
+max: [ 4.80336e+06 , 3.02721e+06 ]
+deb replacement
+3.30493e+07 3.3e+07
+countGen=489
+min: [ 4.55742e+06 , 2.82679e+06 ]
+avg: [ 4.65577e+06 , 2.93113e+06 ]
+max: [ 4.81033e+06 , 3.02721e+06 ]
+deb replacement
+5.50487e+07 5.5e+07
+countGen=490
+min: [ 4.55742e+06 , 2.82679e+06 ]
+avg: [ 4.6551e+06 , 2.93041e+06 ]
+max: [ 4.81033e+06 , 3.02656e+06 ]
+deb replacement
+7.70482e+07 7.7e+07
+countGen=491
+min: [ 4.5566e+06 , 2.82679e+06 ]
+avg: [ 4.65473e+06 , 2.92849e+06 ]
+max: [ 4.79892e+06 , 3.02656e+06 ]
+deb replacement
+4.40482e+07 4.4e+07
+countGen=492
+min: [ 4.5566e+06 , 2.82679e+06 ]
+avg: [ 4.65492e+06 , 2.92728e+06 ]
+max: [ 4.79892e+06 , 3.02263e+06 ]
+deb replacement
+7.15482e+07 7.15e+07
+countGen=493
+min: [ 4.5566e+06 , 2.82679e+06 ]
+avg: [ 4.65465e+06 , 2.92658e+06 ]
+max: [ 4.79892e+06 , 3.01724e+06 ]
+deb replacement
+5.50458e+07 5.5e+07
+countGen=494
+min: [ 4.5566e+06 , 2.82679e+06 ]
+avg: [ 4.6541e+06 , 2.92665e+06 ]
+max: [ 4.79892e+06 , 3.01724e+06 ]
+deb replacement
+5.27881e+06 3.3211e+06
+countGen=495
+min: [ 4.5566e+06 , 2.82679e+06 ]
+avg: [ 4.65614e+06 , 2.92568e+06 ]
+max: [ 4.79892e+06 , 3.01724e+06 ]
+deb replacement
+2.75459e+07 2.75e+07
+countGen=496
+min: [ 4.5566e+06 , 2.82679e+06 ]
+avg: [ 4.65289e+06 , 2.92651e+06 ]
+max: [ 4.79892e+06 , 3.01661e+06 ]
+deb replacement
+4.4052e+07 4.4e+07
+countGen=497
+min: [ 4.5566e+06 , 2.82679e+06 ]
+avg: [ 4.65342e+06 , 2.92632e+06 ]
+max: [ 4.79892e+06 , 3.01661e+06 ]
+deb replacement
+1.65485e+07 1.65e+07
+countGen=498
+min: [ 4.55452e+06 , 2.82579e+06 ]
+avg: [ 4.65276e+06 , 2.92602e+06 ]
+max: [ 4.79892e+06 , 3.01661e+06 ]
+deb replacement
+4.40508e+07 4.4e+07
+countGen=499
+min: [ 4.54578e+06 , 2.82138e+06 ]
+avg: [ 4.65028e+06 , 2.92503e+06 ]
+max: [ 4.79742e+06 , 3.01661e+06 ]
+deb replacement
+2.75501e+07 2.75e+07
+countGen=500
+min: [ 4.54578e+06 , 2.82138e+06 ]
+avg: [ 4.64885e+06 , 2.92446e+06 ]
+max: [ 4.79463e+06 , 3.01661e+06 ]
+20
+fitness:-18.7237  diversity:    0   origine : 0
+
+fitness:-18.7334  diversity:    0   origine : 1
+
+fitness:-18.7334  diversity:    0   origine : 2
+
+fitness:-18.7334  diversity:    0   origine : 3
+
+fitness:-18.7334  diversity:    0   origine : 4
+
+fitness:-18.6859  diversity:    0   origine : 5
+
+fitness:-18.7334  diversity:    0   origine : 6
+
+fitness:-18.582  diversity:    0   origine : 7
+
+fitness:-18.716  diversity:    0   origine : 8
+
+fitness:-18.7237  diversity:    0   origine : 9
+
+fitness:-18.716  diversity:    0   origine : 10
+
+fitness:-18.716  diversity:    0   origine : 11
+
+fitness:-18.7435  diversity:    0   origine : 12
+
+fitness:-18.7237  diversity:    0   origine : 13
+
+fitness:-18.7435  diversity:    0   origine : 14
+
+fitness:-18.7435  diversity:    0   origine : 15
+
+fitness:-18.716  diversity:    0   origine : 16
+
+fitness:-18.5485  diversity:    0   origine : 17
+
+fitness:-18.582  diversity:    0   origine : 18
+
+fitness:-18.7435  diversity:    0   origine : 19
+
+Finalpopopoppo Population
+80
+4.72612e+06   2.85222e+06
+4.55452e+06   3.01596e+06
+4.68516e+06   2.87052e+06
+4.56346e+06   2.99309e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.79463e+06   2.82426e+06
+4.59785e+06   2.99388e+06
+4.74427e+06   2.84685e+06
+4.60238e+06   2.98334e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.77689e+06   2.82138e+06
+4.58819e+06   2.98706e+06
+4.73319e+06   2.84084e+06
+4.59272e+06   2.97621e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.72612e+06   2.85222e+06
+4.55452e+06   3.01596e+06
+4.68516e+06   2.87052e+06
+4.56346e+06   2.99309e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+4.72612e+06   2.85222e+06
+4.55452e+06   3.01596e+06
+4.68516e+06   2.87052e+06
+4.56346e+06   2.99309e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.7122e+06   2.85197e+06
+4.54578e+06   3.01206e+06
+4.67283e+06   2.86958e+06
+4.55455e+06   2.99039e+06
+4.77689e+06   2.82138e+06
+4.58819e+06   2.98706e+06
+4.73319e+06   2.84084e+06
+4.59272e+06   2.97621e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+Final Population
+80
+4.72612e+06   2.85222e+06
+4.55452e+06   3.01596e+06
+4.68516e+06   2.87052e+06
+4.56346e+06   2.99309e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.79463e+06   2.82426e+06
+4.59785e+06   2.99388e+06
+4.74427e+06   2.84685e+06
+4.60238e+06   2.98334e+06
+4.73121e+06   2.84872e+06
+4.55725e+06   3.0141e+06
+4.69073e+06   2.86684e+06
+4.566e+06   2.99202e+06
+4.77689e+06   2.82138e+06
+4.58819e+06   2.98706e+06
+4.73319e+06   2.84084e+06
+4.59272e+06   2.97621e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.72612e+06   2.85222e+06
+4.55452e+06   3.01596e+06
+4.68516e+06   2.87052e+06
+4.56346e+06   2.99309e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+4.72612e+06   2.85222e+06
+4.55452e+06   3.01596e+06
+4.68516e+06   2.87052e+06
+4.56346e+06   2.99309e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+4.78224e+06   2.82802e+06
+4.593e+06   2.99189e+06
+4.7321e+06   2.85053e+06
+4.59742e+06   2.98161e+06
+4.7122e+06   2.85197e+06
+4.54578e+06   3.01206e+06
+4.67283e+06   2.86958e+06
+4.55455e+06   2.99039e+06
+4.77689e+06   2.82138e+06
+4.58819e+06   2.98706e+06
+4.73319e+06   2.84084e+06
+4.59272e+06   2.97621e+06
+4.7303e+06   2.85101e+06
+4.5566e+06   3.01661e+06
+4.68961e+06   2.86919e+06
+4.56562e+06   2.99356e+06
+
+# 14
+4.77689e+06   2.82138e+06
+4.76282e+06   2.8388e+06
+4.73319e+06   2.84084e+06
+4.73121e+06   2.84872e+06
+4.7303e+06   2.85101e+06
+4.7122e+06   2.85197e+06
+4.71147e+06   2.86588e+06
+4.69073e+06   2.86684e+06
+4.68961e+06   2.86919e+06
+4.67283e+06   2.86958e+06
+4.59272e+06   2.97621e+06
+4.58708e+06   2.98686e+06
+4.55455e+06   2.99039e+06
+4.54578e+06   3.01206e+06
+ point de ref =(1.19856e+07,4.49096e+06)
+air de l'hypervolume :-1.23976e+13

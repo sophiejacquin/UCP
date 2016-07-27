@@ -1,0 +1,44 @@
+
+### GENERAL ########################################################################
+# --help=0                                 # -h : Prints this message
+# --stopOnUnknownParam=1                   # Stop if unkown param entered
+--seed=5557455                           # -S : Random number seed
+
+### ALGORITHM ######################################################################
+# --time_max=240                           # -T : time max
+
+### EVOLUTION ENGINE ###############################################################
+--popSize=20                             # -P : Population Size
+
+### INPUT  #########################################################################
+--inputFile=probleme100-2.tsp            # -I : File which describes input information
+
+### OUTPUT  ########################################################################
+# --outputFile=nomOutPut                   # -U : File which describes output information
+
+### PARAM ##########################################################################
+--maxGen=500                             # -G : Maximum number of generations
+--nbLambda=5                             # -n : number of solution evaluated in a pareto front of the sub problem
+
+### PERSISTENCE ####################################################################
+# --Load=                                  # -L : A save file to restart from
+# --recomputeFitness=0                     # -r : Recompute the fitness after re-loading the pop.?
+# --status=./MOUCPEANorme.status           # Status file
+
+### VARIATION OPERATORS ############################################################
+# --cross2Rate=1                           # -y : Relative rate for crossover 2
+--mut1Rate=0.3899                        # -1 : Relative rate for mutation 1
+# --long=23                                # -l : Longueur periode mutée
+--mutMORate=0.2669                       # -7 : Relative rate for mutation 2
+--mut2Rate=0.4967                        # -2 : Relative rate for mutation 2
+--repet=3                                # -z : nb de repetition de mut2
+--mut2HRate=0.5347                       # -6 : Relative rate for hyper mutation 2 scalarizée
+--mut2HDRate=0.2894                      # -8 : Relative rate for hyper mutation 2 dirigee
+--mut3Rate=0.8309                        # -3 : Relative rate for mutation 3
+--mut4Rate=0.5251                        # -4 : Relative rate for mutation 3
+--nbU=6                                  # -u : nb unites modifées par mut5
+--mut5Rate=0.847                         # -5 : Relative rate for mutation 1
+--mut5RateMO=0.2428                      # -9 : Relative rate for mutation 1
+--pCross=0.3229                          # -C : Probability of Crossover
+--pMut=0.9761                            # -M : Probability of Mutation
+--pVectMut=0.2572                        # -V : Probability of Mutation vectorielle

@@ -1,0 +1,45 @@
+
+
+  /**
+   ** Corrige la planification pour respecter les contraintes de temps minimum de marche ou d'arret
+   */
+  void setMinimumUpDown(EOT & _eo, const eoUCPEvalFunc & eval)    
+  {
+    _eo.invalidate();
+    int xoff=0;
+    int xon=0;
+    int indice;
+    for(unsigned i=0;i<_eo.get_nbUnites();i++)
+      {
+	for(unsigned j=0;j<_eo.get_nbHeures();j++)
+	  {
+	    indice = i*_eo.get_nbHeures()+j;	    
+	    if(_eo[indice])
+	      {
+		xoff=eval.xitOff(i,j,_eo);
+		if(xoff>0 && xoff<unites[i].get_tDown())
+		  {
+		    _eo.setBit(indice,false);
+		  }		
+	      }
+	    else
+	      {
+		xon=eval.xitOn(i,j,_eo);
+		if(xon>0 && xon<unites[i].get_tUp())
+		  {
+		    _eo.setBit(indice,true);
+		  }
+	      }	    
+	  }
+      }
+  }
+
+
+
+
+ private:
+
+};
+
+
+#endif

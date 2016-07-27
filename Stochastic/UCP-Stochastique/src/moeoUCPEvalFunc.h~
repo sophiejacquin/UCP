@@ -1,0 +1,736 @@
+#ifndef _moeoUCPEvalFunc_h
+#define _moeoUCPEvalFunc_h
+
+#include <fstream>
+#include <limits>
+#include <math.h>
+#include <time.h>
+#include <sys/time.h>
+
+/*!
+ * \file moeoUCPEvalFunc.h
+ * \brief Evaluation of a UCP solution
+ * \author Yanis NAIT ABDELAZIZ and Lucien MOUSIN
+ */
+
+
+/*!
+ * \class moeoUCPEvalFunc<EOT>
+ * \brief Class that represents the evaluation function of a UCP solution
+ */
+template <class EOT>
+class moeoUCPEvalFunc : public moeoEvalFunc<EOT>
+{
+ public:
+
+  /*!
+   * \brief Constructor
+   *
+   * moeoUCPEvalFunc<EOT> class consctructor 
+   */
+  moeoUCPEvalFunc()
+    {
+    }
+
+  /*!
+   * \brief Destructor 
+   *
+   * moeoUCPEvalFunc<EOT> class destructor
+   */
+  virtual ~moeoUCPEvalFunc()
+    {
+    }
+    
+  /*!
+   * \brief Compute the lambda and delta initial values of economic dispatch prodedure
+   *
+   * \param lambda : variable in which the lambda initial value is stored
+   * \param delta : variable in which the delta initial value is stored
+   * \param h : hour 
+   * \param _moeo : a UCP solution
+   */
+  void lambda_delta(double & lambda,double & delta,unsigned int h,EOT & _moeo, double alpha)
+  {
+    double res=0.0;
+    int indice;
+    int Pmax=0;
+    int Pmin=0;
+    
+    int nbUnits=(*units).size();
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+
+    double a1=0;
+    double a2=0;
+
+    double b1=0;
+    double b2=0;
+
+    double lmin=numeric_limits<double>::max();
+    double lmax=0;
+
+    double lminTmp=0;
+    double lmaxTmp=0;
+
+    for(unsigned  i=0;i<nbUnits;i++)
+      {
+	eoUCPUnit & unite = (*units)[i];
+	indice = _moeo.indiceUnitAtTime(i,h);
+	if((*mbits)[indice])
+	  {
+	    Pmax = unite.get_Pmax();
+	    Pmin = unite.get_Pmin();
+
+	    a1 = unite.get_a1();
+	    a2 = unite.get_a2();
+
+	    b1 = unite.get_b1();
+	    b2 = unite.get_b2();
+      
+	    lminTmp = alpha * (a1+(2*a2*Pmin)) + (1-alpha) * (b1+(2*b2*Pmin));
+	    lmaxTmp = alpha * (a1+(2*a2*Pmax)) + (1-alpha) * (b1+(2*b2*Pmax));
+         
+	
+	    if(lminTmp<lmin)
+	      lmin=lminTmp;
+	    if(lmaxTmp>lmax)
+	      lmax=lmaxTmp;
+	  }
+      }
+
+    lambda=(lmax+lmin)/2;
+    delta= (lmax-lmin)/2;
+  }
+
+  /*!
+   * \brief Compute the total fuel-cost
+   *
+   * \param _moeo : a UCP solution
+   * \return fuel-cost value of the solution _moeo
+   */
+  double fuelCost(EOT & _moeo)
+  {   
+    std::vector<bool> * mbits = _moeo.get_p_mbits(); 
+    double res=0;
+    double fc;
+    int indice,nbUnits=(*units).size(),nbHours=(*load).size();
+    double a0,a1,a2,p;
+
+    for(unsigned i=0;i<nbUnits;i++)
+      {
+	eoUCPUnit & unite = (*units)[i];
+	a0=unite.get_a0();
+	a1=unite.get_a1();
+	a2=unite.get_a2();
+	
+	for(unsigned j=0;j<nbHours;j++)
+	  {
+   	    indice = _moeo.indiceUnitAtTime(i,j);
+	 
+	    p = _moeo.get_production(indice);
+	    if((*mbits)[indice])
+	      {
+		
+		//cout<<p<<" a2 "<<a2<<" a1 "<<a1<<" a0 "<<a0<<endl;
+		res += (a2*p+a1)*p+a0;
+	      }	    
+	  }
+      }    
+    return res;
+  }
+
+  /*!
+   * \brief Compute the total environment-cost
+   *
+   * \param _moeo : a UCP solution
+   * \return environment-cost value of the solution _moeo
+   */
+  double environmentCost(EOT & _moeo)
+  {   
+    std::vector<bool> * mbits = _moeo.get_p_mbits(); 
+    double res=0;
+    int indice,nbUnits=(*units).size(),nbHours=(*load).size();
+    double b0,b1,b2,p;
+
+    for(unsigned i=0;i<nbUnits;i++)
+      {
+	eoUCPUnit & unite = (*units)[i];
+	b0=unite.get_b0();
+	b1=unite.get_b1();
+	b2=unite.get_b2();
+	
+	for(unsigned j=0;j<nbHours;j++)
+	  {
+   	    indice = _moeo.indiceUnitAtTime(i,j);
+	 
+	    p = _moeo.get_production(indice);
+	    if((*mbits)[indice])
+	      {
+		
+		res += (b2*p+b1)*p+b0;
+	      }	   
+	  }
+      }    
+    return res;
+  }
+
+   /*!
+   * \brief How many hours the unit i has been ON at hour h
+   *
+   * \param i : number of the unit
+   * \param h : hour
+   * \param  _moeo : a UCP solution
+   * \return number of hours 
+   */
+  int xitOn(unsigned int i,unsigned int h,EOT & _moeo){
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+    eoUCPUnit & unite =(*units)[i];
+    int res=0;
+    if(h==0)
+      {
+	if(unite.get_initialState()>0)
+	  return  unite.get_initialState();
+      }
+    else
+      {
+	int indice = _moeo.indiceUnitAtTime(i,h);
+	if((*mbits)[indice-1])
+	  res += 1 + xitOn(i,h-1,_moeo);
+      }
+
+    return res;
+  }  
+
+  /*!
+   * \brief How many hours the unit i has been OFF at hour h
+   *
+   * \param i : number of the unit
+   * \param h : hour
+   * \param  _moeo : a UCP solution
+   * \return number of hours
+   */
+  int xitOff(unsigned int i,unsigned int h,EOT & _moeo){
+
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+    eoUCPUnit & unite =(*units)[i];
+    int res=0;
+    if(h==0)
+      {
+	if(unite.get_initialState()<0)
+	  return -(unite.get_initialState());
+      }
+    else{
+      int indice = _moeo.indiceUnitAtTime(i,h);
+      if(!(*mbits)[indice-1])
+	res += 1 + xitOff(i,h-1,_moeo);
+    }
+
+    return res;
+  }
+
+   /*!
+   * \brief Compute the start-up cost for a unit i at hour h
+   * 
+   * \param i : number of the unit
+   * \param h : hour
+   * \param _moeo : a UCP solution
+   * \return unit i startUpCost at hour h value
+   */
+  double startUpCostUnitHour(unsigned int i, unsigned int h, EOT & _moeo)
+  {
+    double res=0;
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+    int indice = _moeo.indiceUnitAtTime(i,h);
+    int xt;
+    bool set=false;
+    eoUCPUnit & unite = (*units)[i];
+ 
+    if((h>0 && (*mbits)[indice] && !(*mbits)[indice-1]) || (h==0 && (*mbits)[indice]))
+      {
+	xt = xitOff(i,h,_moeo);
+	if(xt>0)
+	  set=true;
+      }  
+    if(set)
+      {
+ 	
+	if(xt<=unite.get_tColdStart()+unite.get_tDown())
+	  res += unite.get_sHot();
+	else
+	  res += unite.get_sCold();
+      }  
+	//if(i==3 && h==2) cout<<"res "<<res<<" set "<<set<<" xt "<<xt<<unite.get_tColdStart()+unite.get_tDown()<<" "<<unite.get_sCold()<<" "<<unite.get_sHot()<<endl;
+    return res;
+  }
+
+   /*!
+   * \brief Compute start-up cost of a solution
+   *
+   * \param _moeo : a UCP solution
+   * \return start-up cost value of _moeo
+   */
+  double startUpCost(EOT & _moeo)
+  {
+    double cs=0;
+    int nbUnits=(*units).size(),nbHours=(*load).size();
+    for(unsigned i=0;i<nbUnits;i++)
+      { 
+	for(unsigned j=0;j<nbHours;j++)
+	  {
+	    cs += startUpCostUnitHour(i,j,_moeo); 
+	  }
+	
+      }
+    return cs;
+  }
+
+
+
+  /*!
+   * \brief Check if exists any solution at time h 
+   *
+   * \param _moeo : a UCP solution
+   * \param h : hour
+   * \return true if the solution is feasible at hour h, false otherwise
+   */
+  bool existeSolution(EOT & _moeo,int h)
+  {
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+    int indice=0, nbUnits=(*units).size();
+    double Pmax,Pmin,sumPmin=0, sumPmax=0,demandReserve=0;
+  
+    for(unsigned i=0;i<nbUnits;i++)
+      {
+	eoUCPUnit & unite = (*units)[i];
+	Pmax = unite.get_Pmax();
+	Pmin = unite.get_Pmin();
+
+	indice = _moeo.indiceUnitAtTime(i,h);
+	if((*mbits)[indice])
+	  {
+	    sumPmax+=Pmax;
+	    sumPmin+=Pmin;
+	  }	
+      }
+ 
+    demandReserve= (*load)[h]+(*reserve)[h];
+    return (sumPmax >=demandReserve && sumPmin<=(*load)[h]);
+  }
+
+
+  /*!
+   * \brief Economic dispatch at  hour h
+   *
+   * \param _moeo : a UCP solution
+   * \param h : hour
+   * \param correction : bool value which indicates if a solution is corrected when the   * solution is indeasible
+   */
+  void lambda_iteration_hour(EOT & _moeo,unsigned int h,bool correction, double alpha)
+  {
+    double lamb,delt;
+    int nbUnits =(*units).size();
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+   
+    if(existeSolution(_moeo,h)) 
+      {
+	lambda_delta(lamb,delt,h,_moeo, alpha);
+
+	double a1,a2,b1,b2,pi,diff,sum=0.0;
+	int indice;
+	do
+	  {
+	    sum=0;
+	    
+	    for(unsigned int i=0;i<nbUnits;i++)
+	      {
+		indice = _moeo.indiceUnitAtTime(i,h);
+		if((*mbits)[indice])
+		  {
+		    eoUCPUnit & unite =(*units)[i];
+		    a1=unite.get_a1();
+		    a2=unite.get_a2();
+
+		    b1=unite.get_b1();
+		    b2=unite.get_b2();
+		    
+
+		    pi= (lamb - (alpha * a1 + (1 - alpha) * b1)) / (2*a2*alpha + (1-alpha) * 2 * b2) ;
+		    
+		    //pi = (lamb-a1)/(2*a2);
+					
+
+		    if(pi<unite.get_Pmin())
+		      pi=unite.get_Pmin();		   
+			
+		    else if(pi>unite.get_Pmax())
+		      pi=unite.get_Pmax();
+				
+		    _moeo.insert_prod(indice,pi);		
+		    sum += pi;
+		  }
+	      }
+
+	    diff=(*load)[h]-sum;
+	
+	    if(diff<0)	
+	      lamb=lamb-delt;	
+	    else	
+	      lamb=lamb+delt;
+	
+	    delt/=2;	
+		//cout << "boucle " <<  fabs(diff) << endl;
+	  }
+	while(fabs(diff)>0.0001); 
+      }
+
+    else
+      {	
+	if(correction)
+	  correct(_moeo,h, alpha);
+	else
+	  _moeo.addDemandPenalty(1000000);
+      }
+
+  }
+
+
+  /*!
+   * \brief Proceed to the hourly economic dispatch
+   *
+   * \param _moeo : a UCP solution
+   */
+  void lambda_iteration(EOT & _moeo, double alpha)
+  {    
+    double penaltyMinUD=0;
+    penaltyMinUD=penalize(_moeo);
+	//cout<<"penalise"<<endl;
+    if(penaltyMinUD>0)
+      setMinimumUpDown(_moeo, alpha);
+
+    else {
+	bool correction=false;
+	_moeo.clear_prod();
+	int nbHeures = (*load).size();
+	if(eo::rng.uniform()<=0.95)
+	  correction=true;
+   
+	for(unsigned int i=0;i<nbHeures;i++)
+	  {
+	    lambda_iteration_hour(_moeo,i,correction, alpha);
+	  } 
+      }       
+  }  
+
+  /*!
+   * \brief Operator () which evaluates a candidate solution
+   *
+   * \param _moeo : a UCP solution
+   */
+
+  void operator () (EOT & _moeo)
+    {
+        if (_moeo.invalidObjectiveVector())
+        {
+            moeoUCPObjectiveVector objVec;
+	    //moeoUCPObjectiveMatrix objMat;
+	    //std::vector< moeoUCPObjectiveVector > mat;
+
+	    //VectUCPObjectiveVector vec;
+
+	    double alpha1 = _moeo.getIntegerAlpha();
+	
+	    double alpha =  alpha1 / 100;
+	    //double pas = 1.0 / _moeo.getN();
+	    //for (alpha = 1.0; alpha >= 0; alpha-=pas) {
+
+		 _moeo.setDemandPenalty(0.0);
+	    	 _moeo.setMinUpDownPenalty(0.0);
+       	    	 double fit=0,penalite=0,fc=0,cs=0, ec=0;
+ 
+	    	 lambda_iteration(_moeo, alpha);
+
+	    	 fc += fuelCost(_moeo);
+	    	 cs += startUpCost(_moeo);
+            	 ec += environmentCost(_moeo);
+
+	   	 _moeo.setFuelCost(fc);
+	   	 _moeo.setStartUpCost(cs);
+           	 _moeo.setEnvironmentCost(ec);
+	   	 penalize(_moeo);
+	   	 penalite = _moeo.get_penaltyCost();
+	   	 
+                 fit += cs+fc+penalite;
+	  	 
+            	 //_moeo.add_result(fit, ec, alpha);
+
+		 objVec[0] = fit;
+            	 objVec[1] = ec;
+
+		 //vec.push_back(objVec);
+		 //vec[0] = objVec;
+	    //}
+           
+	    //std::vector< std::vector<double> > matrix = _moeo.get_results();
+	    
+	    
+            //objVec[0] = matrix[0][0];
+            //objVec[1] = matrix[0][1];
+
+            _moeo.objectiveVector(objVec);
+        }
+    }
+
+
+  /*!
+   * \brief Correct if the solution is infeasible at hour h
+   *
+   * \param _moeo : a UCP solution
+   * \param h : hour
+   */
+  void correct(EOT & _moeo, unsigned int h, double alpha)
+  {
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+
+    int indice,xoff,xon,j,nbUnits=(*units).size();
+    bool excesPmin=false,deficitPmax=false;
+    double sumPmin=0, sumPmax=0,demandReserve=0;
+    _moeo.setDemandPenalty(0.0);
+   
+    if(!existeSolution(_moeo,h))
+      {
+	for(unsigned i=0;i<nbUnits;i++)
+	  {
+	    eoUCPUnit & unite =(*units)[i];	  
+
+	    indice = _moeo.indiceUnitAtTime(i,h);
+	    if((*mbits)[indice])
+	      {
+		sumPmax+=unite.get_Pmax();
+		sumPmin+=unite.get_Pmin();
+	      }	
+	  }
+
+	demandReserve = (*load)[h]+(*reserve)[h];
+	
+	if(sumPmax < demandReserve)
+	  {deficitPmax=true;}//cout<<"sumPmax "<<sumPmax<<" demandReserve "<<demandReserve<<" h "<<h<<endl;}
+	if(sumPmin>demandReserve)
+	  excesPmin=true;
+
+	j=rand()%nbUnits;
+	indice = _moeo.indiceUnitAtTime(j,h);
+
+	if(deficitPmax)
+	  {
+	    if(!(*mbits)[indice])
+	      {
+		(*mbits)[indice]=true;
+		if(!existeSolution(_moeo,h))
+		  {
+		    correct(_moeo,h, alpha);
+		  }
+	      }
+	  }      
+	
+	if(excesPmin)
+	  {  
+	    if((*mbits)[indice])
+	      {
+		(*mbits)[indice]=false;
+		if(!existeSolution(_moeo,h))
+		  {
+		    correct(_moeo,h, alpha);
+		  }
+	      }
+	  }
+	lambda_iteration_hour(_moeo,h,true, alpha);
+	
+      }
+  }  
+
+  /*!
+   * \brief Get the penalty cost if the minimum up/down time constraint is violated
+   *
+   * \param _moeo : a UCP solution
+   * \return penalty value 
+   */
+  double penalize(EOT & _moeo)
+  {
+    int n=nMinUpDownVC(_moeo);
+	//if(n>0) cout<<"attention n ="<<n<<endl;
+    double penalite =100000*n;//*sqrt(getNbGenerations());
+//cout<<"penalité à remetre"<<endl;
+    _moeo.setMinUpDownPenalty(penalite);
+    return penalite;
+  }
+
+  /*!
+   * \brief number of minimum up/down time violated constraints
+   *
+   * \param _moeo : a UCP solution 
+   * \return number of violated constraints
+   */
+  int nMinUpDownVC(EOT & _moeo)
+  {
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+    int initialState,j=0,n=0,indice,xtOn,xtOff,xt=0,nbUnits=(*units).size(),nbHours=(*load).size(),tUp,tDown;
+    bool continu=true;
+    for(unsigned int i=0;i<nbUnits;i++)
+      {	
+	eoUCPUnit & unite =(*units)[i];
+	tUp = unite.get_tUp();
+	tDown = unite.get_tDown();
+	//cout<< i<<" "<<tDown<<endl;
+	for(unsigned j=0;j<nbHours;j++)
+	  {
+
+	    indice = _moeo.indiceUnitAtTime(i,j);
+	    if(j==0)
+	      {		
+		initialState =unite.get_initialState();		
+
+		if((*mbits)[indice])
+		  {
+		    if(initialState<0)
+		      {
+			xtOff=xitOff(i,0,_moeo);
+			if(xtOff<tDown && xtOff>0)
+			  {
+				//cout<<"pb unit "<<i<<" heure "<<j<<endl;
+			    n++;
+			  }
+		      }
+		  }
+		
+		else
+		  {
+		    if(initialState>0)
+		      {
+			xtOn=xitOn(i,0,_moeo);
+			if(xtOn<tUp && xtOn>0)
+			  {
+			    n++;
+				//cout<<"pb unit "<<i<<" heure "<<j<<endl;
+			  }
+		      }
+		  }
+
+	      }
+	    else
+	      {		
+		if((*mbits)[indice]!=(*mbits)[indice-1])
+		  {
+		    if((*mbits)[indice])
+		      {
+			//if(i==1)cout<<"ici "<<j<<endl;
+			xtOff=xitOff(i,j,_moeo);
+			//cout<<xtOff<<endl;
+			if(xtOff<tDown && xtOff>0)
+			  {
+			    n++;//
+			//cout<<"pb unit "<<i<<" heure "<<j<<endl;
+				
+			  }
+		      }
+		    else
+		      {
+			xtOn=xitOn(i,j,_moeo);
+			if(xtOn<tUp && xtOn>0)
+			  {
+			    n++;
+			//   cout<<"pb unit "<<i<<" heure "<<j<<endl;
+			  }
+		      }
+		  }
+	      }
+	  }
+      }   
+    return n;
+  }
+
+  /*!
+   * \brief Repair the solution, to satisfy the minimum up/down time of the units
+   *
+   * \param _moeo : a UCP solution
+   */
+  void setMinimumUpDown(EOT & _moeo, double alpha)    
+  {
+    //_moeo.setMinUpDownPenalty(0.0);
+    std::vector<bool> * mbits = _moeo.get_p_mbits();
+    int nbUnits=(*units).size(),nbHours=(*load).size();
+    int xoff=0;
+    int xon=0;
+    int indice;
+    for(unsigned i=0;i<nbUnits;i++)
+      {
+	for(unsigned j=0;j<nbHours;j++)
+	  {	  
+	    indice =_moeo.indiceUnitAtTime(i,j);
+	    if((*mbits)[indice])
+	      {
+		xoff=xitOff(i,j,_moeo);
+		if(xoff>0 && xoff<(*units)[i].get_tDown())
+		  {
+		    (*mbits)[indice]=false;
+		  }		
+	      }
+	    else
+	      {
+		xon=xitOn(i,j,_moeo);
+		if(xon>0 && xon<(*units)[i].get_tUp())
+		  {
+		    (*mbits)[indice]=true;
+		  }
+	      }	    
+	  }    
+      }
+	
+    lambda_iteration(_moeo, alpha);
+  }
+
+  /*!
+   * \brief Set the input data of the problem
+   *
+   * \param _data : pointer to the problem  test data
+   */
+  void setData(eoUCPData * _data)
+  {
+    if(_data!=NULL){
+      units=_data->get_units();
+      load=_data->get_load();
+      reserve=_data->get_reserve();
+    }
+  }
+  
+
+   /*!
+   * \brief Set the number of generations
+   *
+   * \param _gen : Pointer to the value of current number of generations
+   */
+  void setGen(eoIncrementorParam<unsigned> * gen)
+  {
+    nbGenerations = gen;
+  }
+
+  /*!
+   * \brief Get the number of generations
+   *
+   * \return current number of generations
+   */
+  int getNbGenerations()const
+  { 
+    return atoi(nbGenerations->getValue().c_str());
+  }
+
+ private:
+  std::vector<eoUCPUnit> * units; /*!< Pointer to the vector that contains the units*/
+  std::vector<double> * load; /*!< Pointer to the vector that contains the hourly demand*/
+  std::vector<double> * reserve; /*!< Pointer to the vector that contains the hourly reserve*/ 
+  
+  eoIncrementorParam<unsigned>  * nbGenerations; /*!< number of generations */
+  
+  
+};
+
+#endif
+

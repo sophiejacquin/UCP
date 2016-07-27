@@ -1,0 +1,73 @@
+#ifndef _eoUCPCorrector_h
+#define _eoUCPCorrector_h
+
+
+#include <stdexcept>
+#include <fstream>
+#include "eoUCPEvalFunc.h"
+#include "eoUCPUnite.h"
+template <class EOT>
+class eoUCPCorrector
+
+{
+  
+ public:
+  /**
+   ** 
+   */
+  eoUCPCorrector()
+    {
+      // eval=_eval;
+    }
+
+  ~eoUCPCorrector()
+    {
+
+    }  
+
+  /**
+   ** Corrige la planification pour respecter les contraintes de temps minimum de marche ou d'arret
+   */
+  void setMinimumUpDown(EOT & _eo)    
+  {
+    _eo.invalidate();
+    /* int xoff=0;
+    int xon=0;
+    int indice;
+    for(unsigned i=0;i<_eo.get_nbUnites();i++)
+      {
+	for(unsigned j=0;j<_eo.get_nbHeures();j++)
+	  {
+	    indice = i*_eo.get_nbHeures()+j;	    
+	    if(_eo[indice])
+	      {
+		xoff=eval->xitOff(i,j,_eo);
+		if(xoff>0 && xoff<eval->get_unite(i).get_tDown())
+		  {
+		    _eo.setBit(indice,false);
+		  }		
+	      }
+	    else
+	      {
+		xon=eval->xitOn(i,j,_eo);
+		if(xon>0 && xon<eval->get_unite(i).get_tUp())
+		  {
+		    _eo.setBit(indice,true);
+		  }
+	      }	    
+	  }
+	  }*/
+  }
+
+  void operator()(EOT & _eo)
+  {
+    setMinimumUpDown(_eo);
+  }
+
+ private:
+  eoUCPEvalFunc<EOT> * eval;
+
+};
+
+
+#endif

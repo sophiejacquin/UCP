@@ -1,0 +1,176 @@
+#ifndef _eoUCPUnite_h
+#define _eoUCPUnite_h
+
+#include <string>
+#include <iostream>
+#include <fstream>
+
+/*!
+ * \file eoUCPEvalFunc.h
+ * \brief Unit that produces power
+ * \author Yanis NAIT ABDELAZIZ
+ */
+
+/*!
+ * \class eoUCPUnit
+ * \brief Class that represents a unit that produces power
+ *
+ */
+class eoUCPUnit{
+
+ public:
+
+  /*!
+   * \brief Constructor with all fields
+   *
+   * eoUCPUnit<EOT> class consctructor*/
+
+ eoUCPUnit(int _numMachine,unsigned int _Pmin,unsigned int _Pmax,double _a0,double _a1,double _a2,unsigned int _tUp, unsigned int _tDown,double _sHot, double _sCold,int _tColdStart,int _initialState):numMachine(_numMachine),Pmin(_Pmin),Pmax(_Pmax),a0(_a0),a1(_a1),a2(_a2),tUp(_tUp),tDown(_tDown),sHot(_sHot),sCold(_sCold),tColdStart(_tColdStart),initialState(_initialState)
+  {
+  
+  }
+
+  /*!
+   * \brief Get the minimum amount of power that the unit must produce
+   *
+   * \return the Pmin value
+   */
+  inline unsigned int get_Pmin()const
+  {
+    return Pmin;
+  }
+
+  /*!
+   * \brief Get the maximum amount of power that the unit can produce
+   *
+   * \return the Pmax value
+   */
+  inline unsigned int get_Pmax()const
+  {
+    return Pmax;
+  }
+
+  /*!
+   * \brief Get the constant a0
+   *
+   * \return the a0 value
+   */
+  inline double get_a0()const
+  {
+    return a0;
+  }
+
+  /*!
+   * \brief Get the constant a1
+   *
+   * \return the a1 value
+   */
+  inline double get_a1()const
+  {
+    return a1;
+  }
+
+  /*!
+   * \brief Get the constant a2
+   *
+   * \return the a2 value
+   */
+  inline double get_a2()const
+  {
+    return a2;
+  }
+  
+  /*!
+   * \brief Get the minimum time for the ON state of the unit
+   *
+   * \return the tUp value
+   */
+  inline unsigned int get_tUp()const
+  {
+    return tUp;
+  }
+
+  /*!
+   * \brief Get the minimum time for the OFF state of the unit
+   *
+   * \return the tDown value
+   */
+  inline unsigned int get_tDown()const
+  {
+    return tDown;
+  }
+
+  /*!
+   * \brief Get the cost for a hot start-up 
+   *
+   * \return the sHot value
+   */
+  inline double get_sHot()const
+  {
+    return sHot;
+  }
+
+  /*!
+   * \brief Get the cost for a cold start-up 
+   *
+   * \return the sCold value
+   */
+  inline double get_sCold()const
+  {
+    return sCold;
+  }
+
+  /*!
+   * \brief Get the limit time of OFF state before applying a cold start-up cost
+   *
+   * \return the tColdStart value
+   */
+  inline int get_tColdStart()const
+  {
+    return tColdStart;
+  }
+
+  /*!
+   * \brief Get the initial state of the unit
+   *
+   * \return the initialState value : if initialState<0 -> the unit has been OFF for |initialState| hours, if initialState>0 -> the unit has been OFF for |initialState| hours
+   */
+  inline int get_initialState()const
+  {
+    return initialState;
+  }
+
+  /**
+   * Return the class name
+   */
+  virtual string className() const
+  {
+    return "eoUCPUnite";
+  }
+
+
+  
+ private:
+  int numMachine;
+
+  unsigned int Pmin; /*!< Minimum amount of power that produces the unit*/
+
+  unsigned int Pmax; /*!< Maximum  amount of power that produces the unit*/
+
+  double a0; /*!< Constant associated to the fuelCost*/
+  double a1; /*!< Constant associated to the fuelCost*/
+  double a2; /*!< Constant associated to the fuelCost*/
+
+  unsigned int tUp; /*!<Minimum up time for the unit*/
+  unsigned int tDown; /*!< Minimum down time for the unit*/
+
+  double sHot; /*!< Hot start-up cost*/
+  double sCold; /*!< Cold start-up cost*/
+
+  int tColdStart; /*!< Determine if hot start-up or cold start-up cost on a hour*/
+
+  int initialState; /*!< Initial state of the unit*/
+
+     
+};
+#endif

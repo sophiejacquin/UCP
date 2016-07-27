@@ -1,0 +1,45 @@
+
+     Pseudo Code :
+
+  	  Initialisation des paramètres et des données de test
+
+	  Initialisation aléatoire de la population de départ
+
+
+       Lancement de l'algorithme génétique:
+	  compteur = 0
+  	  Faire
+             compteur = compteur + 1
+	 
+	     Générer de nouveaux enfants en appliquant l'opérateur général sur la population actuelle
+
+		       Opérateur général contenant les deux opérateurs combinés
+
+			       Opérateur de croisement combiné:
+				  Premier opérateur de croisement avec probailité pCross1 
+				  Deuxième opérateur de croisement avec probabilité pCross2
+				  On tire uniformément un nombre alpha entre 0 et 1
+				     Si alpha < pCross1/(pCross1+pCross2) alors on applique le premier opérateur de croisement  
+				     Sinon on applique le deuxième opérateur de croisement
+
+			       Opérateur de mutation combiné : 
+				  Premier opérateur de croisement avec probailité pMut1
+				  Deuxième opérateur de croisement avec probabilité pMut2 
+				  On tire uniformément un nombre alpha entre 0 et 1
+				     Si alpha < pMut1/(pMut1+pMut2) alors on applique le premier opérateur de mutation  
+				     Sinon on applique le deuxième opérateur de mutation
+	     	
+	     Evaluer la population actuelle et la population contenant les enfants
+		S'il n'existe pas de solution à l'instant t lors de l'évalutation alors je lance une réparation en allumant une nouvelle 			     unité et je réévalue cet individu
+
+	     Remplacer les plus mauvais parents par les meilleurs enfants
+
+	  Tant Que (compteur < nombre maximal de générations)
+
+       Fin Algo
+  
+       
+       
+
+
+

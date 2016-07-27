@@ -1,0 +1,4608 @@
+creation decoder
+IBEA setup
+avant lancement NSGA2
+countGen=0
+min: [ 4.00061e+08 , 4e+08 ]
+avg: [ 5.45073e+08 , 5.45e+08 ]
+max: [ 8.0008e+08 , 8e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=1
+min: [ 3.50051e+08 , 3.5e+08 ]
+avg: [ 5.19387e+08 , 5.19318e+08 ]
+max: [ 8.0008e+08 , 8e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=2
+min: [ 3.00072e+08 , 3e+08 ]
+avg: [ 4.30066e+08 , 4.3e+08 ]
+max: [ 6.00075e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=4
+min: [ 2.50068e+08 , 2.5e+08 ]
+avg: [ 3.58549e+08 , 3.58491e+08 ]
+max: [ 4.50049e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=5
+min: [ 2.50066e+08 , 2.5e+08 ]
+avg: [ 3.45616e+08 , 3.45556e+08 ]
+max: [ 5.50057e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=6
+min: [ 2.5005e+08 , 2.5e+08 ]
+avg: [ 3.25067e+08 , 3.25e+08 ]
+max: [ 4.5007e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=7
+min: [ 2.00066e+08 , 2e+08 ]
+avg: [ 2.85068e+08 , 2.85e+08 ]
+max: [ 4.00067e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :59 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 59
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :35 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 35
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=10
+min: [ 2.00057e+08 , 2e+08 ]
+avg: [ 2.32066e+08 , 2.32e+08 ]
+max: [ 3.0007e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :27 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 27
+countGen=15
+min: [ 2.00056e+08 , 2e+08 ]
+avg: [ 2.07531e+08 , 2.07463e+08 ]
+max: [ 3.50077e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :17 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 17
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=18
+min: [ 1.50053e+08 , 1.5e+08 ]
+avg: [ 2.07357e+08 , 2.07292e+08 ]
+max: [ 3.0008e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=19
+min: [ 1.50048e+08 , 1.5e+08 ]
+avg: [ 2.08812e+08 , 2.0875e+08 ]
+max: [ 6.00068e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=20
+min: [ 1.50048e+08 , 1.5e+08 ]
+avg: [ 1.97785e+08 , 1.97727e+08 ]
+max: [ 3.50055e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=21
+min: [ 1.50048e+08 , 1.5e+08 ]
+avg: [ 1.52553e+08 , 1.525e+08 ]
+max: [ 2.00053e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=29
+min: [ 1.50047e+08 , 1.5e+08 ]
+avg: [ 1.53899e+08 , 1.53846e+08 ]
+max: [ 2.0006e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :42 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 42
+countGen=30
+min: [ 1.50046e+08 , 1.5e+08 ]
+avg: [ 1.54074e+08 , 1.54023e+08 ]
+max: [ 2.0006e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=38
+min: [ 1.00052e+08 , 1e+08 ]
+avg: [ 1.5871e+08 , 1.58654e+08 ]
+max: [ 3.00067e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :91 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 91
+countGen=39
+min: [ 1.00051e+08 , 1e+08 ]
+avg: [ 1.58447e+08 , 1.58392e+08 ]
+max: [ 4.00063e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=41
+min: [ 1.00047e+08 , 1e+08 ]
+avg: [ 1.65681e+08 , 1.65625e+08 ]
+max: [ 5.00058e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :23 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 23
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=44
+min: [ 1.00046e+08 , 1e+08 ]
+avg: [ 1.2796e+08 , 1.27907e+08 ]
+max: [ 3.00048e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=48
+min: [ 5.0056e+07 , 5e+07 ]
+avg: [ 1.20051e+08 , 1.2e+08 ]
+max: [ 3.50049e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :23 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 23
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=50
+min: [ 5.00557e+07 , 5e+07 ]
+avg: [ 1.25475e+08 , 1.25424e+08 ]
+max: [ 3.00051e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=51
+min: [ 5.00557e+07 , 5e+07 ]
+avg: [ 8.88308e+07 , 8.87755e+07 ]
+max: [ 2.5006e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=52
+min: [ 5.0053e+07 , 5e+07 ]
+avg: [ 6.20564e+07 , 6.2e+07 ]
+max: [ 2.50058e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=54
+min: [ 5.00527e+07 , 5e+07 ]
+avg: [ 9.63059e+07 , 9.625e+07 ]
+max: [ 4.00058e+08 , 4e+08 ]
+deb mut5
+desaloué
+countGen=55
+min: [ 5.00521e+07 , 5e+07 ]
+avg: [ 6.25557e+07 , 6.25e+07 ]
+max: [ 3.00054e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :23 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 23
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=59
+min: [ 5.00517e+07 , 5e+07 ]
+avg: [ 9.69305e+07 , 9.6875e+07 ]
+max: [ 2.50059e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :69 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 69
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :15 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 15
+countGen=64
+min: [ 5.00514e+07 , 5e+07 ]
+avg: [ 6.67243e+07 , 6.66667e+07 ]
+max: [ 3.00058e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=65
+min: [ 5.0051e+07 , 5e+07 ]
+avg: [ 9.38073e+07 , 9.375e+07 ]
+max: [ 5.00053e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :72 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 72
+countGen=72
+min: [ 5.00509e+07 , 5e+07 ]
+avg: [ 5.7645e+07 , 5.75893e+07 ]
+max: [ 2.00054e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=78
+min: [ 5.00508e+07 , 5e+07 ]
+avg: [ 9.13072e+07 , 9.125e+07 ]
+max: [ 4.00069e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=79
+min: [ 5.00505e+07 , 5e+07 ]
+avg: [ 1.31875e+08 , 1.31818e+08 ]
+max: [ 5.50059e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :57 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 57
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :94 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 94
+deb mut5MO
+nbHeures=25
+taille front :39 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 39
+countGen=91
+min: [ 5.00496e+07 , 5e+07 ]
+avg: [ 8.2409e+07 , 8.23529e+07 ]
+max: [ 4.00061e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :29 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 29
+countGen=93
+min: [ 5.00484e+07 , 5e+07 ]
+avg: [ 8.43014e+07 , 8.42466e+07 ]
+max: [ 3.00059e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :121 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 121
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :114 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 114
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :52 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 52
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=122
+min: [ 5.00477e+07 , 5e+07 ]
+avg: [ 8.3807e+07 , 8.375e+07 ]
+max: [ 4.50056e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=127
+min: [ 5.00472e+07 , 5e+07 ]
+avg: [ 7.63088e+07 , 7.625e+07 ]
+max: [ 3.50059e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :27 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 27
+deb mut5MO
+nbHeures=25
+taille front :7 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 7
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :24 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 24
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=136
+min: [ 5.88442e+06 , 3.66393e+06 ]
+avg: [ 8.03593e+07 , 8.02603e+07 ]
+max: [ 3.00059e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :29 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 29
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :26 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 26
+deb mut5
+desaloué
+countGen=142
+min: [ 5.87606e+06 , 3.66393e+06 ]
+avg: [ 1.01755e+08 , 1.01535e+08 ]
+max: [ 5.00064e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=143
+min: [ 5.86551e+06 , 3.65964e+06 ]
+avg: [ 8.11003e+07 , 8.06641e+07 ]
+max: [ 4.00059e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=144
+min: [ 5.84106e+06 , 3.65884e+06 ]
+avg: [ 9.26479e+07 , 9.21033e+07 ]
+max: [ 4.50066e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=145
+min: [ 5.84026e+06 , 3.64163e+06 ]
+avg: [ 6.73862e+07 , 6.65271e+07 ]
+max: [ 2.50057e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=148
+min: [ 5.82877e+06 , 3.63496e+06 ]
+avg: [ 5.0414e+07 , 4.90185e+07 ]
+max: [ 5.50054e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=149
+min: [ 5.82877e+06 , 3.63405e+06 ]
+avg: [ 8.45126e+07 , 8.29821e+07 ]
+max: [ 4.0006e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=150
+min: [ 5.81966e+06 , 3.63405e+06 ]
+avg: [ 3.06061e+07 , 2.87402e+07 ]
+max: [ 3.50059e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=151
+min: [ 5.81602e+06 , 3.62398e+06 ]
+avg: [ 7.52992e+07 , 7.37587e+07 ]
+max: [ 5.00056e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=152
+min: [ 5.80988e+06 , 3.62113e+06 ]
+avg: [ 2.89673e+07 , 2.70952e+07 ]
+max: [ 3.00053e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=153
+min: [ 5.80133e+06 , 3.61638e+06 ]
+avg: [ 3.54159e+07 , 3.37199e+07 ]
+max: [ 1.50057e+08 , 1.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=154
+min: [ 5.80133e+06 , 3.61557e+06 ]
+avg: [ 4.08657e+07 , 3.91493e+07 ]
+max: [ 5.00056e+08 , 5e+08 ]
+deb mut5
+desaloué
+countGen=155
+min: [ 5.79646e+06 , 3.61557e+06 ]
+avg: [ 8.81047e+07 , 8.67123e+07 ]
+max: [ 4.5006e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=156
+min: [ 5.79646e+06 , 3.61003e+06 ]
+avg: [ 7.59764e+07 , 7.45261e+07 ]
+max: [ 6.50056e+08 , 6.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=157
+min: [ 5.79255e+06 , 3.61003e+06 ]
+avg: [ 5.44325e+07 , 5.31543e+07 ]
+max: [ 2.50056e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :24 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 24
+countGen=158
+min: [ 5.79255e+06 , 3.60861e+06 ]
+avg: [ 8.29087e+07 , 8.19849e+07 ]
+max: [ 4.0006e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=159
+min: [ 5.79186e+06 , 3.60861e+06 ]
+avg: [ 6.27908e+07 , 6.13095e+07 ]
+max: [ 3.00056e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=160
+min: [ 5.78565e+06 , 3.60356e+06 ]
+avg: [ 5.2179e+07 , 5.05228e+07 ]
+max: [ 4.50054e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=161
+min: [ 5.78155e+06 , 3.60356e+06 ]
+avg: [ 7.30033e+07 , 7.15978e+07 ]
+max: [ 4.50056e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=162
+min: [ 5.78005e+06 , 3.60356e+06 ]
+avg: [ 4.58417e+07 , 4.41406e+07 ]
+max: [ 4.00061e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=163
+min: [ 5.77513e+06 , 3.60356e+06 ]
+avg: [ 4.11463e+07 , 3.93465e+07 ]
+max: [ 5.50056e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :117 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 117
+countGen=164
+min: [ 5.76934e+06 , 3.60356e+06 ]
+avg: [ 5.77115e+07 , 5.73046e+07 ]
+max: [ 6.00055e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :19 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 19
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=166
+min: [ 5.76934e+06 , 3.60226e+06 ]
+avg: [ 7.16476e+07 , 7.01055e+07 ]
+max: [ 5.5006e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=167
+min: [ 5.76698e+06 , 3.60226e+06 ]
+avg: [ 3.00083e+07 , 2.81583e+07 ]
+max: [ 4.00055e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=168
+min: [ 5.7622e+06 , 3.60226e+06 ]
+avg: [ 2.91403e+07 , 2.76058e+07 ]
+max: [ 1.50054e+08 , 1.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=169
+min: [ 5.7622e+06 , 3.59698e+06 ]
+avg: [ 5.94316e+07 , 5.77911e+07 ]
+max: [ 5.50055e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=170
+min: [ 5.75914e+06 , 3.59698e+06 ]
+avg: [ 5.05012e+07 , 4.90187e+07 ]
+max: [ 3.50059e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=171
+min: [ 5.75319e+06 , 3.59042e+06 ]
+avg: [ 2.47175e+07 , 2.29737e+07 ]
+max: [ 2.00054e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=172
+min: [ 5.74988e+06 , 3.59042e+06 ]
+avg: [ 6.67754e+07 , 6.51949e+07 ]
+max: [ 5.00055e+08 , 5e+08 ]
+deb mut5
+desaloué
+countGen=173
+min: [ 5.74987e+06 , 3.59042e+06 ]
+avg: [ 6.9943e+07 , 6.85713e+07 ]
+max: [ 4.0006e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :114 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 114
+countGen=174
+min: [ 5.73837e+06 , 3.59042e+06 ]
+avg: [ 9.52411e+06 , 7.46817e+06 ]
+max: [ 2.00053e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=176
+min: [ 5.73512e+06 , 3.58915e+06 ]
+avg: [ 3.27378e+07 , 3.08912e+07 ]
+max: [ 4.50059e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=177
+min: [ 5.72635e+06 , 3.58915e+06 ]
+avg: [ 5.2557e+07 , 5.08552e+07 ]
+max: [ 5.00055e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=178
+min: [ 5.72635e+06 , 3.58911e+06 ]
+avg: [ 4.2608e+07 , 4.09981e+07 ]
+max: [ 4.00059e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=179
+min: [ 5.72635e+06 , 3.58745e+06 ]
+avg: [ 5.71526e+07 , 5.57672e+07 ]
+max: [ 4.50054e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=182
+min: [ 5.72218e+06 , 3.58745e+06 ]
+avg: [ 5.77111e+07 , 5.62506e+07 ]
+max: [ 6.00054e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=183
+min: [ 5.71901e+06 , 3.58385e+06 ]
+avg: [ 5.8878e+07 , 5.75234e+07 ]
+max: [ 4.50054e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=184
+min: [ 5.71678e+06 , 3.58385e+06 ]
+avg: [ 5.82859e+07 , 5.66195e+07 ]
+max: [ 5.00053e+08 , 5e+08 ]
+deb mut5
+desaloué
+countGen=185
+min: [ 5.7161e+06 , 3.58385e+06 ]
+avg: [ 6.50993e+07 , 6.35917e+07 ]
+max: [ 5.00056e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=186
+min: [ 5.71553e+06 , 3.58385e+06 ]
+avg: [ 2.48197e+07 , 2.30521e+07 ]
+max: [ 2.00052e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=187
+min: [ 5.71405e+06 , 3.57924e+06 ]
+avg: [ 4.38681e+07 , 4.2911e+07 ]
+max: [ 2.50053e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=188
+min: [ 5.71072e+06 , 3.57732e+06 ]
+avg: [ 2.02254e+07 , 1.82712e+07 ]
+max: [ 4.00058e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=189
+min: [ 5.70767e+06 , 3.56892e+06 ]
+avg: [ 3.01957e+07 , 2.8286e+07 ]
+max: [ 4.50051e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=190
+min: [ 5.70767e+06 , 3.56737e+06 ]
+avg: [ 3.10303e+07 , 2.93095e+07 ]
+max: [ 5.0005e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=191
+min: [ 5.70505e+06 , 3.56737e+06 ]
+avg: [ 4.62468e+07 , 4.47574e+07 ]
+max: [ 4.50056e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=193
+min: [ 5.69949e+06 , 3.56717e+06 ]
+avg: [ 1.44434e+07 , 1.24474e+07 ]
+max: [ 2.00052e+08 , 2e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=195
+min: [ 5.69949e+06 , 3.56683e+06 ]
+avg: [ 4.20143e+07 , 4.04252e+07 ]
+max: [ 2.00051e+08 , 2e+08 ]
+countGen=196
+min: [ 5.69893e+06 , 3.56683e+06 ]
+avg: [ 5.87852e+07 , 5.72157e+07 ]
+max: [ 3.00051e+08 , 3e+08 ]
+deb mut5
+desaloué
+countGen=197
+min: [ 5.69893e+06 , 3.56473e+06 ]
+avg: [ 3.99466e+07 , 3.81204e+07 ]
+max: [ 4.00051e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=198
+min: [ 5.69597e+06 , 3.56473e+06 ]
+avg: [ 1.63362e+07 , 1.44631e+07 ]
+max: [ 1.00052e+08 , 1e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=199
+min: [ 5.69215e+06 , 3.56473e+06 ]
+avg: [ 1.6332e+07 , 1.44621e+07 ]
+max: [ 1.50051e+08 , 1.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=200
+min: [ 5.6918e+06 , 3.56473e+06 ]
+avg: [ 3.61858e+07 , 3.43696e+07 ]
+max: [ 5.00051e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=201
+min: [ 5.6918e+06 , 3.5635e+06 ]
+avg: [ 6.01624e+07 , 5.86679e+07 ]
+max: [ 4.00057e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=202
+min: [ 5.6918e+06 , 3.55824e+06 ]
+avg: [ 4.35421e+07 , 4.17757e+07 ]
+max: [ 4.50052e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+countGen=203
+min: [ 5.6915e+06 , 3.55824e+06 ]
+avg: [ 4.66126e+07 , 4.49932e+07 ]
+max: [ 4.00057e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=204
+min: [ 5.68803e+06 , 3.55794e+06 ]
+avg: [ 4.33956e+07 , 4.1684e+07 ]
+max: [ 6.00052e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :90 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 90
+deb mut5
+desaloué
+countGen=209
+min: [ 5.68803e+06 , 3.55644e+06 ]
+avg: [ 5.47524e+07 , 5.29969e+07 ]
+max: [ 5.50051e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=210
+min: [ 5.68803e+06 , 3.55307e+06 ]
+avg: [ 1.82217e+07 , 1.62991e+07 ]
+max: [ 3.50052e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :19 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 19
+deb mut5MO
+nbHeures=25
+taille front :125 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 125
+countGen=212
+min: [ 5.68803e+06 , 3.54856e+06 ]
+avg: [ 1.38413e+07 , 1.19707e+07 ]
+max: [ 1.00052e+08 , 1e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=214
+min: [ 5.68716e+06 , 3.54856e+06 ]
+avg: [ 2.93462e+07 , 2.75357e+07 ]
+max: [ 3.50057e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=217
+min: [ 5.68663e+06 , 3.54856e+06 ]
+avg: [ 4.99378e+07 , 4.82444e+07 ]
+max: [ 4.5005e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :20 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 20
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :26 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 26
+deb mut5MO
+nbHeures=25
+taille front :14 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 14
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :16 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 16
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :9 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 9
+countGen=223
+min: [ 5.68642e+06 , 3.54856e+06 ]
+avg: [ 1.03214e+08 , 1.02017e+08 ]
+max: [ 4.50055e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :23 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 23
+countGen=224
+min: [ 5.68569e+06 , 3.54594e+06 ]
+avg: [ 8.08091e+07 , 7.99652e+07 ]
+max: [ 4.50047e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=226
+min: [ 5.68569e+06 , 3.54263e+06 ]
+avg: [ 5.77658e+07 , 5.61512e+07 ]
+max: [ 4.50049e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=228
+min: [ 5.68557e+06 , 3.54263e+06 ]
+avg: [ 5.13944e+07 , 4.98667e+07 ]
+max: [ 5.0005e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=229
+min: [ 5.68557e+06 , 3.54092e+06 ]
+avg: [ 8.05075e+07 , 7.91724e+07 ]
+max: [ 4.50055e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=230
+min: [ 5.68428e+06 , 3.5408e+06 ]
+avg: [ 5.90691e+07 , 5.75585e+07 ]
+max: [ 3.50049e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+countGen=231
+min: [ 5.68127e+06 , 3.5408e+06 ]
+avg: [ 4.68547e+07 , 4.52416e+07 ]
+max: [ 3.5005e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=232
+min: [ 5.68127e+06 , 3.53985e+06 ]
+avg: [ 5.0175e+07 , 4.87151e+07 ]
+max: [ 4.50056e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+countGen=233
+min: [ 5.68045e+06 , 3.53985e+06 ]
+avg: [ 3.353e+07 , 3.18113e+07 ]
+max: [ 3.00048e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=234
+min: [ 5.67906e+06 , 3.53985e+06 ]
+avg: [ 4.45494e+07 , 4.28694e+07 ]
+max: [ 5.00048e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=235
+min: [ 5.6769e+06 , 3.53985e+06 ]
+avg: [ 4.98128e+07 , 4.82347e+07 ]
+max: [ 3.5005e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=237
+min: [ 5.6767e+06 , 3.53985e+06 ]
+avg: [ 5.67147e+07 , 5.50296e+07 ]
+max: [ 6.00049e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=240
+min: [ 5.67537e+06 , 3.53985e+06 ]
+avg: [ 5.64766e+07 , 5.48995e+07 ]
+max: [ 4.00056e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :11 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 11
+countGen=241
+min: [ 5.6737e+06 , 3.53985e+06 ]
+avg: [ 6.44357e+07 , 6.30731e+07 ]
+max: [ 5.50055e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+countGen=242
+min: [ 5.6737e+06 , 3.53747e+06 ]
+avg: [ 7.25315e+07 , 7.08783e+07 ]
+max: [ 6.5005e+08 , 6.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=245
+min: [ 5.6737e+06 , 3.53743e+06 ]
+avg: [ 3.52293e+07 , 3.34471e+07 ]
+max: [ 4.5005e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=246
+min: [ 5.67288e+06 , 3.53743e+06 ]
+avg: [ 8.46806e+07 , 8.35514e+07 ]
+max: [ 7.50054e+08 , 7.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=251
+min: [ 5.67237e+06 , 3.53743e+06 ]
+avg: [ 6.98695e+07 , 6.83962e+07 ]
+max: [ 4.5005e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+countGen=252
+min: [ 5.67111e+06 , 3.53743e+06 ]
+avg: [ 6.72055e+07 , 6.56618e+07 ]
+max: [ 5.0005e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=254
+min: [ 5.66891e+06 , 3.53743e+06 ]
+avg: [ 8.96757e+07 , 8.85023e+07 ]
+max: [ 4.50049e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=255
+min: [ 5.66492e+06 , 3.53743e+06 ]
+avg: [ 5.20748e+07 , 5.04648e+07 ]
+max: [ 4.00054e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5MO
+nbHeures=25
+taille front :109 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 109
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=257
+min: [ 5.66492e+06 , 3.53655e+06 ]
+avg: [ 5.33869e+07 , 5.16669e+07 ]
+max: [ 4.50049e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :18 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 18
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=259
+min: [ 5.66447e+06 , 3.53655e+06 ]
+avg: [ 3.5092e+07 , 3.32079e+07 ]
+max: [ 4.00054e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :27 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 27
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=263
+min: [ 5.66303e+06 , 3.53655e+06 ]
+avg: [ 3.08192e+07 , 2.8879e+07 ]
+max: [ 4.50049e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=266
+min: [ 5.66303e+06 , 3.53626e+06 ]
+avg: [ 3.22723e+07 , 3.05057e+07 ]
+max: [ 3.00049e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :18 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 18
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=273
+min: [ 5.66303e+06 , 3.53577e+06 ]
+avg: [ 4.68501e+07 , 4.51367e+07 ]
+max: [ 4.50054e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=274
+min: [ 5.66226e+06 , 3.53523e+06 ]
+avg: [ 5.7967e+07 , 5.64392e+07 ]
+max: [ 3.5005e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=279
+min: [ 5.66116e+06 , 3.53523e+06 ]
+avg: [ 2.65377e+07 , 2.46627e+07 ]
+max: [ 4.00054e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=281
+min: [ 5.66085e+06 , 3.52804e+06 ]
+avg: [ 4.72983e+07 , 4.55658e+07 ]
+max: [ 3.50055e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+countGen=282
+min: [ 5.66046e+06 , 3.52804e+06 ]
+avg: [ 8.94435e+07 , 8.82036e+07 ]
+max: [ 5.00055e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=284
+min: [ 5.66041e+06 , 3.52804e+06 ]
+avg: [ 3.44821e+07 , 3.28242e+07 ]
+max: [ 3.00055e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=285
+min: [ 5.66041e+06 , 3.52754e+06 ]
+avg: [ 5.93443e+07 , 5.773e+07 ]
+max: [ 6.50049e+08 , 6.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=288
+min: [ 5.65912e+06 , 3.52497e+06 ]
+avg: [ 4.16505e+07 , 3.97308e+07 ]
+max: [ 6.50049e+08 , 6.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :19 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 19
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=291
+min: [ 5.65792e+06 , 3.52497e+06 ]
+avg: [ 6.07366e+07 , 5.90729e+07 ]
+max: [ 5.0005e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=294
+min: [ 5.65563e+06 , 3.52497e+06 ]
+avg: [ 1.06333e+08 , 1.05029e+08 ]
+max: [ 3.5005e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=295
+min: [ 5.65563e+06 , 3.52426e+06 ]
+avg: [ 7.50199e+07 , 7.36173e+07 ]
+max: [ 4.0005e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=296
+min: [ 5.65563e+06 , 3.5238e+06 ]
+avg: [ 5.24664e+07 , 5.08246e+07 ]
+max: [ 4.5005e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=299
+min: [ 5.65563e+06 , 3.52296e+06 ]
+avg: [ 3.69868e+07 , 3.53202e+07 ]
+max: [ 2.5005e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=300
+min: [ 5.6544e+06 , 3.52296e+06 ]
+avg: [ 3.30136e+07 , 3.11238e+07 ]
+max: [ 7.00051e+08 , 7e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=302
+min: [ 5.65357e+06 , 3.52296e+06 ]
+avg: [ 7.30922e+07 , 7.1479e+07 ]
+max: [ 8.0005e+08 , 8e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=307
+min: [ 5.6535e+06 , 3.52296e+06 ]
+avg: [ 3.09981e+07 , 2.91969e+07 ]
+max: [ 2.50049e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=312
+min: [ 5.65311e+06 , 3.52268e+06 ]
+avg: [ 5.96299e+07 , 5.79112e+07 ]
+max: [ 5.0005e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=331
+min: [ 5.6524e+06 , 3.52199e+06 ]
+avg: [ 8.43453e+07 , 8.27954e+07 ]
+max: [ 6.00049e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :45 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 45
+countGen=334
+min: [ 5.6516e+06 , 3.52199e+06 ]
+avg: [ 7.0635e+07 , 6.97789e+07 ]
+max: [ 5.00054e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=336
+min: [ 5.65092e+06 , 3.52199e+06 ]
+avg: [ 4.71107e+07 , 4.5415e+07 ]
+max: [ 4.50049e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=343
+min: [ 5.64824e+06 , 3.52199e+06 ]
+avg: [ 3.20195e+07 , 3.0191e+07 ]
+max: [ 5.00055e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :18 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 18
+countGen=344
+min: [ 5.64775e+06 , 3.52199e+06 ]
+avg: [ 1.13645e+08 , 1.12759e+08 ]
+max: [ 5.50049e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :141 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 141
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=349
+min: [ 5.64775e+06 , 3.52186e+06 ]
+avg: [ 7.43384e+07 , 7.27288e+07 ]
+max: [ 4.5005e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=356
+min: [ 5.64775e+06 , 3.52117e+06 ]
+avg: [ 3.44857e+07 , 3.28179e+07 ]
+max: [ 2.50049e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=359
+min: [ 5.6475e+06 , 3.52117e+06 ]
+avg: [ 7.52894e+07 , 7.36388e+07 ]
+max: [ 7.00053e+08 , 7e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :20 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 20
+countGen=362
+min: [ 5.64697e+06 , 3.52117e+06 ]
+avg: [ 8.43234e+07 , 8.30836e+07 ]
+max: [ 4.5005e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=363
+min: [ 5.64697e+06 , 3.52044e+06 ]
+avg: [ 4.57436e+07 , 4.40163e+07 ]
+max: [ 3.50055e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=366
+min: [ 5.64697e+06 , 3.51852e+06 ]
+avg: [ 6.05905e+07 , 5.89763e+07 ]
+max: [ 3.50048e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :24 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 24
+countGen=368
+min: [ 5.6462e+06 , 3.51852e+06 ]
+avg: [ 4.36269e+07 , 4.24981e+07 ]
+max: [ 4.00049e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=375
+min: [ 5.6462e+06 , 3.51794e+06 ]
+avg: [ 9.92028e+07 , 9.79103e+07 ]
+max: [ 5.50048e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :24 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 24
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :174 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 174
+deb mut5MO
+nbHeures=25
+taille front :18 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 18
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=377
+min: [ 5.64541e+06 , 3.51341e+06 ]
+avg: [ 3.7741e+08 , 3.76892e+08 ]
+max: [ 6.50053e+08 , 6.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5MO
+nbHeures=25
+taille front :41 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 41
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=386
+min: [ 5.64541e+06 , 3.51267e+06 ]
+avg: [ 7.40585e+07 , 7.25411e+07 ]
+max: [ 6.00054e+08 , 6e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=388
+min: [ 5.64526e+06 , 3.51267e+06 ]
+avg: [ 4.47445e+07 , 4.30612e+07 ]
+max: [ 3.00048e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=398
+min: [ 5.64449e+06 , 3.51267e+06 ]
+avg: [ 8.37665e+07 , 8.2363e+07 ]
+max: [ 4.00048e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=402
+min: [ 5.64449e+06 , 3.51147e+06 ]
+avg: [ 6.43805e+07 , 6.27404e+07 ]
+max: [ 5.50049e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :33 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 33
+countGen=411
+min: [ 5.64435e+06 , 3.51147e+06 ]
+avg: [ 4.40227e+07 , 4.22783e+07 ]
+max: [ 7.00054e+08 , 7e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+countGen=419
+min: [ 5.64408e+06 , 3.51147e+06 ]
+avg: [ 6.29551e+07 , 6.12157e+07 ]
+max: [ 5.50048e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=420
+min: [ 5.64408e+06 , 3.51045e+06 ]
+avg: [ 7.44568e+07 , 7.30069e+07 ]
+max: [ 3.00049e+08 , 3e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=421
+min: [ 5.64328e+06 , 3.51045e+06 ]
+avg: [ 7.68321e+07 , 7.52302e+07 ]
+max: [ 7.00053e+08 , 7e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :39 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 39
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=425
+min: [ 5.64328e+06 , 3.50993e+06 ]
+avg: [ 8.51639e+07 , 8.37014e+07 ]
+max: [ 7.00049e+08 , 7e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=432
+min: [ 5.64328e+06 , 3.50954e+06 ]
+avg: [ 7.63551e+07 , 7.4894e+07 ]
+max: [ 5.00049e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=435
+min: [ 5.64143e+06 , 3.50954e+06 ]
+avg: [ 4.12924e+07 , 3.95731e+07 ]
+max: [ 4.00048e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :24 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 24
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=441
+min: [ 5.64143e+06 , 3.50841e+06 ]
+avg: [ 5.56178e+07 , 5.39274e+07 ]
+max: [ 3.50054e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :13 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 13
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :16 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 16
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=448
+min: [ 5.64143e+06 , 3.5079e+06 ]
+avg: [ 3.3949e+07 , 3.20212e+07 ]
+max: [ 7.0005e+08 , 7e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=450
+min: [ 5.64034e+06 , 3.5079e+06 ]
+avg: [ 4.43341e+07 , 4.27297e+07 ]
+max: [ 4.00051e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=452
+min: [ 5.63934e+06 , 3.5079e+06 ]
+avg: [ 9.04441e+07 , 8.88847e+07 ]
+max: [ 5.50053e+08 , 5.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :42 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 42
+countGen=456
+min: [ 5.63813e+06 , 3.50777e+06 ]
+avg: [ 1.83748e+07 , 1.64954e+07 ]
+max: [ 4.0005e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=459
+min: [ 5.63793e+06 , 3.50777e+06 ]
+avg: [ 2.97872e+07 , 2.79965e+07 ]
+max: [ 2.5005e+08 , 2.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=460
+min: [ 5.63716e+06 , 3.50777e+06 ]
+avg: [ 6.39115e+07 , 6.245e+07 ]
+max: [ 5.00049e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=461
+min: [ 5.63716e+06 , 3.50654e+06 ]
+avg: [ 4.71322e+07 , 4.54024e+07 ]
+max: [ 3.50049e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+countGen=462
+min: [ 5.63716e+06 , 3.50641e+06 ]
+avg: [ 5.87505e+07 , 5.71094e+07 ]
+max: [ 4.50053e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :19 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 19
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :20 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 20
+countGen=464
+min: [ 5.63716e+06 , 3.50549e+06 ]
+avg: [ 1.45035e+08 , 1.44071e+08 ]
+max: [ 5.0005e+08 , 5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=466
+min: [ 5.63716e+06 , 3.5051e+06 ]
+avg: [ 5.01987e+07 , 4.83847e+07 ]
+max: [ 4.00049e+08 , 4e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=471
+min: [ 5.63716e+06 , 3.50471e+06 ]
+avg: [ 1.12659e+08 , 1.11203e+08 ]
+max: [ 6.50048e+08 , 6.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :17 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 17
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :18 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 18
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :74 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 74
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :19 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 19
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :21 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 21
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=487
+min: [ 5.63711e+06 , 3.50471e+06 ]
+avg: [ 1.06002e+08 , 1.04798e+08 ]
+max: [ 4.50049e+08 , 4.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=489
+min: [ 5.63678e+06 , 3.50471e+06 ]
+avg: [ 7.64053e+07 , 7.49534e+07 ]
+max: [ 7.00047e+08 , 7e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=490
+min: [ 5.6364e+06 , 3.50471e+06 ]
+avg: [ 5.51101e+07 , 5.36172e+07 ]
+max: [ 3.50048e+08 , 3.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+countGen=495
+min: [ 5.63438e+06 , 3.50471e+06 ]
+avg: [ 8.82274e+07 , 8.66693e+07 ]
+max: [ 6.50052e+08 , 6.5e+08 ]
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5MO
+nbHeures=25
+taille front :25 hDeb+longueur=24 nbHeures-1=24
+désalouage: taille 25
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+deb mut5
+desaloué
+20
+fitness:17  diversity:    1.79769e+308   origine : 0
+
+fitness:17  diversity:    1.79769e+308   origine : 1
+
+fitness:17  diversity:    0.580084   origine : 2
+
+fitness:17  diversity:    0.127929   origine : 3
+
+fitness:17  diversity:    0.101956   origine : 4
+
+fitness:17  diversity:    0.0957828   origine : 5
+
+fitness:17  diversity:    0.0893885   origine : 6
+
+fitness:17  diversity:    0.081238   origine : 7
+
+fitness:17  diversity:    0.0811289   origine : 8
+
+fitness:17  diversity:    0.0790584   origine : 9
+
+fitness:17  diversity:    0.078849   origine : 10
+
+fitness:17  diversity:    0.0761408   origine : 11
+
+fitness:17  diversity:    0.0751984   origine : 12
+
+fitness:17  diversity:    0.0678109   origine : 13
+
+fitness:17  diversity:    0.0662664   origine : 14
+
+fitness:17  diversity:    0.0622546   origine : 15
+
+fitness:17  diversity:    0.0597867   origine : 16
+
+fitness:17  diversity:    0.0594414   origine : 17
+
+fitness:17  diversity:    0.0568408   origine : 18
+
+fitness:17  diversity:    0.0539039   origine : 19
+
+Finalpopopoppo Population
+120
+5.81924e+06   3.58017e+06   0
+
+5.63438e+06   3.77558e+06   0
+
+5.81924e+06   3.58017e+06   0
+
+5.7752e+06   3.60047e+06   0
+
+5.65972e+06   3.7188e+06   0
+
+5.635e+06   3.77093e+06   0
+
+5.9575e+06   3.50471e+06   1
+
+5.71195e+06   3.72624e+06   1
+
+5.9575e+06   3.50471e+06   1
+
+5.9081e+06   3.52739e+06   1
+
+5.72842e+06   3.69341e+06   1
+
+5.7121e+06   3.72511e+06   1
+
+5.87981e+06   3.52365e+06   2
+
+5.67545e+06   3.71012e+06   2
+
+5.87981e+06   3.52365e+06   2
+
+5.82789e+06   3.5475e+06   2
+
+5.69055e+06   3.67969e+06   2
+
+5.67553e+06   3.70945e+06   2
+
+5.83565e+06   3.5503e+06   3
+
+5.64496e+06   3.73622e+06   3
+
+5.83565e+06   3.5503e+06   3
+
+5.78715e+06   3.57282e+06   3
+
+5.66171e+06   3.69923e+06   3
+
+5.64528e+06   3.73363e+06   3
+
+5.858e+06   3.53684e+06   4
+
+5.65819e+06   3.72637e+06   4
+
+5.858e+06   3.53684e+06   4
+
+5.81001e+06   3.55901e+06   4
+
+5.67277e+06   3.69315e+06   4
+
+5.65867e+06   3.72267e+06   4
+
+5.91504e+06   3.51469e+06   5
+
+5.69201e+06   3.71692e+06   5
+
+5.91504e+06   3.51469e+06   5
+
+5.86439e+06   3.53796e+06   5
+
+5.70749e+06   3.68592e+06   5
+
+5.69212e+06   3.71612e+06   5
+
+5.93107e+06   3.51336e+06   6
+
+5.69973e+06   3.72242e+06   6
+
+5.93107e+06   3.51336e+06   6
+
+5.88038e+06   3.53664e+06   6
+
+5.71543e+06   3.69084e+06   6
+
+5.69982e+06   3.72174e+06   6
+
+5.82625e+06   3.56703e+06   7
+
+5.63936e+06   3.75838e+06   7
+
+5.82625e+06   3.56703e+06   7
+
+5.78017e+06   3.58831e+06   7
+
+5.66115e+06   3.70967e+06   7
+
+5.63994e+06   3.75399e+06   7
+
+5.82686e+06   3.56696e+06   8
+
+5.63995e+06   3.75796e+06   8
+
+5.82686e+06   3.56696e+06   8
+
+5.78103e+06   3.58806e+06   8
+
+5.66129e+06   3.71018e+06   8
+
+5.64054e+06   3.75357e+06   8
+
+5.87163e+06   3.53282e+06   9
+
+5.66719e+06   3.72146e+06   9
+
+5.87163e+06   3.53282e+06   9
+
+5.82023e+06   3.55647e+06   9
+
+5.68284e+06   3.68933e+06   9
+
+5.6673e+06   3.72066e+06   9
+
+5.94416e+06   3.50813e+06   10
+
+5.70575e+06   3.7237e+06   10
+
+5.94416e+06   3.50813e+06   10
+
+5.893e+06   3.53161e+06   10
+
+5.722e+06   3.69133e+06   10
+
+5.70587e+06   3.72277e+06   10
+
+5.90523e+06   3.51764e+06   11
+
+5.68725e+06   3.71743e+06   11
+
+5.90523e+06   3.51764e+06   11
+
+5.8546e+06   3.54093e+06   11
+
+5.70265e+06   3.68625e+06   11
+
+5.68739e+06   3.71637e+06   11
+
+5.82777e+06   3.56613e+06   12
+
+5.63988e+06   3.75846e+06   12
+
+5.82777e+06   3.56613e+06   12
+
+5.7822e+06   3.58721e+06   12
+
+5.66168e+06   3.70975e+06   12
+
+5.64047e+06   3.75408e+06   12
+
+5.89036e+06   3.52112e+06   13
+
+5.68027e+06   3.71187e+06   13
+
+5.89036e+06   3.52112e+06   13
+
+5.83816e+06   3.5451e+06   13
+
+5.69536e+06   3.68152e+06   13
+
+5.68041e+06   3.71081e+06   13
+
+5.89733e+06   3.52047e+06   14
+
+5.68344e+06   3.71733e+06   14
+
+5.89733e+06   3.52047e+06   14
+
+5.8458e+06   3.54415e+06   14
+
+5.69904e+06   3.68569e+06   14
+
+5.68354e+06   3.71653e+06   14
+
+5.85461e+06   3.54386e+06   15
+
+5.65592e+06   3.73437e+06   15
+
+5.85461e+06   3.54386e+06   15
+
+5.80629e+06   3.56631e+06   15
+
+5.67064e+06   3.70003e+06   15
+
+5.65658e+06   3.72939e+06   15
+
+5.93876e+06   3.51036e+06   16
+
+5.70317e+06   3.72416e+06   16
+
+5.93876e+06   3.51036e+06   16
+
+5.88809e+06   3.53362e+06   16
+
+5.71909e+06   3.69216e+06   16
+
+5.70326e+06   3.72349e+06   16
+
+5.87768e+06   3.52821e+06   17
+
+5.67355e+06   3.71862e+06   17
+
+5.87768e+06   3.52821e+06   17
+
+5.8293e+06   3.5504e+06   17
+
+5.68927e+06   3.68557e+06   17
+
+5.6738e+06   3.71671e+06   17
+
+5.87483e+06   3.53191e+06   18
+
+5.66914e+06   3.72164e+06   18
+
+5.87483e+06   3.53191e+06   18
+
+5.82294e+06   3.55579e+06   18
+
+5.68476e+06   3.68943e+06   18
+
+5.66924e+06   3.72084e+06   18
+
+5.9575e+06   3.50471e+06   19
+
+5.71195e+06   3.72624e+06   19
+
+5.9575e+06   3.50471e+06   19
+
+5.9081e+06   3.52739e+06   19
+
+5.72842e+06   3.69341e+06   19
+
+5.7121e+06   3.72511e+06   19
+
+Final Population
+120
+5.81924e+06   3.58017e+06   0
+
+5.63438e+06   3.77558e+06   0
+
+5.81924e+06   3.58017e+06   0
+
+5.7752e+06   3.60047e+06   0
+
+5.65972e+06   3.7188e+06   0
+
+5.635e+06   3.77093e+06   0
+
+5.9575e+06   3.50471e+06   1
+
+5.71195e+06   3.72624e+06   1
+
+5.9575e+06   3.50471e+06   1
+
+5.9081e+06   3.52739e+06   1
+
+5.72842e+06   3.69341e+06   1
+
+5.7121e+06   3.72511e+06   1
+
+5.87981e+06   3.52365e+06   2
+
+5.67545e+06   3.71012e+06   2
+
+5.87981e+06   3.52365e+06   2
+
+5.82789e+06   3.5475e+06   2
+
+5.69055e+06   3.67969e+06   2
+
+5.67553e+06   3.70945e+06   2
+
+5.83565e+06   3.5503e+06   3
+
+5.64496e+06   3.73622e+06   3
+
+5.83565e+06   3.5503e+06   3
+
+5.78715e+06   3.57282e+06   3
+
+5.66171e+06   3.69923e+06   3
+
+5.64528e+06   3.73363e+06   3
+
+5.858e+06   3.53684e+06   4
+
+5.65819e+06   3.72637e+06   4
+
+5.858e+06   3.53684e+06   4
+
+5.81001e+06   3.55901e+06   4
+
+5.67277e+06   3.69315e+06   4
+
+5.65867e+06   3.72267e+06   4
+
+5.91504e+06   3.51469e+06   5
+
+5.69201e+06   3.71692e+06   5
+
+5.91504e+06   3.51469e+06   5
+
+5.86439e+06   3.53796e+06   5
+
+5.70749e+06   3.68592e+06   5
+
+5.69212e+06   3.71612e+06   5
+
+5.93107e+06   3.51336e+06   6
+
+5.69973e+06   3.72242e+06   6
+
+5.93107e+06   3.51336e+06   6
+
+5.88038e+06   3.53664e+06   6
+
+5.71543e+06   3.69084e+06   6
+
+5.69982e+06   3.72174e+06   6
+
+5.82625e+06   3.56703e+06   7
+
+5.63936e+06   3.75838e+06   7
+
+5.82625e+06   3.56703e+06   7
+
+5.78017e+06   3.58831e+06   7
+
+5.66115e+06   3.70967e+06   7
+
+5.63994e+06   3.75399e+06   7
+
+5.82686e+06   3.56696e+06   8
+
+5.63995e+06   3.75796e+06   8
+
+5.82686e+06   3.56696e+06   8
+
+5.78103e+06   3.58806e+06   8
+
+5.66129e+06   3.71018e+06   8
+
+5.64054e+06   3.75357e+06   8
+
+5.87163e+06   3.53282e+06   9
+
+5.66719e+06   3.72146e+06   9
+
+5.87163e+06   3.53282e+06   9
+
+5.82023e+06   3.55647e+06   9
+
+5.68284e+06   3.68933e+06   9
+
+5.6673e+06   3.72066e+06   9
+
+5.94416e+06   3.50813e+06   10
+
+5.70575e+06   3.7237e+06   10
+
+5.94416e+06   3.50813e+06   10
+
+5.893e+06   3.53161e+06   10
+
+5.722e+06   3.69133e+06   10
+
+5.70587e+06   3.72277e+06   10
+
+5.90523e+06   3.51764e+06   11
+
+5.68725e+06   3.71743e+06   11
+
+5.90523e+06   3.51764e+06   11
+
+5.8546e+06   3.54093e+06   11
+
+5.70265e+06   3.68625e+06   11
+
+5.68739e+06   3.71637e+06   11
+
+5.82777e+06   3.56613e+06   12
+
+5.63988e+06   3.75846e+06   12
+
+5.82777e+06   3.56613e+06   12
+
+5.7822e+06   3.58721e+06   12
+
+5.66168e+06   3.70975e+06   12
+
+5.64047e+06   3.75408e+06   12
+
+5.89036e+06   3.52112e+06   13
+
+5.68027e+06   3.71187e+06   13
+
+5.89036e+06   3.52112e+06   13
+
+5.83816e+06   3.5451e+06   13
+
+5.69536e+06   3.68152e+06   13
+
+5.68041e+06   3.71081e+06   13
+
+5.89733e+06   3.52047e+06   14
+
+5.68344e+06   3.71733e+06   14
+
+5.89733e+06   3.52047e+06   14
+
+5.8458e+06   3.54415e+06   14
+
+5.69904e+06   3.68569e+06   14
+
+5.68354e+06   3.71653e+06   14
+
+5.85461e+06   3.54386e+06   15
+
+5.65592e+06   3.73437e+06   15
+
+5.85461e+06   3.54386e+06   15
+
+5.80629e+06   3.56631e+06   15
+
+5.67064e+06   3.70003e+06   15
+
+5.65658e+06   3.72939e+06   15
+
+5.93876e+06   3.51036e+06   16
+
+5.70317e+06   3.72416e+06   16
+
+5.93876e+06   3.51036e+06   16
+
+5.88809e+06   3.53362e+06   16
+
+5.71909e+06   3.69216e+06   16
+
+5.70326e+06   3.72349e+06   16
+
+5.87768e+06   3.52821e+06   17
+
+5.67355e+06   3.71862e+06   17
+
+5.87768e+06   3.52821e+06   17
+
+5.8293e+06   3.5504e+06   17
+
+5.68927e+06   3.68557e+06   17
+
+5.6738e+06   3.71671e+06   17
+
+5.87483e+06   3.53191e+06   18
+
+5.66914e+06   3.72164e+06   18
+
+5.87483e+06   3.53191e+06   18
+
+5.82294e+06   3.55579e+06   18
+
+5.68476e+06   3.68943e+06   18
+
+5.66924e+06   3.72084e+06   18
+
+5.9575e+06   3.50471e+06   19
+
+5.71195e+06   3.72624e+06   19
+
+5.9575e+06   3.50471e+06   19
+
+5.9081e+06   3.52739e+06   19
+
+5.72842e+06   3.69341e+06   19
+
+5.7121e+06   3.72511e+06   19
+
+
+# 43
+5.9575e+06   3.50471e+06   19
+
+5.94416e+06   3.50813e+06   10
+
+5.93876e+06   3.51036e+06   16
+
+5.93107e+06   3.51336e+06   6
+
+5.91504e+06   3.51469e+06   5
+
+5.90523e+06   3.51764e+06   11
+
+5.89733e+06   3.52047e+06   14
+
+5.89036e+06   3.52112e+06   13
+
+5.87981e+06   3.52365e+06   2
+
+5.87768e+06   3.52821e+06   17
+
+5.87483e+06   3.53191e+06   18
+
+5.87163e+06   3.53282e+06   9
+
+5.858e+06   3.53684e+06   4
+
+5.8546e+06   3.54093e+06   11
+
+5.8458e+06   3.54415e+06   14
+
+5.83816e+06   3.5451e+06   13
+
+5.82789e+06   3.5475e+06   2
+
+5.82294e+06   3.55579e+06   18
+
+5.82023e+06   3.55647e+06   9
+
+5.81001e+06   3.55901e+06   4
+
+5.80629e+06   3.56631e+06   15
+
+5.78715e+06   3.57282e+06   3
+
+5.7822e+06   3.58721e+06   12
+
+5.78103e+06   3.58806e+06   8
+
+5.78017e+06   3.58831e+06   7
+
+5.7752e+06   3.60047e+06   0
+
+5.69055e+06   3.67969e+06   2
+
+5.68927e+06   3.68557e+06   17
+
+5.68284e+06   3.68933e+06   9
+
+5.67277e+06   3.69315e+06   4
+
+5.66171e+06   3.69923e+06   3
+
+5.66115e+06   3.70967e+06   7
+
+5.65972e+06   3.7188e+06   0
+
+5.65867e+06   3.72267e+06   4
+
+5.65819e+06   3.72637e+06   4
+
+5.65658e+06   3.72939e+06   15
+
+5.64528e+06   3.73363e+06   3
+
+5.64496e+06   3.73622e+06   3
+
+5.64054e+06   3.75357e+06   8
+
+5.63994e+06   3.75399e+06   7
+
+5.63936e+06   3.75838e+06   7
+
+5.635e+06   3.77093e+06   0
+
+5.63438e+06   3.77558e+06   0
+
+ point de ref =(1.4982e+07,5.6137e+06)
+air de l'hypervolume :-1.96809e+13

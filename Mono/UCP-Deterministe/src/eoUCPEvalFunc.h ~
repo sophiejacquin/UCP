@@ -1,0 +1,45 @@
+#ifndef _eoUCPEvalFunc_h
+#define _eoUCPEvalFunc_h
+
+
+#include <stdexcept>
+#include <fstream>
+
+
+#include "eoEvalFunc.h"
+
+
+
+
+template <class EOT>
+class eoUCPEvalFunc : public eoEvalFunc<EOT>
+{
+public:
+  eoOneMaxEvalFunc()
+  {
+  }
+
+  void operator()(EOT & _eo)
+  {
+    if (_eo.invalid())
+      {
+   	double fit;
+    	fit = 0.0;	
+	unsigned int indice;
+	unsigned int nbHeures = _eo.get_nbHeures();
+	unsigned int nbUnites = _eo.get_nbUnites();
+
+	for(unsigned i=0;i<nbUnites;i++){
+		     for(unsigned j=0;j<nbHeures;j++){
+		     		  indice = (i * nbHeures) + j;		     		  
+		     }
+	}
+      }
+  }
+
+private:
+	std::vector<eoUCPUnites> & unites;
+};
+
+
+#endif

@@ -1,0 +1,465 @@
+\hypertarget{classeo_u_c_p}{\section{eo\-U\-C\-P$<$ \-Fit\-T $>$ \-Class \-Template \-Reference}
+\label{classeo_u_c_p}\index{eo\-U\-C\-P$<$ Fit\-T $>$@{eo\-U\-C\-P$<$ Fit\-T $>$}}
+}
+
+
+\-Class that represents an individual, solution for the \-U\-C\-P.  
+
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classeo_u_c_p_a1a4aaa2cc49f728b03db33940059129e}{eo\-U\-C\-P} ()
+\begin{DoxyCompactList}\small\item\em \-Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{classeo_u_c_p_abb4f10a882bcaab01faf9dadc0ae6c22}{$\sim$eo\-U\-C\-P} ()
+\begin{DoxyCompactList}\small\item\em \-Destructor. \end{DoxyCompactList}\item 
+virtual string \hyperlink{classeo_u_c_p_a9f0f36efde88307cc14ab130e1a490b1}{class\-Name} () const 
+\item 
+void \hyperlink{classeo_u_c_p_a49ea7917354481ffd19c8aeb2e786efb}{print\-On} (ostream \&os) const 
+\begin{DoxyCompactList}\small\item\em \-Print the solution. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_acdfd1c5e517e84216d5a94d08a1b0538}{get\-\_\-m\-Size} ()
+\begin{DoxyCompactList}\small\item\em \-Length of the binary string. \end{DoxyCompactList}\item 
+bool \hyperlink{classeo_u_c_p_a023da18f27659a36062acaeecba5b0d1}{operator\mbox{[}$\,$\mbox{]}} (unsigned int index) const 
+\begin{DoxyCompactList}\small\item\em \-Accessor to the n-\/th element in the genotype. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_a9a8fc590c925b85752c4384d135360d6}{set\-Bit} (unsigned int index, bool bool\-Value)
+\begin{DoxyCompactList}\small\item\em \-Set a boolean value at index i in the genotype. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_a301be8475f6014e9a1dca71467c59654}{get\-\_\-nb\-Units} () const 
+\begin{DoxyCompactList}\small\item\em \-Number of units. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_a378140f9807452ade10647afea55aae1}{get\-\_\-nb\-Hours} () const 
+\begin{DoxyCompactList}\small\item\em \-Number of hours. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_a94ac1439c564d4df97928554cf98661c}{set} (unsigned int \-\_\-nb\-Units, unsigned int \-\_\-nb\-Hours)
+\begin{DoxyCompactList}\small\item\em \-Set the number of units and hours. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_a60787002468cd77452b00b00c06143a6}{insert\-\_\-prod} (unsigned int index, double production\-Value)
+\begin{DoxyCompactList}\small\item\em \-Set a production value. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classeo_u_c_p_ad47816530947f5d556a64448c7f137d4}{indice\-Unit\-At\-Time} (unsigned int i, unsigned int h) const 
+\begin{DoxyCompactList}\small\item\em index in the genotype for a unit at one hour \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_a6d8ad26fdc735c9306afcc21940e051d}{get\-\_\-production} (unsigned int index) const 
+\begin{DoxyCompactList}\small\item\em \-Get a production value. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_a324000ddbe617d11f17bc6f73539ff8a}{prod\-\_\-hour} (unsigned int h) const 
+\begin{DoxyCompactList}\small\item\em \-Compute the amount of energy produced at hour h. \end{DoxyCompactList}\item 
+\hypertarget{classeo_u_c_p_a390d63a3eef2b208c5c461d2be1cff8b}{void \hyperlink{classeo_u_c_p_a390d63a3eef2b208c5c461d2be1cff8b}{clear\-\_\-prod} ()}\label{classeo_u_c_p_a390d63a3eef2b208c5c461d2be1cff8b}
+
+\begin{DoxyCompactList}\small\item\em \-Reset the production matrix values. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_aedf411ef986fdcbfb7aaa7140363b55d}{set\-Fuel\-Cost} (double \-\_\-fuel\-Cost)
+\item 
+void \hyperlink{classeo_u_c_p_a9757e9afb8bf1bd9a7becabecead2ad0}{set\-Start\-Up\-Cost} (double \-\_\-start\-Up\-Cost)
+\begin{DoxyCompactList}\small\item\em \-Set the star\-Up\-Cost. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_ac8a8e2d9019b26766a036e703df76975}{get\-\_\-penalty\-Cost} ()
+\begin{DoxyCompactList}\small\item\em \-Get the penalty\-Cost. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_ac9959160724db6b80199b331d0020a51}{get\-\_\-fuel\-Cost} ()
+\begin{DoxyCompactList}\small\item\em \-Get the fuel\-Cost. \end{DoxyCompactList}\item 
+double \hyperlink{classeo_u_c_p_aab5e195c97bf5b997c32f030ba7a704e}{get\-\_\-start\-Up\-Cost} ()
+\begin{DoxyCompactList}\small\item\em \-Get the start\-Up\-Cost. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_a7a631491d2ed6c3b1e257976f13f137f}{add\-Min\-Up\-Down\-Penalty} (double \-\_\-min\-Up\-Down\-Penalty)
+\begin{DoxyCompactList}\small\item\em \-Add a penalty concerning minimum up/down time violated constraints to the solution. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_a47e86f80c60f55d851f08eb7b689a741}{set\-Min\-Up\-Down\-Penalty} (double \-\_\-min\-Up\-Down\-Penalty)
+\begin{DoxyCompactList}\small\item\em \-Set the penalty concerning the minimum up/down time violated constraints to the solution. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_a4315e06bfd087c7dc1df5b2d5e0acb88}{add\-Demand\-Penalty} (double \-\_\-penalty)
+\begin{DoxyCompactList}\small\item\em \-Add a penalty concerning the demand to the solution. \end{DoxyCompactList}\item 
+void \hyperlink{classeo_u_c_p_a15f7fe68fd42e896f3baa90b63e5d8e9}{set\-Demand\-Penalty} (double \-\_\-penalty)
+\begin{DoxyCompactList}\small\item\em \-Set the penalty concerning the demand to the solution. \end{DoxyCompactList}\item 
+const std\-::vector$<$ double $>$ \& \hyperlink{classeo_u_c_p_adafe4a4ede005403c814bafdd6d9c0a1}{get\-\_\-production} () const 
+\begin{DoxyCompactList}\small\item\em \-Get the production matrix. \end{DoxyCompactList}\item 
+std\-::vector$<$ bool $>$ $\ast$ \hyperlink{classeo_u_c_p_a1875f0fc71771ab33658cd1eeaa756db}{get\-\_\-p\-\_\-mbits} ()
+\begin{DoxyCompactList}\small\item\em \-Get the genotype matrix. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\subsubsection*{template$<$class Fit\-T$>$class eo\-U\-C\-P$<$ Fit\-T $>$}
+
+\-Class that represents an individual, solution for the \-U\-C\-P. 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classeo_u_c_p_a1a4aaa2cc49f728b03db33940059129e}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!eo\-U\-C\-P@{eo\-U\-C\-P}}
+\index{eo\-U\-C\-P@{eo\-U\-C\-P}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{eo\-U\-C\-P}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf eo\-U\-C\-P} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a1a4aaa2cc49f728b03db33940059129e}
+
+
+\-Constructor. 
+
+eo\-U\-C\-P$<$\-Fit\-T$>$ class consctructor \hypertarget{classeo_u_c_p_abb4f10a882bcaab01faf9dadc0ae6c22}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!$\sim$eo\-U\-C\-P@{$\sim$eo\-U\-C\-P}}
+\index{$\sim$eo\-U\-C\-P@{$\sim$eo\-U\-C\-P}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{$\sim$eo\-U\-C\-P}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ virtual {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::$\sim${\bf eo\-U\-C\-P} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}\label{classeo_u_c_p_abb4f10a882bcaab01faf9dadc0ae6c22}
+
+
+\-Destructor. 
+
+eo\-U\-C\-P$<$\-Fit\-T$>$ class destructor 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classeo_u_c_p_a4315e06bfd087c7dc1df5b2d5e0acb88}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!add\-Demand\-Penalty@{add\-Demand\-Penalty}}
+\index{add\-Demand\-Penalty@{add\-Demand\-Penalty}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{add\-Demand\-Penalty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf add\-Demand\-Penalty} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-penalty}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a4315e06bfd087c7dc1df5b2d5e0acb88}
+
+
+\-Add a penalty concerning the demand to the solution. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-penalty} & \-: penalty value to be added \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a7a631491d2ed6c3b1e257976f13f137f}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!add\-Min\-Up\-Down\-Penalty@{add\-Min\-Up\-Down\-Penalty}}
+\index{add\-Min\-Up\-Down\-Penalty@{add\-Min\-Up\-Down\-Penalty}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{add\-Min\-Up\-Down\-Penalty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf add\-Min\-Up\-Down\-Penalty} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-min\-Up\-Down\-Penalty}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a7a631491d2ed6c3b1e257976f13f137f}
+
+
+\-Add a penalty concerning minimum up/down time violated constraints to the solution. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-penalty} & \-: penalty value to be added \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a9f0f36efde88307cc14ab130e1a490b1}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!class\-Name@{class\-Name}}
+\index{class\-Name@{class\-Name}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{class\-Name}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ virtual string {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf class\-Name} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}\label{classeo_u_c_p_a9f0f36efde88307cc14ab130e1a490b1}
+\-Class\-Name
+
+\begin{DoxyReturn}{\-Returns}
+a string which represents the name of this class 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_ac9959160724db6b80199b331d0020a51}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-fuel\-Cost@{get\-\_\-fuel\-Cost}}
+\index{get\-\_\-fuel\-Cost@{get\-\_\-fuel\-Cost}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-fuel\-Cost}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ double {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-fuel\-Cost} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_ac9959160724db6b80199b331d0020a51}
+
+
+\-Get the fuel\-Cost. 
+
+\begin{DoxyReturn}{\-Returns}
+fuel\-Cost value of the solution 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_acdfd1c5e517e84216d5a94d08a1b0538}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-m\-Size@{get\-\_\-m\-Size}}
+\index{get\-\_\-m\-Size@{get\-\_\-m\-Size}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-m\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ unsigned int {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-m\-Size} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_acdfd1c5e517e84216d5a94d08a1b0538}
+
+
+\-Length of the binary string. 
+
+\begin{DoxyReturn}{\-Returns}
+unsigned int \-: size of the genotype 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_a378140f9807452ade10647afea55aae1}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-nb\-Hours@{get\-\_\-nb\-Hours}}
+\index{get\-\_\-nb\-Hours@{get\-\_\-nb\-Hours}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-nb\-Hours}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ unsigned int {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-nb\-Hours} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a378140f9807452ade10647afea55aae1}
+
+
+\-Number of hours. 
+
+\begin{DoxyReturn}{\-Returns}
+the number of hours while the state of units is scheduled 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_a301be8475f6014e9a1dca71467c59654}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-nb\-Units@{get\-\_\-nb\-Units}}
+\index{get\-\_\-nb\-Units@{get\-\_\-nb\-Units}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-nb\-Units}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ unsigned int {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-nb\-Units} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a301be8475f6014e9a1dca71467c59654}
+
+
+\-Number of units. 
+
+\begin{DoxyReturn}{\-Returns}
+the number of units to be scheduled 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_a1875f0fc71771ab33658cd1eeaa756db}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-p\-\_\-mbits@{get\-\_\-p\-\_\-mbits}}
+\index{get\-\_\-p\-\_\-mbits@{get\-\_\-p\-\_\-mbits}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-p\-\_\-mbits}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ std\-::vector$<$bool$>$$\ast$ {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-p\-\_\-mbits} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a1875f0fc71771ab33658cd1eeaa756db}
+
+
+\-Get the genotype matrix. 
+
+\begin{DoxyReturn}{\-Returns}
+std\-::vector$<$double$>$ $\ast$ 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_ac8a8e2d9019b26766a036e703df76975}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-penalty\-Cost@{get\-\_\-penalty\-Cost}}
+\index{get\-\_\-penalty\-Cost@{get\-\_\-penalty\-Cost}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-penalty\-Cost}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ double {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-penalty\-Cost} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_ac8a8e2d9019b26766a036e703df76975}
+
+
+\-Get the penalty\-Cost. 
+
+\begin{DoxyReturn}{\-Returns}
+penalty\-Cost value of the solution 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_a6d8ad26fdc735c9306afcc21940e051d}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-production@{get\-\_\-production}}
+\index{get\-\_\-production@{get\-\_\-production}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-production}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ double {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-production} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a6d8ad26fdc735c9306afcc21940e051d}
+
+
+\-Get a production value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-: \-Index in the production matrix \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+amount of energy produced 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_adafe4a4ede005403c814bafdd6d9c0a1}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-production@{get\-\_\-production}}
+\index{get\-\_\-production@{get\-\_\-production}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-production}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ const std\-::vector$<$double$>$\& {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-production} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_adafe4a4ede005403c814bafdd6d9c0a1}
+
+
+\-Get the production matrix. 
+
+\begin{DoxyReturn}{\-Returns}
+std\-::vector$<$double$>$ $\ast$ 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_aab5e195c97bf5b997c32f030ba7a704e}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!get\-\_\-start\-Up\-Cost@{get\-\_\-start\-Up\-Cost}}
+\index{get\-\_\-start\-Up\-Cost@{get\-\_\-start\-Up\-Cost}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{get\-\_\-start\-Up\-Cost}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ double {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf get\-\_\-start\-Up\-Cost} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_aab5e195c97bf5b997c32f030ba7a704e}
+
+
+\-Get the start\-Up\-Cost. 
+
+\begin{DoxyReturn}{\-Returns}
+start\-Up\-Cost value of the solution 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_ad47816530947f5d556a64448c7f137d4}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!indice\-Unit\-At\-Time@{indice\-Unit\-At\-Time}}
+\index{indice\-Unit\-At\-Time@{indice\-Unit\-At\-Time}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{indice\-Unit\-At\-Time}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ unsigned int {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf indice\-Unit\-At\-Time} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i, }
+\item[{unsigned int}]{h}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_ad47816530947f5d556a64448c7f137d4}
+
+
+index in the genotype for a unit at one hour 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-:number of the unit \\
+\hline
+{\em h} & \-: hour \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+index of the unit i at time h in the binary-\/string 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_a60787002468cd77452b00b00c06143a6}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!insert\-\_\-prod@{insert\-\_\-prod}}
+\index{insert\-\_\-prod@{insert\-\_\-prod}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{insert\-\_\-prod}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf insert\-\_\-prod} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index, }
+\item[{double}]{production\-Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a60787002468cd77452b00b00c06143a6}
+
+
+\-Set a production value. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-: \-Index in the production matrix \\
+\hline
+{\em production\-Value} & \-: amount of energy produced \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a023da18f27659a36062acaeecba5b0d1}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ bool {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a023da18f27659a36062acaeecba5b0d1}
+
+
+\-Accessor to the n-\/th element in the genotype. 
+
+\begin{DoxyReturn}{\-Returns}
+true or false 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-: \-Index of the element in the genotype \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a49ea7917354481ffd19c8aeb2e786efb}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!print\-On@{print\-On}}
+\index{print\-On@{print\-On}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{print\-On}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf print\-On} (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a49ea7917354481ffd19c8aeb2e786efb}
+
+
+\-Print the solution. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em ostream} & \-: output stream which writes the description of the solution \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a324000ddbe617d11f17bc6f73539ff8a}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!prod\-\_\-hour@{prod\-\_\-hour}}
+\index{prod\-\_\-hour@{prod\-\_\-hour}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{prod\-\_\-hour}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ double {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf prod\-\_\-hour} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{h}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a324000ddbe617d11f17bc6f73539ff8a}
+
+
+\-Compute the amount of energy produced at hour h. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em h} & \-: hour at which get the amount of energy produced \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+amount of energy produced $\backslash$ 
+\end{DoxyReturn}
+\hypertarget{classeo_u_c_p_a94ac1439c564d4df97928554cf98661c}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!set@{set}}
+\index{set@{set}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf set} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{\-\_\-nb\-Units, }
+\item[{unsigned int}]{\-\_\-nb\-Hours}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a94ac1439c564d4df97928554cf98661c}
+
+
+\-Set the number of units and hours. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-nb\-Units} & \-: number of units \\
+\hline
+{\em \-\_\-nb\-Hours} & \-: number of hours \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a9a8fc590c925b85752c4384d135360d6}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!set\-Bit@{set\-Bit}}
+\index{set\-Bit@{set\-Bit}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{set\-Bit}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf set\-Bit} (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index, }
+\item[{bool}]{bool\-Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a9a8fc590c925b85752c4384d135360d6}
+
+
+\-Set a boolean value at index i in the genotype. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-: \-Index of the element to be set in the binary-\/string \\
+\hline
+{\em bool\-Value} & \-: \-New value of the element in the genotype \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a15f7fe68fd42e896f3baa90b63e5d8e9}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!set\-Demand\-Penalty@{set\-Demand\-Penalty}}
+\index{set\-Demand\-Penalty@{set\-Demand\-Penalty}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{set\-Demand\-Penalty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf set\-Demand\-Penalty} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-penalty}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a15f7fe68fd42e896f3baa90b63e5d8e9}
+
+
+\-Set the penalty concerning the demand to the solution. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-penalty} & \-: new value of penalty\-Demand \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_aedf411ef986fdcbfb7aaa7140363b55d}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!set\-Fuel\-Cost@{set\-Fuel\-Cost}}
+\index{set\-Fuel\-Cost@{set\-Fuel\-Cost}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{set\-Fuel\-Cost}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf set\-Fuel\-Cost} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-fuel\-Cost}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_aedf411ef986fdcbfb7aaa7140363b55d}
+\-Set the fuel\-Cost to the value \-\_\-fuel\-Cost \hypertarget{classeo_u_c_p_a47e86f80c60f55d851f08eb7b689a741}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!set\-Min\-Up\-Down\-Penalty@{set\-Min\-Up\-Down\-Penalty}}
+\index{set\-Min\-Up\-Down\-Penalty@{set\-Min\-Up\-Down\-Penalty}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{set\-Min\-Up\-Down\-Penalty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf set\-Min\-Up\-Down\-Penalty} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-min\-Up\-Down\-Penalty}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a47e86f80c60f55d851f08eb7b689a741}
+
+
+\-Set the penalty concerning the minimum up/down time violated constraints to the solution. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-penalty} & \-: new value of penalty\-Demand \\
+\hline
+\end{DoxyParams}
+\hypertarget{classeo_u_c_p_a9757e9afb8bf1bd9a7becabecead2ad0}{\index{eo\-U\-C\-P@{eo\-U\-C\-P}!set\-Start\-Up\-Cost@{set\-Start\-Up\-Cost}}
+\index{set\-Start\-Up\-Cost@{set\-Start\-Up\-Cost}!eoUCP@{eo\-U\-C\-P}}
+\subsubsection[{set\-Start\-Up\-Cost}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Fit\-T $>$ void {\bf eo\-U\-C\-P}$<$ \-Fit\-T $>$\-::{\bf set\-Start\-Up\-Cost} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-start\-Up\-Cost}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classeo_u_c_p_a9757e9afb8bf1bd9a7becabecead2ad0}
+
+
+\-Set the star\-Up\-Cost. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-start\-Up\-Cost} & \-: new value of start\-Up\-Cost \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/yanis/\-Documents/\-U\-C\-P/src/\hyperlink{eo_u_c_p_8h}{eo\-U\-C\-P.\-h}\end{DoxyCompactItemize}

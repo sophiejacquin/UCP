@@ -1,0 +1,45 @@
+
+######                 General    ######
+# --help=0                                 # -h : Prints this message
+# --stopOnUnknownParam=1                   # Stop if unkown param entered
+# --seed=1420452034                        # -S : Random number seed
+
+######    Algorithm               ######
+# --time_max=900                           # -T : time max
+
+######    Evolution Engine        ######
+# --popSize=20                             # -P : Population Size
+
+######    Input                   ######
+--inputFile=/Users/sophiejacquin/Desktop/Lucien-UCP/ucp-decoder/Lucien-UCP/Code/UCP-Multi/input-multi/probleme40.tsp # -I : File which describes input information
+
+######    Output                  ######
+# --outputFile=nomOutPut                   # -U : File which describes output information
+
+######    Param                   ######
+--maxGen=30                              # -G : Maximum number of generations
+# --nbLambda=10                            # -n : number of solution evaluated in a pareto front of the sub problem
+
+######    Persistence             ######
+# --Load=                                  # -L : A save file to restart from
+# --recomputeFitness=0                     # -r : Recompute the fitness after re-loading the pop.?
+# --status=./MOUCPEAHybrideVec.status      # Status file
+
+######    Variation Operators     ######
+# --cross2Rate=1                           # -y : Relative rate for crossover 2
+# --cross3Rate=1                           # -v : Relative rate for crossover 2
+# --mut1Rate=1                             # -1 : Relative rate for mutation 1
+# --long=23                                # -l : Longueur periode mutée
+# --mutMORate=0.1                          # -7 : Relative rate for mutation 2
+# --mut2Rate=1                             # -2 : Relative rate for mutation 2
+# --repet=3                                # -z : nb de repetition de mut2
+# --mut2HRate=1                            # -6 : Relative rate for hyper mutation 2 scalarizée
+# --mut2HDRate=1                           # -8 : Relative rate for hyper mutation 2 dirigee
+# --mut3Rate=1                             # -3 : Relative rate for mutation 3
+# --mut4Rate=1                             # -4 : Relative rate for mutation 3
+# --nbU=8                                  # -u : nb unites modifées par mut5
+# --mut5Rate=1                             # -5 : Relative rate for mutation 1
+# --mut5RateMO=1                           # -9 : Relative rate for mutation 1
+# --pCross=0.6                             # -C : Probability of Crossover
+--pMut=0.5                               # -M : Probability of Mutation
+# --pVectMut=0.1                           # -V : Probability of Mutation vectorielle
